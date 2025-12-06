@@ -1,0 +1,14 @@
+{
+    "English": {
+        "footerText": "© 2025 Tilam Sangh. All rights reserved.",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "contactUs": "Contact Us"
+    },
+    "Hindi": {
+        "footerText": "© 2025 तिलम संघ। सर्वाधिकार सुरक्षित।",
+        "privacyPolicy": "गोपनीयता नीति",
+        "termsOfService": "सेवा की शर्तें",
+        "contactUs": "संपर्क करें"
+    }
+}

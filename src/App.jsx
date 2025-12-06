@@ -1,14 +1,20 @@
 import { Route, Routes } from "react-router-dom"
+import Footer from "./components/Footer"
+import Navbar from "./components/Navbar"
+import Home from "./pages/Home"
+import About from "./pages/About"
+import Contact from "./pages/Contact"
 
 const App = () => {
   return (
     <div>
-      <h1>Nabvar</h1>
+      <Navbar />
       <Routes>
-        <Route path="/" element={<h1 className="text-3xl font-bold underline">Home Page</h1>} />
-        <Route path="/about" element={<h1 className="text-3xl font-bold underline">About Page</h1>} />
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
-      <div>Footer</div>
+      <Footer />
 
     </div>
   )
