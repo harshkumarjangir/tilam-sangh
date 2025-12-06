@@ -1,11 +1,121 @@
 {
     "English": {
+        "NodalOfficer": {
+            "title": "Nodal Officer (Website)",
+            "name": "Sh. Vishnu Kant Jalendra",
+            "designation": "SNO-IT & ACP (Deputy Director)",
+            "mission": "National Health Mission",
+            "address": [
+                "Directorate of Medical & Health Services (DMHS)",
+                "Swasthya Bhawan, A-2, Jamnalal Bajaj Marg",
+                "C-Scheme, Ashok Nagar, Jaipur - 302005",
+                "Rajasthan, India"
+            ]
+        },
+        "QuickLinks": {
+            "title": "Quick Links",
+            "links": [
+                {
+                    "label": "State Portal, Rajasthan",
+                    "url": "#"
+                },
+                {
+                    "label": "Rajasthan Sampark",
+                    "url": "#"
+                },
+                {
+                    "label": "DOP",
+                    "url": "#"
+                },
+                {
+                    "label": "Rajasthan Tourism",
+                    "url": "#"
+                }
+            ]
+        },
+        "ImportantLinks": {
+            "title": "Important Links",
+            "links": [
+                {
+                    "label": "Events",
+                    "url": "#"
+                },
+                {
+                    "label": "News",
+                    "url": "#"
+                }
+            ],
+            "visitors": "Website Visitors"
+        },
+        "Contact": {
+            "title": "Connect With Us",
+            "phone": "+91 (141) 5110730",
+            "email": "rajkasupport[dot]mh[at]rajasthan[dot]gov[dot]in"
+        },
+        "copyright": "Copyright © 2025 | Department of Medical, Health & Family Welfare, Rajasthan"
+    },
+    "Hindi": {
+        "NodalOfficer": {
+            "title": "नोडल अधिकारी (वेबसाइट)",
+            "name": "श्री विष्णु कांत जलेंद्र",
+            "designation": "एसएनओ-आईटी व एसीपी (उप निदेशक)",
+            "mission": "राष्ट्रीय स्वास्थ्य मिशन",
+            "address": [
+                "चिकित्सा एवं स्वास्थ्य सेवा निदेशालय (DMHS)",
+                "स्वास्थ्य भवन, ए-2, जमनालाल बजाज मार्ग",
+                "सी-स्कीम, अशोक नगर, जयपुर - 302005",
+                "राजस्थान, भारत"
+            ]
+        },
+        "QuickLinks": {
+            "title": "त्वरित लिंक",
+            "links": [
+                {
+                    "label": "राजस्थान राज्य पोर्टल",
+                    "url": "#"
+                },
+                {
+                    "label": "राजस्थान संपर्क",
+                    "url": "#"
+                },
+                {
+                    "label": "डीओपी",
+                    "url": "#"
+                },
+                {
+                    "label": "राजस्थान पर्यटन",
+                    "url": "#"
+                }
+            ]
+        },
+        "ImportantLinks": {
+            "title": "महत्वपूर्ण लिंक",
+            "links": [
+                {
+                    "label": "कार्यक्रम",
+                    "url": "#"
+                },
+                {
+                    "label": "समाचार",
+                    "url": "#"
+                }
+            ],
+            "visitors": "वेबसाइट विज़िटर्स"
+        },
+        "Contact": {
+            "title": "हमसे संपर्क करें",
+            "phone": "+91 (141) 5110730",
+            "email": "rajkasupport[dot]mh[at]rajasthan[dot]gov[dot]in"
+        },
+        "copyright": "कॉपीराइट © 2025 | चिकित्सा, स्वास्थ्य एवं परिवार कल्याण विभाग, राजस्थान"
+    },
+     "mEnglishm": {
         "footerText": "© 2025 Tilam Sangh. All rights reserved.",
         "privacyPolicy": "Privacy Policy",
         "termsOfService": "Terms of Service",
         "contactUs": "Contact Us"
     },
-    "Hindi": {
+    "mHindim": {
         "footerText": "© 2025 तिलम संघ। सर्वाधिकार सुरक्षित।",
         "privacyPolicy": "गोपनीयता नीति",
         "termsOfService": "सेवा की शर्तें",
