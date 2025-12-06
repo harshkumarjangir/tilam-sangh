@@ -1,0 +1,23 @@
+{
+  "slides": [
+    {
+      "image": "/assets/home/campaign-slider/slide-1.jpg"
+    },
+    {
+      "image": "/assets/home/campaign-slider/slide-2.jpg"
+    },
+    {
+      "image": "/assets/home/campaign-slider/slide-3.jpg"
+    }
+  ],
+
+  "sidebar": {
+    "topImage": "/assets/home/campaign-slider/cm.png",
+    "bottomImage": "/assets/home/campaign-slider/minister.png"
+  },
+
+  "footer": {
+    "left": "☸ सहकार सदस्यता अभियान",
+    "right": "Co-operative Membership Campaign"
+  }
+}

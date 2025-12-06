@@ -1,8 +1,9 @@
 import React from 'react'
+import CampaignSlider from '../components/home/CampaignSlider'
 
 const Home = () => {
     return (
-        <div>Home</div>
+ <CampaignSlider />
     )
 }
 
