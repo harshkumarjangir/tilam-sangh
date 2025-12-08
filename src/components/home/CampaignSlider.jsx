@@ -1,4 +1,6 @@
 import React from "react";
+import { FaRegHandPointRight } from "react-icons/fa";
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -11,7 +13,7 @@ export default function CooperativeCampaignSlider({ data }) {
   const { slides, sidebar, footer } = data;
 
   return (
-    <section className="w-full bg-[#fbd067] pb-2">
+    <section className="w-full bg-[#fbd067] pb-0">
       <div className="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-4 gap-4 p-2">
 
         {/* LEFT SLIDER */}
@@ -60,13 +62,15 @@ export default function CooperativeCampaignSlider({ data }) {
       </div>
 
       {/* FOOTER BAR WITH INFINITE MARQUEE */}
-      <div className="bg-[#fbd067] flex items-center justify-between px-6 py-3 border-t border-black/20">
-        <span className="text-[#2b2b2b] text-xl font-semibold">
-          {footer.left}
-        </span>
+      <div className="bg-[#fbd067] w-full flex items-center justify-between px-0 py-0 border-t border-black/20">
+        <div className="bg-[#4E4949] py-3 px-4 w-1/3">
+          <span className=" text-[#fbd067] text-xl font-semibold flex max-md:flex-col max-md:items-start items-center gap-2">
+            <FaRegHandPointRight size={25} /> {footer.left}
+          </span>
+        </div>
 
         {/* Marquee animation */}
-        <div className="overflow-hidden w-[300px] lg:w-[900px]">
+        <div className="overflow-hidden whitespace-nowrap w-2/3">
           <div className="whitespace-nowrap animate-marquee text-[#2b2b2b] text-lg font-semibold">
             {footer.right}
           </div>
@@ -75,7 +79,7 @@ export default function CooperativeCampaignSlider({ data }) {
 
       {/* MARQUEE KEYFRAMES */}
       <style>
-{`
+        {`
   /* ------------------------------
       MARQUEE ANIMATION
   ------------------------------ */
@@ -142,7 +146,7 @@ export default function CooperativeCampaignSlider({ data }) {
   }
 
 `}
-</style>
+      </style>
 
     </section>
   );
