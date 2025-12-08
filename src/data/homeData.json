@@ -10,14 +10,123 @@
       "image": "/assets/home/campaign-slider/slide-3.jpg"
     }
   ],
-
   "sidebar": {
     "topImage": "/assets/home/campaign-slider/cm.png",
     "bottomImage": "/assets/home/campaign-slider/minister.png"
   },
-
   "footer": {
     "left": "☸ सहकार सदस्यता अभियान",
     "right": "Co-operative Membership Campaign"
-  }
+  },
+  "schemes": [
+    {
+      "title": "मुख्यमंत्री निशुल्क दवा योजना",
+      "image": "/assets/home/schemes/cmdyojna.png",
+      "link": "#"
+    },
+    {
+      "title": "मुख्यमंत्री निशुल्क जाँच योजना",
+      "image": "/assets/home/schemes/cmjyojna.png",
+      "link": "#"
+    },
+    {
+      "title": "मुख्यमंत्री आयुष्मान आरोग्य योज...",
+      "image": "/assets/home/schemes/maayojna.png",
+      "link": "#"
+    },
+    {
+      "title": "जननी सुरक्षा योजना...",
+      "image": "/assets/home/schemes/jsyoyna.png",
+      "link": "#"
+    },
+    {
+      "title": "View More Scheme...",
+      "image": "/assets/home/schemes/view-more.png",
+      "link": "#"
+    }
+  ],
+  "programs": [
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "View More Scheme...",
+      "description": "Explore more health programs and initiatives",
+      "image": "/assets/home/programs/view-more.png",
+      "link": "#"
+    }
+  ],
+  "departments": [
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "RMSCL",
+      "image": "/assets/home/programs/rscl.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    }
+  ]
 }

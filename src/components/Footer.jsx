@@ -64,7 +64,7 @@ const Footer = () => {
                         <div className="h-[1px] bg-white my-3"></div>
 
                         <p className="mb-3">{data.Contact.phone}</p>
-                        <p>{data.Contact.email}</p>
+                        <p className="text-wrap">{data.Contact.email}</p>
                     </div>
                 </div>
             </footer>
