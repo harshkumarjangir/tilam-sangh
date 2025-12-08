@@ -1,5 +1,4 @@
 import React from "react";
-import homeData from "@/data/homeData.json";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
@@ -8,8 +7,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
-export default function CooperativeCampaignSlider() {
-  const { slides, sidebar, footer } = homeData;
+export default function CooperativeCampaignSlider({ data }) {
+  const { slides, sidebar, footer } = data;
 
   return (
     <section className="w-full bg-[#fbd067] pb-2">
@@ -37,7 +36,7 @@ export default function CooperativeCampaignSlider() {
         </div>
 
         {/* RIGHT STATIC SIDEBAR */}
-        <div className="flex flex-col gap-4">
+        <div className="flex max-md:flex-row flex-col gap-4">
 
           {/* TOP CARD */}
           <div className="bg-[#3b3b3b] rounded-xl overflow-hidden p-3 flex flex-col items-center">
@@ -67,26 +66,84 @@ export default function CooperativeCampaignSlider() {
         </span>
 
         {/* Marquee animation */}
-        <div className="overflow-hidden w-[300px]">
+        <div className="overflow-hidden w-[300px] lg:w-[900px]">
           <div className="whitespace-nowrap animate-marquee text-[#2b2b2b] text-lg font-semibold">
-            {footer.right} — {footer.right} — {footer.right}
+            {footer.right}
           </div>
         </div>
       </div>
 
       {/* MARQUEE KEYFRAMES */}
       <style>
-        {`
-        @keyframes marquee {
-          0% { transform: translateX(100%); }
-          100% { transform: translateX(-100%); }
-        }
-        .animate-marquee {
-          display: inline-block;
-          animation: marquee 12s linear infinite;
-        }
-        `}
-      </style>
+{`
+  /* ------------------------------
+      MARQUEE ANIMATION
+  ------------------------------ */
+  @keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  .animate-marquee {
+    display: inline-block;
+    animation: marquee 12s linear infinite;
+  }
+
+
+  /* ------------------------------
+      CUSTOM SWIPER ARROW GLOW EFFECT
+  ------------------------------ */
+
+  /* Base arrow style */
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 45px !important;
+    height: 45px !important;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.25) !important;  /* subtle white glow */
+    backdrop-filter: blur(6px);                       /* glass blur effect */
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.45);   /* soft glow */
+    transition: 0.25s ease-out;
+  }
+
+  /* Arrow icon styling */
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    color: #ffffff;
+    font-size: 22px !important;
+    font-weight: bold;
+  }
+
+  /* Hover glow effect */
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    background: rgba(255, 255, 255, 0.35) !important;
+    box-shadow: 0 0 28px rgba(255, 255, 255, 0.85);
+    transform: scale(1.08);
+  }
+
+  /* Position arrows inside slider */
+  .swiper-button-prev {
+    left: 15px !important;
+  }
+  .swiper-button-next {
+    right: 15px !important;
+  }
+
+  /* Remove sudden dark shadows on edges */
+  .swiper-slide-shadow-left,
+  .swiper-slide-shadow-right {
+    background: none !important;
+  }
+
+  /* Prevent unwanted overlay from Swiper */
+  .swiper-button-next,
+  .swiper-button-prev {
+    backdrop-filter: blur(6px) !important;
+  }
+
+`}
+</style>
+
     </section>
   );
 }

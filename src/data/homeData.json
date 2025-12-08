@@ -1,23 +1,93 @@
 {
-  "slides": [
-    {
-      "image": "/assets/home/campaign-slider/slide-1.jpg"
+  "campaignSlider": {
+    "slides": [
+      {
+        "image": "/assets/home/campaign-slider/cm.webp"
+      },
+      {
+        "image": "/assets/home/campaign-slider/minister.webp"
+      },
+      {
+        "image": "/assets/home/campaign-slider/sahakarbhavan.webp"
+      }
+    ],
+    "sidebar": {
+      "topImage": "/assets/home/campaign-slider/cm-rajasthan.webp",
+      "bottomImage": "/assets/home/campaign-slider/gautam-kumar.webp"
     },
-    {
-      "image": "/assets/home/campaign-slider/slide-2.jpg"
-    },
-    {
-      "image": "/assets/home/campaign-slider/slide-3.jpg"
+    "footer": {
+      "left": "☸ सहकार सदस्यता अभियान",
+      "right": "Co-Operative Membership Campaign/सहकार सदस्यता अभियान के सदस्य बनने के लिए यहां क्लिक करें।"
     }
-  ],
-
-  "sidebar": {
-    "topImage": "/assets/home/campaign-slider/cm.png",
-    "bottomImage": "/assets/home/campaign-slider/minister.png"
   },
+   "InfoScroller": {
+    "latestUpdates": [
+      {
+        "text": "संशोधन आदेश क्रमांक 482 दिनांक 04.12.2025 (06 संशोधन किया गया है)।",
+        "date": "04-12-2025",
+        "link": "#"
+      },
+      {
+        "text": "आदेश क्रमांक 26 दिनांक 04.12.2025 (श्री बलराम शर्मा)",
+        "date": "04-12-2025",
+        "link": "#"
+      },
+      {
+        "text": "आदेश क्रमांक 19179544 दिनांक 04.12.2025 (श्री तारा चन्द एवं ताराचन्द मेघवाल के स्थान पर तारा चन्द्र राठौड पदोन्नत)।",
+        "date": "04-12-2025",
+        "link": "#"
+      },
+      {
+        "text": "शुद्धिकरण आदेश क्रमांक 19165007 दिनांक 04.12.2025 (02 संशोधन/शुद्धिकरण आदेश पढ़ा जाए)।",
+        "date": "04-12-2025",
+        "link": "#"
+      },
+      {
+        "text": "आदेश क्रमांक 19187705 दिनांक 04.12.2025 (02 अवकाश विवरण के संबंध में)।",
+        "date": "04-12-2025",
+        "link": "#"
+      }
+    ],
 
-  "footer": {
-    "left": "☸ सहकार सदस्यता अभियान",
-    "right": "Co-operative Membership Campaign"
+    "tenders": [
+      {
+        "date": "4/05/2025",
+        "text": "आदेश क्रमांक 338 दिनांक 17/11/2025 (जनरल सामान/विधुत तथा लकड़ी के सामान की आपूर्ति के संबंध में)।",
+        "link": "#"
+      },
+      {
+        "date": "5/4/2025",
+        "text": "NOTICE INVITING BID for Supply, installation & commissioning of IT Equipments (Date Corrigendum-12)",
+        "link": "#"
+      },
+      {
+        "date": "7/12/2025",
+        "text": "NOTICE INVITING BID for Supply, installation & commissioning of LED TVs, Tablets & Laptops (Date Corrigendum-12)",
+        "link": "#"
+      }
+    ],
+
+    "news": [
+      {
+        "text": "विकल्प पत्र का अंतिम परिणाम जारी",
+        "date": "—",
+        "link": "#"
+      },
+      {
+        "text": "आदेश क्रमांक 482 दिनांक 25/02/2025 (संविदा नर्स 2023 के विकल्प पत्र के संबंध में…)",
+        "date": "25/02/2025",
+        "link": "#"
+      },
+      {
+        "text": "आदेश क्रमांक 47 दिनांक 11/01/2025 (संविदा एनएचएम भर्ती 2023 के संबंध में)",
+        "date": "11/01/2025",
+        "link": "#"
+      },
+      {
+        "text": "आदेश क्रमांक 73 (कर्मचारियों का रिलोकशन नवीन पदस्थापन के संबंध में)",
+        "date": "—",
+        "link": "#"
+      }
+    ]
   }
 }
