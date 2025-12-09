@@ -253,12 +253,12 @@
       {
         "id": 2,
         "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
-        "embedUrl": "https://www.youtube.com/embed/xyz456"
+        "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
       },
       {
         "id": 3,
         "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
-        "embedUrl": "https://www.youtube.com/embed/pqr789"
+        "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
       }
     ]
   },
@@ -267,32 +267,92 @@
       {
         "id": 1,
         "name": "RajHealth",
-        "logo": "/assets/logos/rajhealth.png"
+        "logo": "/assets/home/brand-slider/rajhealth.png"
       },
       {
         "id": 2,
         "name": "eSanjeevani",
-        "logo": "/assets/logos/esanjeevani.png"
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
       },
       {
         "id": 3,
         "name": "MyGov",
-        "logo": "/assets/logos/mygov.png"
+        "logo": "/assets/home/brand-slider/mygov.png"
       },
       {
         "id": 4,
         "name": "Make In India",
-        "logo": "/assets/logos/makeinindia.png"
+        "logo": "/assets/home/brand-slider/makeinindia.png"
       },
       {
         "id": 5,
         "name": "IGOD",
-        "logo": "/assets/logos/igod.png"
+        "logo": "/assets/home/brand-slider/iGod.png"
       },
       {
         "id": 6,
         "name": "India.gov.in",
-        "logo": "/assets/logos/indiagovin.png"
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      },
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      },
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
       }
     ]
   }
