@@ -198,5 +198,162 @@
       "image": "/assets/home/departments/nhm.png",
       "link": "#"
     }
-  ]
+  ],
+  "photoGallery": [
+    {
+      "image": "/assets/home/photo-gallery/image_one.png",
+      "title": "World Mental Health Day | October 10, 2025"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_two.png",
+      "title": "Event Celebration Program"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_three.png",
+      "title": "Government Awareness Yatra"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_four.png",
+      "title": "Health Camp Exhibition"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_one.png",
+      "title": "World Mental Health Day | October 10, 2025"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_two.png",
+      "title": "Event Celebration Program"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_three.png",
+      "title": "Government Awareness Yatra"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_four.png",
+      "title": "Health Camp Exhibition"
+    },
+    {
+      "image": "/assets/home/photo-gallery/image_four.png",
+      "title": "Health Camp Exhibition"
+    },
+    {
+      "image": "/assets/home/photo-gallery/view-more.png",
+      "title": "View More",
+      "link": "#"
+    }
+  ],
+  "videoGallery": {
+    "title": "VIDEO GALLERY",
+    "videos": [
+      {
+        "id": 1,
+        "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+      },
+      {
+        "id": 2,
+        "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+      },
+      {
+        "id": 3,
+        "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+        "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+      }
+    ]
+  },
+  "brandSlider": {
+    "logos": [
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      },
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      },
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      }
+    ]
+  }
 }

@@ -5,6 +5,9 @@ import InfoScroller from '../components/home/InfoScroller'
 import SchemesSection from '../components/home/SchemesSection'
 import ProgramsSection from '../components/home/ProgramsSection'
 import DepartmentsSection from '../components/home/DepartmentsSection'
+import PhotoGallery from '../components/home/PhotoGallery'
+import VideoGallery from '../components/home/VideoGallery'
+import BrandSlider from '../components/home/BrandSlider'
 
 const Home = () => {
     return (
@@ -14,6 +17,9 @@ const Home = () => {
             <SchemesSection />
             <ProgramsSection />
             <DepartmentsSection />
+            <PhotoGallery />
+            <VideoGallery />
+            <BrandSlider />
         </>
 
     )
