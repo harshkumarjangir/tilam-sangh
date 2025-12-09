@@ -16,19 +16,31 @@
             "title": "Quick Links",
             "links": [
                 {
-                    "label": "State Portal, Rajasthan",
+                    "label": "Home",
+                    "url": "/"
+                },
+                {
+                    "label": "Profile",
                     "url": "#"
                 },
                 {
-                    "label": "Rajasthan Sampark",
+                    "label": "Products",
                     "url": "#"
                 },
                 {
-                    "label": "DOP",
+                    "label": "Infrastructure",
                     "url": "#"
                 },
                 {
-                    "label": "Rajasthan Tourism",
+                    "label": "Marketing",
+                    "url": "#"
+                },
+                {
+                    "label": "Quality",
+                    "url": "#"
+                },
+                {
+                    "label": "Financial Result",
                     "url": "#"
                 }
             ]
@@ -37,7 +49,23 @@
             "title": "Important Links",
             "links": [
                 {
-                    "label": "Events",
+                    "label": "Prices",
+                    "url": "#"
+                },
+                {
+                    "label": "Tenders",
+                    "url": "/tenders"
+                },
+                {
+                    "label": "RTI",
+                    "url": "#"
+                },
+                {
+                    "label": "Privacy Policy",
+                    "url": "#"
+                },
+                {
+                    "label": "Terms of Service",
                     "url": "#"
                 },
                 {
@@ -52,16 +80,16 @@
             "phone": "+91 (141) 5110730",
             "email": "rajkasupportmhrajasthan.gov.in"
         },
-        "copyright": "Copyright © 2025 | Department of Medical, Health & Family Welfare, Rajasthan"
+        "copyright": "© 2025 Tilam Sangh. All rights reserved."
     },
     "Hindi": {
         "NodalOfficer": {
             "title": "नोडल अधिकारी (वेबसाइट)",
-            "name": "श्री विष्णु कांत जलेंद्र",
-            "designation": "एसएनओ-आईटी व एसीपी (उप निदेशक)",
+            "name": "श्री विष्णु कांत जलेन्द्र",
+            "designation": "SNO-IT एवं ACP (उप निदेशक)",
             "mission": "राष्ट्रीय स्वास्थ्य मिशन",
             "address": [
-                "चिकित्सा एवं स्वास्थ्य सेवा निदेशालय (DMHS)",
+                "चिकित्सा एवं स्वास्थ्य सेवाएँ निदेशालय (DMHS)",
                 "स्वास्थ्य भवन, ए-2, जमनालाल बजाज मार्ग",
                 "सी-स्कीम, अशोक नगर, जयपुर - 302005",
                 "राजस्थान, भारत"
@@ -71,19 +99,31 @@
             "title": "त्वरित लिंक",
             "links": [
                 {
-                    "label": "राजस्थान राज्य पोर्टल",
+                    "label": "होम",
+                    "url": "/"
+                },
+                {
+                    "label": "प्रोफ़ाइल",
                     "url": "#"
                 },
                 {
-                    "label": "राजस्थान संपर्क",
+                    "label": "उत्पाद",
                     "url": "#"
                 },
                 {
-                    "label": "डीओपी",
+                    "label": "इन्फ्रास्ट्रक्चर",
                     "url": "#"
                 },
                 {
-                    "label": "राजस्थान पर्यटन",
+                    "label": "मार्केटिंग",
+                    "url": "#"
+                },
+                {
+                    "label": "गुणवत्ता",
+                    "url": "#"
+                },
+                {
+                    "label": "वित्तीय परिणाम",
                     "url": "#"
                 }
             ]
@@ -92,7 +132,23 @@
             "title": "महत्वपूर्ण लिंक",
             "links": [
                 {
-                    "label": "कार्यक्रम",
+                    "label": "मूल्य",
+                    "url": "#"
+                },
+                {
+                    "label": "निविदाएँ",
+                    "url": "/tenders"
+                },
+                {
+                    "label": "आरटीआई",
+                    "url": "#"
+                },
+                {
+                    "label": "गोपनीयता नीति",
+                    "url": "#"
+                },
+                {
+                    "label": "सेवा की शर्तें",
                     "url": "#"
                 },
                 {
@@ -100,16 +156,16 @@
                     "url": "#"
                 }
             ],
-            "visitors": "वेबसाइट विज़िटर्स"
+            "visitors": "वेबसाइट आगंतुक"
         },
         "Contact": {
             "title": "हमसे संपर्क करें",
             "phone": "+91 (141) 5110730",
-            "email": "rajkasupport[dot]mh[at]rajasthan[dot]gov[dot]in"
+            "email": "rajkasupportmhrajasthan.gov.in"
         },
-        "copyright": "कॉपीराइट © 2025 | चिकित्सा, स्वास्थ्य एवं परिवार कल्याण विभाग, राजस्थान"
+        "copyright": "© 2025 तिलम संघ. सर्वाधिकार सुरक्षित."
     },
-     "mEnglishm": {
+    "mEnglishm": {
         "footerText": "© 2025 Tilam Sangh. All rights reserved.",
         "privacyPolicy": "Privacy Policy",
         "termsOfService": "Terms of Service",

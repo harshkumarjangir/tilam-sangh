@@ -42,7 +42,9 @@ const Navbar = () => {
                     {/* LEFT LOGOS + TITLE */}
                     <div className="flex items-center gap-3">
                         <img src="/assets/navbar/ashoka.png" alt="crest" className="h-12" />
-                        <img src="/assets/navbar/tilam-sangh.png" alt="dept" className="h-12" />
+                        <Link to="/">
+                            <img src="/assets/navbar/tilam-sangh.png" alt="tilam-sangh" className="h-12" />
+                        </Link>
 
                         {/* <div className="hidden sm:block">
                             <h1 className="text-xl font-semibold leading-tight">

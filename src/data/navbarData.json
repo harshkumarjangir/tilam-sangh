@@ -1,85 +1,114 @@
 {
   "English": [
-    { "title": "Home", "link": "/" },
-
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title": "Profile",
+      "link": "#"
+    },
+    {
+      "title": "Tenders",
+      "link": "/tenders"
+    },
+    {
+      "title": "Infrastructure",
+      "link": "#"
+    },
+    {
+      "title": "Marketing",
+      "link": "#"
+    },
+    {
+      "title": "Quality",
+      "link": "#"
+    },
+    {
+      "title": "Products",
+      "link": "#"
+    },
+    {
+      "title": "Financial Result",
+      "link": "#"
+    },
     {
       "title": "About Us",
       "link": "/about",
       "submenu": [
-        { "title": "At a Glance", "link": "/about/at-a-glance" },
-        { "title": "Achievements", "link": "/about/achievements" },
-        { "title": "Organisational Structure", "link": "/about/organisational-structure" },
-        { "title": "Head Office Nehru Sahakar", "link": "/about/nehru-sahakar" },
-        { "title": "Cooperative Institutions", "link": "/about/cooperative-institutions" },
-        { "title": "Cooperative Schemes", "link": "/about/cooperative-schemes" },
-        { "title": "Cooperatives Law And Rules", "link": "/about/law-rules" },
-        { "title": "Success Stories", "link": "/about/success-stories" }
+        {
+          "title": "At a Glance",
+          "link": "/about/at-a-glance"
+        },
+        {
+          "title": "Achievements",
+          "link": "/about/achievements"
+        },
+        {
+          "title": "Organisational Structure",
+          "link": "/about/organisational-structure"
+        },
+        {
+          "title": "Success Stories",
+          "link": "/about/success-stories"
+        }
       ]
-    },
-
-    { "title": "News", "link": "/news", "submenu": [
-      { "title": "News & Events", "link": "/news/events" },
-      { "title": "Press Release", "link": "/news/press-release" }
-    ]},
-
-    { "title": "Tenders", "link": "/tenders" },
-    { "title": "Civil List", "link": "/civil-list" },
-    { "title": "Recruitment", "link": "/recruitment" },
-    { "title": "Downloads", "link": "/downloads" },
-
-    {
-      "title": "Citizen Corner",
-      "link": "/citizen-corner",
-      "submenu": [
-        { "title": "Application Forms", "link": "/citizen-corner/forms" },
-        { "title": "Public Services", "link": "/citizen-corner/services" }
-      ]
-    },
-
-    { "title": "Gallery", "link": "/gallery" },
-    { "title": "Right To Information", "link": "/rti" },
-    { "title": "FAQs", "link": "/faqs" }
+    }
   ],
-
   "Hindi": [
-    { "title": "होम", "link": "/" },
-
+    {
+      "title": "होम",
+      "link": "/"
+    },
+    {
+      "title": "प्रोफ़ाइल",
+      "link": "#"
+    },
+    {
+      "title": "निविदाएँ",
+      "link": "/tenders"
+    },
+    {
+      "title": "इन्फ्रास्ट्रक्चर",
+      "link": "#"
+    },
+    {
+      "title": "मार्केटिंग",
+      "link": "#"
+    },
+    {
+      "title": "गुणवत्ता",
+      "link": "#"
+    },
+    {
+      "title": "उत्पाद",
+      "link": "#"
+    },
+    {
+      "title": "वित्तीय परिणाम",
+      "link": "#"
+    },
     {
       "title": "हमारे बारे में",
       "link": "/about",
       "submenu": [
-        { "title": "एक नज़र में", "link": "/about/at-a-glance" },
-        { "title": "उपलब्धियाँ", "link": "/about/achievements" },
-        { "title": "संगठनात्मक संरचना", "link": "/about/organisational-structure" },
-        { "title": "मुख्यालय नेहरू सहकार", "link": "/about/nehru-sahakar" },
-        { "title": "सहकारी संस्थान", "link": "/about/cooperative-institutions" },
-        { "title": "सहकारी योजनाएँ", "link": "/about/cooperative-schemes" },
-        { "title": "सहकारिता कानून और नियम", "link": "/about/law-rules" },
-        { "title": "सफलता की कहानियाँ", "link": "/about/success-stories" }
+        {
+          "title": "एक नज़र में",
+          "link": "/about/at-a-glance"
+        },
+        {
+          "title": "उपलब्धियाँ",
+          "link": "/about/achievements"
+        },
+        {
+          "title": "संगठनात्मक संरचना",
+          "link": "/about/organisational-structure"
+        },
+        {
+          "title": "सफलता की कहानियाँ",
+          "link": "/about/success-stories"
+        }
       ]
-    },
-
-    { "title": "समाचार", "link": "/news", "submenu": [
-      { "title": "समाचार और कार्यक्रम", "link": "/news/events" },
-      { "title": "प्रेस विज्ञप्ति", "link": "/news/press-release" }
-    ]},
-
-    { "title": "निविदाएँ", "link": "/tenders" },
-    { "title": "सिविल सूची", "link": "/civil-list" },
-    { "title": "भर्ती", "link": "/recruitment" },
-    { "title": "डाउनलोड", "link": "/downloads" },
-
-    {
-      "title": "नागरिक कोना",
-      "link": "/citizen-corner",
-      "submenu": [
-        { "title": "आवेदन पत्र", "link": "/citizen-corner/forms" },
-        { "title": "सार्वजनिक सेवाएँ", "link": "/citizen-corner/services" }
-      ]
-    },
-
-    { "title": "गैलरी", "link": "/gallery" },
-    { "title": "सूचना का अधिकार", "link": "/rti" },
-    { "title": "प्रश्नोत्तर", "link": "/faqs" }
+    }
   ]
 }
