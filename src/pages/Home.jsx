@@ -18,7 +18,7 @@ const Home = () => {
             <ProgramsSection />
             <DepartmentsSection />
             <PhotoGallery />
-            <VideoGallery />
+            <VideoGallery data={homeData.videoGallery} />
             <BrandSlider />
         </>
 
