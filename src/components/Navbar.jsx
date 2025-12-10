@@ -152,7 +152,7 @@ const Navbar = () => {
 
                 {/* ===== MOBILE NAV SLIDE-IN ===== */}
                 <div
-                    className={`lg:hidden fixed top-0 left-0 h-full w-80 bg-[#f7cf56] transition duration-300 z-50 overflow-y-auto
+                    className={`lg:hidden fixed top-0 left-0 h-full max-sm:w-full w-80 bg-[#f7cf56] transition duration-300 z-50 overflow-y-auto
                     ${mobileOpen ? "translate-x-0" : "-translate-x-full"}`}
                 >
                     <div className="p-4 flex items-center justify-between border-b sticky top-0 bg-[#f7cf56] z-10">

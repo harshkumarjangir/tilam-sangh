@@ -1,6 +1,5 @@
 import React from "react";
 import VideoCard from "./VideoCard";
-import homeData from "../../data/homeData.json";
 import { Link } from "react-router-dom";
 
 const VideoGallery = ({data}) => {
