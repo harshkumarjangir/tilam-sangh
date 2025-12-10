@@ -10,6 +10,7 @@ import Contact from "./pages/Contact"
 import Tenders from "./pages/Tenders"
 import Video from "./pages/Video"
 
+import Infrastructure from "./pages/Infrastructure"
 
 const App = () => {
 
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/contact" element={<Contact />} />
         <Route path="/tenders" element={<Tenders />} />
         <Route path="/videos" element={<Video data={videoData.videoGallery} />} />
+        <Route path="/infrastructure" element={<Infrastructure/>}/>
       </Routes>
       <Footer />
 
