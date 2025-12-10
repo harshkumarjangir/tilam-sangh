@@ -14,7 +14,7 @@ export default function CooperativeSection({ cooperativeImpact }) {
           <ul className="space-y-2">
             {benefits?.map((b, idx) => (
               <li key={idx} className="flex gap-2 text-xs md:text-sm text-gray-800">
-                <span className="mt-[5px] h-1.5 w-1.5 rounded-full bg-yellow-600 flex-shrink-0" />
+                <span className="mt-[5px] h-1.5 w-1.5 rounded-full bg-yellow-600 shrink-0" />
                 <span>{b}</span>
               </li>
             ))}

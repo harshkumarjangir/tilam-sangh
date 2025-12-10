@@ -37,7 +37,7 @@ export default function QualitySection({ qualityAssurance }) {
               alt={heading}
               className="w-full h-full object-cover max-h-72 md:max-h-80"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-yellow-900/40 via-transparent" />
+            <div className="absolute inset-0  from-yellow-900/40 via-transparent" />
           </div>
         )}
       </div>
