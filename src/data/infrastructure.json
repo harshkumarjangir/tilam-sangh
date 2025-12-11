@@ -6,7 +6,7 @@
   },
   "hero": {
     "badge": "इन्फ्रास्ट्रक्चर",
-    "title": "राजस्थान तिलम् संघ का सुदृढ़ इन्फ्रास्ट्रक्चर",
+    "title": "Rajasthan Tilam Sangh has a strong infrastructure.",
     "subtitle": "आधुनिक प्रोसेसिंग इकाइयों, भंडारण क्षमता व सहकारी नेटवर्क के माध्यम से तिलहन उत्पादक कृषकों को मजबूत आधार।",
     "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
     "overlayOpacity": 0.82,
@@ -25,7 +25,7 @@
     }
   },
   "introSection": {
-    "heading": "तिलम् संघ की गतिविधियॉ एवं उद्देश्य",
+    "heading": "Tilam Association's activities and objectives",
     "highlight": "कृषक हित में समग्र तिलहन प्रबंधन",
     "paragraphs": [
       "तिलम् संघ राज्य में तिलहन उत्पादन सहकारी समितियों के सदस्य कृषकों के हित में तिलहन उत्पादन, उपार्जन, प्रक्रियण तथा तिलहन उत्पादित उत्पादनों के विपणन को समुचित तौर पर एकीकृत करते हुए तिलहन उत्पादक कृषकों के आर्थिक एवं सामाजिक उत्थान हेतु सहकारी आधार पर कार्य करता है।",
@@ -79,7 +79,7 @@
   },
   "plantsSection": {
     "id": "plants-section",
-    "heading": "प्रोसेसिंग इकाइयाँ",
+    "heading": "Processing units",
     "subheading": "सन् 1984 से तिलहन प्रोसेसिंग की सुदृढ़ व्यवस्था",
     "introText": "सहकारी क्षेत्र में आधुनिक औद्योगिककरण तथा तिलहन उत्पादकों को उनकी फसल का उचित मूल्य दिलवाने को दृष्टिगत रखते हुए सन् 1984 में राज्य में प्रोसेसिंग इकाइयों की स्थापना का संकल्प लिया गया।",
     "note": "इन प्रोसेसिंग इकाइयों में से वर्तमान में 4 इकाइयाँ कार्यरत हैं जबकि शेष 3 इकाइयों को विभिन्न परिस्थितियों के कारण बन्द कर दिया गया है।",
@@ -159,7 +159,7 @@
     ]
   },
   "infrastructureHighlights": {
-    "heading": "इन्फ्रास्ट्रक्चर की मुख्य विशेषताएँ",
+    "heading": "Key features of the infrastructure",
     "items": [
       {
         "id": "storage",
@@ -194,7 +194,7 @@
     ]
   },
   "qualityAssurance": {
-    "heading": "गुणवत्ता नियंत्रण एवं मानक",
+    "heading": "Quality control and standards",
     "subheading": "कृषकों के विश्वास व उपभोक्ताओं की संतुष्टि के लिए सख्त गुणवत्ता नियंत्रण",
     "labs": [
       {
@@ -212,7 +212,7 @@
   },
   "cooperativeImpact": {
     "id": "cooperative-section",
-    "heading": "सहकारी प्रभाव एवं किसान हित",
+    "heading": "Cooperative impact and farmer interests",
     "intro": "तिलम् संघ का इन्फ्रास्ट्रक्चर केवल मशीनरी या इमारतों तक सीमित नहीं है, बल्कि यह किसानों से जुड़ी एक सशक्त सहकारी व्यवस्था है।",
     "benefits": [
       "कृषकों को तिलहन की उचित व पारदर्शी कीमत सुनिश्चित करना।",
@@ -222,8 +222,41 @@
     ],
     "image": "/assets/infrastructure/cooperative-impact/farmers.webp"
   },
+  "pdfDownloadSection":{
+  "pdfSectionHeading": "(PDF Downloads)",
+  "pdfs": [
+    {
+      "id": 1,
+      "title": "तिलम् संघ परिचय एवं इतिहास",
+      "description": "तिलम् संघ की स्थापना, उद्देश्यों एवं ऐतिहासिक पृष्ठभूमि से जुड़ा विस्तृत दस्तावेज़।",
+      "pdfUrl": "/assets/tenders/marketing.pdf",
+      "date": "2024-01-10"
+    },
+    {
+      "id": 2,
+      "title": "प्रोसेसिंग यूनिट्स – कोटा, बीकानेर, मेड़तासिटी",
+      "description": "राज्य की प्रमुख तिलहन प्रोसेसिंग इकाइयों का इन्फ्रास्ट्रक्चर विवरण।",
+      "pdfUrl": "/assets/tenders/marketing.pdf",
+      "date": "2024-01-15"
+    },
+    {
+      "id": 3,
+      "title": "तिलहन विपणन एवं आपूर्ति श्रृंखला मॉडल",
+      "description": "तिलहन उत्पादन, उपार्जन, प्रसंस्करण एवं विपणन से संबंधित संरचना का दस्तावेज़।",
+      "pdfUrl": "/assets/tenders/marketing.pdf",
+      "date": "2024-02-01"
+    },
+    {
+      "id": 4,
+      "title": "वार्षिक प्रशासनिक रिपोर्ट – इन्फ्रास्ट्रक्चर",
+      "description": "सालाना इन्फ्रास्ट्रक्चर विकास, रखरखाव एवं विस्तार योजनाओं का विवरण।",
+      "pdfUrl": "/assets/tenders/marketing.pdf",
+      "date": "2024-02-18"
+    }
+  ]
+},
   "gallerySection": {
-    "heading": "इन्फ्रास्ट्रक्चर झलकियाँ",
+    "heading": "Infrastructure Highlights",
     "subheading": "प्रोसेसिंग इकाइयों, गोदामों व सहकारी गतिविधियों की कुछ दृश्य झलकियाँ",
     "images": [
       {

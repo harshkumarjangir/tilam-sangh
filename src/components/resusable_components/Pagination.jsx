@@ -15,7 +15,7 @@ export default function Pagination({ totalItems, itemsPerPage, currentPage, onPa
       {/* Prev Button */}
       <button
         className={`px-4 py-2 border rounded 
-          ${currentPage === 1 ? "bg-gray-300 cursor-not-allowed" : "bg-yellow-600 text-white"}
+          ${currentPage === 1 ? "bg-gray-300 cursor-not-allowed" : "bg-yellow-600 text-white cursor-pointer"}
         `}
         disabled={currentPage === 1}
         onClick={() => onPageChange(currentPage - 1)}
@@ -28,7 +28,7 @@ export default function Pagination({ totalItems, itemsPerPage, currentPage, onPa
         <button
           key={num}
           onClick={() => onPageChange(num)}
-          className={`px-3 py-2 border rounded transition 
+          className={`px-3 py-2 border rounded transition cursor-pointer
             ${currentPage === num ? "bg-blue-600 text-white" : "bg-white hover:bg-gray-100"}
           `}
         >
@@ -39,7 +39,7 @@ export default function Pagination({ totalItems, itemsPerPage, currentPage, onPa
       {/* Next Button */}
       <button
         className={`px-4 py-2 border rounded 
-          ${currentPage === totalPages ? "bg-gray-300 cursor-not-allowed" : "bg-yellow-600 text-white"}
+          ${currentPage === totalPages ? "bg-gray-300 cursor-not-allowed" : "bg-yellow-600 text-white cursor-pointer"}
         `}
         disabled={currentPage === totalPages}
         onClick={() => onPageChange(currentPage + 1)}

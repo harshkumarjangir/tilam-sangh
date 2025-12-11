@@ -9,7 +9,7 @@ import PhotoGallery from '../components/home/PhotoGallery'
 import VideoGallery from '../components/home/VideoGallery'
 import BrandSlider from '../components/home/BrandSlider'
 
-const Home = ({ videoData }) => {
+const Home = ({ videoData , galleryData }) => {
     return (
         <>
             <CampaignSlider data={homeData?.campaignSlider} />
@@ -17,7 +17,7 @@ const Home = ({ videoData }) => {
             <SchemesSection />
             <ProgramsSection />
             <DepartmentsSection />
-            <PhotoGallery />
+            <PhotoGallery data={galleryData} />
             <VideoGallery data={videoData} />
             <BrandSlider />
         </>

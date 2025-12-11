@@ -10,6 +10,7 @@ import QualitySection from "../components/infrastructure/QualitySection";
 import CooperativeSection from "@/components/infrastructure/CooperativeSection";
 import GallerySection from "../components/infrastructure/GallerySection";
 import ContactStrip from "../components/infrastructure/ContactStrip";
+import PdfDownloadSection from "../components/infrastructure/PdfDownloadSection";
 
 export default function Infrastructure() {
   const {
@@ -20,6 +21,7 @@ export default function Infrastructure() {
     infrastructureHighlights,
     qualityAssurance,
     cooperativeImpact,
+    pdfDownloadSection,
     gallerySection,
     contactStrip,
   } = infraData;
@@ -33,6 +35,7 @@ export default function Infrastructure() {
       <HighlightsSection infrastructureHighlights={infrastructureHighlights} />
       <QualitySection qualityAssurance={qualityAssurance} />
       <CooperativeSection cooperativeImpact={cooperativeImpact} />
+      <PdfDownloadSection data={pdfDownloadSection} />
       <GallerySection gallerySection={gallerySection} />
       <ContactStrip contactStrip={contactStrip} />
     </main>

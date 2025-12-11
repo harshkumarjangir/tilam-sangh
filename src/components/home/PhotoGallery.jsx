@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import ImageSliderModal from "./ImageSliderModal";
-import homeData from "../../data/homeData.json";
+import { Link } from "react-router-dom";
 
-const PhotoGallery = () => {
-    const photos = homeData.photoGallery;
+const PhotoGallery = ({ data }) => {
+    const {heading , photoGallery} = data;
+    const photos = photoGallery;
     const [selectedIndex, setSelectedIndex] = useState(null);
 
     return (
         <div className="max-w-4xl w-full py-10 mx-auto">
-            <h2 className="text-center text-3xl font-semibold mb-8">PHOTO GALLERY</h2>
+            <h2 className="text-center text-3xl font-semibold mb-8">{heading}</h2>
 
             {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 px-6">
                 {photos.map((item, index) => (
@@ -34,7 +35,7 @@ const PhotoGallery = () => {
             </div> */}
 
             <div className="flex flex-wrap justify-center gap-4 px-6">
-                {photos.map((item, index) => (
+                {photos.slice(0,4).map((item, index) => (
                     <div
                         key={index}
                         className="relative overflow-hidden rounded-lg shadow-lg cursor-pointer group w-full sm:w-[48%] md:w-[31%] lg:w-[23%]"
@@ -46,7 +47,12 @@ const PhotoGallery = () => {
                             className="w-full h-44 object-cover transform group-hover:scale-105 duration-300"
                         />
                     </div>
-                ))}
+                ))}   
+            </div>
+            <div className="flex justify-end pr-10 mt-4">
+                <Link to='/gallery' className="text-red-600 hover:text-black hover:scale-110 font-semibold underline">
+                    More Photos →
+                </Link>
             </div>
 
 
