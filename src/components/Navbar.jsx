@@ -120,7 +120,7 @@ const Navbar = () => {
             {/* ===== MAIN NAV DESKTOP ===== */}
             <nav className="bg-[#f5cf57]">
                 <div className="max-w-7xl mx-auto hidden lg:flex items-center px-6">
-                    <ul className={`flex flex-wrap gap-x-6 w-full items-center ${FONT_CLASSES[fontSize]}`}>
+                    <ul className={`flex flex-wrap gap-x-5 w-full items-center ${FONT_CLASSES[fontSize]}`}>
                         {navItems.map((item, idx) => (
                             <li key={idx} className="relative group">
                                 <Link to={item.link || "#"} className="px-4 py-3 block hover:text-white hover:bg-[#eda004] border-r border-[#cfac42]">
@@ -132,7 +132,7 @@ const Navbar = () => {
 
                                 {item.submenu && (
                                     <div className="absolute left-0 top-full hidden group-hover:block z-50">
-                                        <div className="bg-[#eda004] w-64 shadow-lg">
+                                        <div className="bg-[#eda004] w-40 shadow-lg">
                                             {item.submenu.map((sub, sidx) => (
                                                 <Link
                                                     key={sidx}

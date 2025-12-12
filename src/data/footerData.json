@@ -21,11 +21,11 @@
                 },
                 {
                     "label": "Profile",
-                    "url": "#"
+                    "url": "/profile"
                 },
                 {
                     "label": "Products",
-                    "url": "#"
+                    "url": "/products"
                 },
                 {
                     "label": "Infrastructure",
@@ -33,15 +33,15 @@
                 },
                 {
                     "label": "Marketing",
-                    "url": "#"
+                    "url": "/marketing"
                 },
                 {
                     "label": "Quality",
-                    "url": "#"
+                    "url": "/quality"
                 },
                 {
                     "label": "Financial Result",
-                    "url": "#"
+                    "url": "/financial-results"
                 }
             ]
         },
@@ -50,7 +50,7 @@
             "links": [
                 {
                     "label": "Prices",
-                    "url": "#"
+                    "url": "/prices"
                 },
                 {
                     "label": "Tenders",
@@ -58,19 +58,11 @@
                 },
                 {
                     "label": "RTI",
-                    "url": "#"
+                    "url": "/rti"
                 },
-                {
-                    "label": "Privacy Policy",
-                    "url": "#"
-                },
-                {
-                    "label": "Terms of Service",
-                    "url": "#"
-                },
-                {
-                    "label": "News",
-                    "url": "#"
+                 {
+                    "label": "Contact",
+                    "url": "/contact"
                 }
             ],
             "visitors": "Website Visitors"
@@ -104,11 +96,11 @@
                 },
                 {
                     "label": "प्रोफ़ाइल",
-                    "url": "#"
+                    "url": "/profile"
                 },
                 {
                     "label": "उत्पाद",
-                    "url": "#"
+                    "url": "/products"
                 },
                 {
                     "label": "इन्फ्रास्ट्रक्चर",
@@ -116,15 +108,15 @@
                 },
                 {
                     "label": "मार्केटिंग",
-                    "url": "#"
+                    "url": "/marketing"
                 },
                 {
                     "label": "गुणवत्ता",
-                    "url": "#"
+                    "url": "/quality"
                 },
                 {
                     "label": "वित्तीय परिणाम",
-                    "url": "#"
+                    "url": "/financial-results"
                 }
             ]
         },
@@ -133,7 +125,7 @@
             "links": [
                 {
                     "label": "मूल्य",
-                    "url": "#"
+                    "url": "/prices"
                 },
                 {
                     "label": "निविदाएँ",
@@ -141,20 +133,12 @@
                 },
                 {
                     "label": "आरटीआई",
-                    "url": "#"
+                    "url": "/rti"
                 },
-                {
-                    "label": "गोपनीयता नीति",
-                    "url": "#"
-                },
-                {
-                    "label": "सेवा की शर्तें",
-                    "url": "#"
-                },
-                {
-                    "label": "समाचार",
-                    "url": "#"
-                }
+                    {
+                        "label": "संपर्क",
+                        "url": "/contact"
+                    }
             ],
             "visitors": "वेबसाइट आगंतुक"
         },

@@ -3,7 +3,7 @@ import Pagination from "../components/resusable_components/Pagination";
 import ImageSliderModal from "../components/home/ImageSliderModal";
 
 
-const Gallery = ({ data }) => {
+const GalleryPage = ({ data }) => {
     const { heading, photoGallery } = data
 
     const [currentPage, setCurrentPage] = useState(1);
@@ -51,4 +51,4 @@ const Gallery = ({ data }) => {
     );
 };
 
-export default Gallery;
+export default GalleryPage;

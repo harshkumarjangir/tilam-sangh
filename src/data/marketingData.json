@@ -1,0 +1,100 @@
+{
+  "page": {
+    "title": "तेल विपणन - तिलम् संघ",
+    "subtitle": "सरसों, सोयाबीन, मूंगफली ब्रांडेड तेल का विपणन",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+    "intro": "तिलम् संघ द्वारा निर्धारित मापदण्ड के अनुसार तेल क्रय कर निम्न प्रकार बिक्री की गई। नोट: कार्यशील पूंजी के अभाव में तेल विपणन गतिविधि में कमी आई है।"
+  },
+ "pageId": "marketing",
+  "meta": {
+    "title": "तेल विपणन | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ द्वारा सरसों, सोयाबीन एवं मूँगफली ब्रांडेड तेल का विपणन एवं वार्षिक बिक्री विवरण।"
+  },
+  "hero": {
+    "badge": "तेल विपणन",
+    "title": "Tilam Sangh – Trusted Oil Marketing Network",
+    "subtitle": "सरसों, सोयाबीन एवं मूँगफली के ब्रांडेड तेल का गुणवत्तापूर्ण विपणन एवं पारदर्शी वितरण।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "तेल विपणन", "href": "/marketing" }
+    ],
+    "ctaPrimary": {
+      "label": "वार्षिक विपणन रिपोर्ट",
+      "targetId": "yearly-marketing-section"
+    },
+    "ctaSecondary": {
+      "label": "ब्रांडेड तेल विवरण",
+      "targetId": "oil-category-section"
+    }
+  },
+
+
+  "pdfs": [
+    {
+      "id": "marketing-overview",
+      "title": "तेल विपणन रिपोर्ट - सारांश (2024)",
+      "description": "विस्तृत रिपोर्ट जिसमें मात्रा और बिक्री का विवरण है।",
+      "file": "/assets/tenders/marketing.pdf"
+    },
+    {
+      "id": "marketing-full",
+      "title": "तेल विपणन - पूर्ण विवरण (अभिलेख)",
+      "description": "पुराने वर्षों के आँकड़े और पॉलिसी नोट्स।",
+      "file": "/assets/tenders/marketing.pdf"
+    }
+  ],
+  "years": [
+    {
+      "year": "2019-20",
+      "soyabean": 1381.73,
+      "mustard": 110.12,
+      "groundnut": 685.86,
+      "total": 2177.71
+    },
+    {
+      "year": "2020-21",
+      "soyabean": 1384.26,
+      "mustard": 118.26,
+      "groundnut": 561.72,
+      "total": 2064.24
+    },
+    {
+      "year": "2021-22",
+      "soyabean": 393.98,
+      "mustard": 132.5,
+      "groundnut": 565.14,
+      "total": 1091.62
+    },
+    {
+      "year": "2022-23",
+      "soyabean": 169.32,
+      "mustard": 53.41,
+      "groundnut": 347.34,
+      "total": 570.07
+    },
+    {
+      "year": "2023-24",
+      "soyabean": 161.27,
+      "mustard": 47.78,
+      "groundnut": 115.52,
+      "total": 324.58
+    },
+    {
+      "year": "2024-25 (upto 31.10.2024)",
+      "soyabean": 69.94,
+      "mustard": 23.73,
+      "groundnut": 53.23,
+      "total": 146.90
+    }
+  ],
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+  "lastUpdated": "2024-10-31"
+}

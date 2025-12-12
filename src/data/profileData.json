@@ -1,0 +1,102 @@
+{
+  "pageId": "profile",
+  "meta": {
+    "title": "प्रोफ़ाइल | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ की स्थापना, उद्देश्य, मिशन, उपलब्धियाँ और सहकारी तंत्र की संक्षिप्त प्रोफ़ाइल।"
+  },
+
+  "hero": {
+    "badge": "तिलम् संघ प्रोफ़ाइल",
+    "title": "Rajasthan Tilam Sangh – Cooperative Strength for Oilseed Farmers",
+    "subtitle": "राज्यभर के तिलहन उत्पादक कृषकों को उपार्जन, प्रसंस्करण, विपणन एवं सहकारी सहयोग द्वारा सशक्त बनाना।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "प्रोफ़ाइल", "href": "/profile" }
+    ],
+    "ctaPrimary": {
+      "label": "हमारी यात्रा",
+      "targetId": "profile-history-section"
+    },
+    "ctaSecondary": {
+      "label": "उद्देश्य व दृष्टि",
+      "targetId": "mission-vision-section"
+    }
+  },
+
+  "page": {
+    "title": "प्रोफ़ाइल - तिलम् संघ",
+    "subtitle": "सहकारी विकास की प्रमुख संस्था",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+    "intro": "राजस्थान तिलम् संघ की स्थापना तिलहन उत्पादक कृषकों को संगठित सहयोग, उनके उत्पादन का उचित मूल्य, आधुनिक प्रसंस्करण सुविधाएँ और सशक्त विपणन नेटवर्क उपलब्ध कराने हेतु की गई।"
+  },
+
+  "pdfs": [
+    {
+      "id": "profile-overview",
+      "title": "तिलम् संघ – प्रोफ़ाइल रिपोर्ट",
+      "description": "स्थापना, उद्देश्य, कार्यक्षेत्र और सहकारी संरचना का विस्तृत परिचय।",
+      "file": "/assets/tenders/marketing.pdf"
+    },
+    {
+      "id": "profile-achievements",
+      "title": "वार्षिक उपलब्धियाँ एवं प्रदर्शन",
+      "description": "संघ की प्रमुख उपलब्धियाँ और वार्षिक प्रगति विवरण।",
+      "file": "/assets/tenders/marketing.pdf"
+    }
+  ],
+
+  "years": [
+    {
+      "year": "1984",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 0,
+      "note": "तिलम् संघ की स्थापना एवं प्रारंभिक संरचना"
+    },
+    {
+      "year": "1990",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 0,
+      "note": "प्रोसेसिंग इकाइयों का विस्तार"
+    },
+    {
+      "year": "2000",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 0,
+      "note": "मार्केटिंग एवं गुणवत्ता नियंत्रण प्रणाली स्थापित"
+    },
+    {
+      "year": "2010",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 0,
+      "note": "राज्यव्यापी सहकारी नेटवर्क सुदृढ़"
+    },
+    {
+      "year": "2020",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 0,
+      "note": "डिजिटलीकरण एवं पारदर्शिता बढ़ी"
+    }
+  ],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+
+  "lastUpdated": "2024-12-01"
+}

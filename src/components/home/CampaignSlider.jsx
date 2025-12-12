@@ -38,7 +38,7 @@ export default function CooperativeCampaignSlider({ data }) {
         </div>
 
         {/* RIGHT STATIC SIDEBAR */}
-        <div className="flex max-md:flex-row flex-col gap-4">
+        <div className="flex max-md:flex-row flex-col justify-between gap-4">
 
           {/* TOP CARD */}
           <div className="bg-[#3b3b3b] rounded-xl overflow-hidden p-3 flex flex-col items-center">

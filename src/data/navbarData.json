@@ -6,7 +6,7 @@
     },
     {
       "title": "Profile",
-      "link": "#"
+      "link": "/profile"
     },
     {
       "title": "Tenders",
@@ -18,39 +18,35 @@
     },
     {
       "title": "Marketing",
-      "link": "#"
+      "link": "/marketing"
     },
     {
       "title": "Quality",
-      "link": "#"
+      "link": "/quality"
     },
     {
       "title": "Products",
-      "link": "#"
+      "link": "/products"
     },
     {
       "title": "Financial Result",
-      "link": "#"
+      "link": "/financial-results"
     },
     {
       "title": "About Us",
-      "link": "/about",
+      "link": "/about"
+    },
+     {
+      "title": "Gallery",
+      "link": "",
       "submenu": [
         {
-          "title": "At a Glance",
-          "link": "/about/at-a-glance"
+          "title": "Photos Gallery",
+          "link": "/gallery"
         },
         {
-          "title": "Achievements",
-          "link": "/about/achievements"
-        },
-        {
-          "title": "Organisational Structure",
-          "link": "/about/organisational-structure"
-        },
-        {
-          "title": "Success Stories",
-          "link": "/about/success-stories"
+          "title": "Videos Gallery",
+          "link": "/videos"
         }
       ]
     }
@@ -62,7 +58,7 @@
     },
     {
       "title": "प्रोफ़ाइल",
-      "link": "#"
+      "link": "/profile"
     },
     {
       "title": "निविदाएँ",
@@ -74,39 +70,35 @@
     },
     {
       "title": "मार्केटिंग",
-      "link": "#"
+      "link": "/marketing"
     },
     {
       "title": "गुणवत्ता",
-      "link": "#"
+      "link": "/quality"
     },
     {
       "title": "उत्पाद",
-      "link": "#"
+      "link": "/products"
     },
     {
       "title": "वित्तीय परिणाम",
-      "link": "#"
+      "link": "/financial-results"
     },
     {
       "title": "हमारे बारे में",
-      "link": "/about",
+      "link": "/about"
+    },
+    {
+      "title": "गैलरी",
+      "link": "",
       "submenu": [
         {
-          "title": "एक नज़र में",
-          "link": "/about/at-a-glance"
+          "title": "फोटो गैलरी",
+          "link": "/gallery"
         },
         {
-          "title": "उपलब्धियाँ",
-          "link": "/about/achievements"
-        },
-        {
-          "title": "संगठनात्मक संरचना",
-          "link": "/about/organisational-structure"
-        },
-        {
-          "title": "सफलता की कहानियाँ",
-          "link": "/about/success-stories"
+          "title": "वीडियो गैलरी",
+          "link": "/videos"
         }
       ]
     }
