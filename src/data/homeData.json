@@ -2,13 +2,13 @@
   "campaignSlider": {
     "slides": [
       {
-        "image": "/assets/home/campaign-slider/cm.webp"
+        "image": "/assets/home/campaign-slider/tilam-sangh-banner.webp"
       },
       {
-        "image": "/assets/home/campaign-slider/minister.webp"
+        "image": "/assets/home/campaign-slider/tilam-sangh-banner.webp"
       },
       {
-        "image": "/assets/home/campaign-slider/sahakarbhavan.webp"
+        "image": "/assets/home/campaign-slider/tilam-sangh-banner.webp"
       }
     ],
     "sidebar": {
