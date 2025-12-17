@@ -18,8 +18,8 @@ const Footer = () => {
                         <div className="h-[1px] bg-white my-3"></div>
                         <p className="leading-6">
                             {data.NodalOfficer.name}<br />
-                            {data.NodalOfficer.designation}<br />
-                            {data.NodalOfficer.mission}
+                            {data.NodalOfficer.contact}<br />
+                    
                         </p>
                         <div className="mt-4">
                             {data.NodalOfficer.address.map((line, i) => (
@@ -35,7 +35,7 @@ const Footer = () => {
                         <ul>
                             {data.QuickLinks.links.map((item, i) => (
                                 <li key={i} className="mb-2 hover:text-gray-300">
-                                    <a href={item.url}>{item.label}</a>
+                                    <a href={item.url} target="_blank">{item.label}</a>
                                 </li>
                             ))}
                         </ul>

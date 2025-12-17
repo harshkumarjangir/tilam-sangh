@@ -2,14 +2,15 @@
     "English": {
         "NodalOfficer": {
             "title": "Nodal Officer (Website)",
-            "name": "Sh. Vishnu Kant Jalendra",
-            "designation": "SNO-IT & ACP (Deputy Director)",
-            "mission": "National Health Mission",
+            "name": "Mr Nomaan Ashraf",
+            "contact": "0141 2740487",
+            "designation": "",
+            "mission": "",
             "address": [
-                "Directorate of Medical & Health Services (DMHS)",
-                "Swasthya Bhawan, A-2, Jamnalal Bajaj Marg",
-                "C-Scheme, Ashok Nagar, Jaipur - 302005",
-                "Rajasthan, India"
+                "Rajasthan State Tilhan Utpadak Sahakari Sangh Ltd. (Tilam Sangh) Second Floor, Nehru Sahakar Bhawan, Bhawani Singh Road, Jaipur",
+                "Rajasthan, India",
+                "",
+                ""
             ]
         },
         "QuickLinks": {
@@ -20,28 +21,20 @@
                     "url": "/"
                 },
                 {
-                    "label": "Profile",
-                    "url": "/profile"
+                    "label": "Activities and plans",
+                    "url": "/assets/footer/activities.png"
                 },
                 {
-                    "label": "Products",
-                    "url": "/products"
+                    "label": "Membership",
+                    "url": "/assets/footer/societies-list.pdf"
                 },
                 {
-                    "label": "Infrastructure",
-                    "url": "/infrastructure"
+                    "label": "Earnings",
+                    "url": "/assets/footer/upargen.pdf"
                 },
                 {
-                    "label": "Marketing",
-                    "url": "/marketing"
-                },
-                {
-                    "label": "Quality",
-                    "url": "/quality"
-                },
-                {
-                    "label": "Financial Result",
-                    "url": "/financial-results"
+                    "label": "Business activities",
+                    "url": "/assets/footer/plant.pdf"
                 }
             ]
         },
@@ -69,22 +62,23 @@
         },
         "Contact": {
             "title": "Connect With Us",
-            "phone": "+91 (141) 5110730",
-            "email": "rajkasupportmhrajasthan.gov.in"
+            "phone": "0141 2740487",
+            "email": "tilamsangh1@gmail.com"
         },
         "copyright": "© 2025 Tilam Sangh. All rights reserved."
     },
     "Hindi": {
         "NodalOfficer": {
             "title": "नोडल अधिकारी (वेबसाइट)",
-            "name": "श्री विष्णु कांत जलेन्द्र",
-            "designation": "SNO-IT एवं ACP (उप निदेशक)",
-            "mission": "राष्ट्रीय स्वास्थ्य मिशन",
+            "name": "श्री नोमान अशरफ",
+            "contact": "0141 2740487",
+            "designation": "",
+            "mission": "",
             "address": [
-                "चिकित्सा एवं स्वास्थ्य सेवाएँ निदेशालय (DMHS)",
-                "स्वास्थ्य भवन, ए-2, जमनालाल बजाज मार्ग",
-                "सी-स्कीम, अशोक नगर, जयपुर - 302005",
-                "राजस्थान, भारत"
+                "राजस्थान राज्य तिलहन उत्पादक सहकारी संघ लि. (तिलम् संघ) द्वितीय तल, नेहरु सहकार भवन, भवानी सिंह रोड, जयपुर",
+                "राजस्थान, भारत",
+                "",
+                ""
             ]
         },
         "QuickLinks": {
@@ -95,28 +89,20 @@
                     "url": "/"
                 },
                 {
-                    "label": "प्रोफ़ाइल",
-                    "url": "/profile"
+                    "label": "गतिविधियॉ एवं योजनाएं",
+                    "url": "/assets/footer/activities.png"
                 },
                 {
-                    "label": "उत्पाद",
-                    "url": "/products"
+                    "label": "सदस्यता",
+                    "url": "/assets/footer/societies-list.pdf"
                 },
                 {
-                    "label": "इन्फ्रास्ट्रक्चर",
-                    "url": "/infrastructure"
+                    "label": "उपार्जन",
+                    "url": "/assets/footer/upargen.pdf"
                 },
                 {
-                    "label": "मार्केटिंग",
-                    "url": "/marketing"
-                },
-                {
-                    "label": "गुणवत्ता",
-                    "url": "/quality"
-                },
-                {
-                    "label": "वित्तीय परिणाम",
-                    "url": "/financial-results"
+                    "label": "व्यवसायिक गतिविधियॉँ",
+                    "url": "/assets/footer/plant.pdf"
                 }
             ]
         },
@@ -144,8 +130,8 @@
         },
         "Contact": {
             "title": "हमसे संपर्क करें",
-            "phone": "+91 (141) 5110730",
-            "email": "rajkasupportmhrajasthan.gov.in"
+            "phone": "0141 2740487",
+            "email": "tilamsangh1@gmail.com"
         },
         "copyright": "© 2025 तिलम संघ. सर्वाधिकार सुरक्षित."
     },
