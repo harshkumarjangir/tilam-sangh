@@ -2,6 +2,7 @@ import React from "react";
 import { FaArrowUp } from "react-icons/fa";
 import { useLanguage } from "../context/LanguageContext";
 import footerData from "../data/footerData.json";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
     const { language } = useLanguage();
@@ -19,7 +20,7 @@ const Footer = () => {
                         <p className="leading-6">
                             {data.NodalOfficer.name}<br />
                             {data.NodalOfficer.contact}<br />
-                    
+
                         </p>
                         <div className="mt-4">
                             {data.NodalOfficer.address.map((line, i) => (
@@ -34,7 +35,7 @@ const Footer = () => {
                         <div className="h-[1px] bg-white my-3"></div>
                         <ul>
                             {data.QuickLinks.links.map((item, i) => (
-                                <li key={i} className="mb-2 hover:text-gray-300">
+                                <li key={i} className="mb-2 hover:text-gray-300 hover:underline">
                                     <a href={item.url} target="_blank">{item.label}</a>
                                 </li>
                             ))}
@@ -47,25 +48,48 @@ const Footer = () => {
                         <div className="h-[1px] bg-white my-3"></div>
                         <ul>
                             {data.ImportantLinks.links.map((item, i) => (
-                                <li key={i} className="mb-2 hover:text-gray-300">
+                                <li key={i} className="mb-2 hover:text-gray-300 hover:underline">
                                     <a href={item.url}>{item.label}</a>
                                 </li>
                             ))}
                         </ul>
 
-                        <button className="bg-blue-600 px-4 py-2 rounded mt-4">
+                        {/* <button className="bg-blue-600 px-4 py-2 rounded mt-4">
                             {data.ImportantLinks.visitors}: 14584409
-                        </button>
+                        </button> */}
                     </div>
 
                     {/* Contact */}
-                    <div>
-                        <h2 className="text-xl font-semibold">{data.Contact.title}</h2>
-                        <div className="h-[1px] bg-white my-3"></div>
+                    <div className="space-y-3 text-xl">
+                        <h2 className="font-semibold">
+                            {data.Contact.title}
+                        </h2>
 
-                        <p className="mb-3">{data.Contact.phone}</p>
-                        <p className="text-wrap">{data.Contact.email}</p>
+                        <hr className="border-white/40" />
+
+                        <address className="not-italic space-y-2 text-sm">
+                            <p>
+                                📞{" "}
+                                <a
+                                    href={`tel:${data.Contact.phone}`}
+                                    className="hover:underline"
+                                >
+                                    {data.Contact.phone}
+                                </a>
+                            </p>
+
+                            <p className="break-all">
+                                ✉️{" "}
+                                <a
+                                    href={`mailto:${data.Contact.email}`}
+                                    className="hover:underline"
+                                >
+                                    {data.Contact.email}
+                                </a>
+                            </p>
+                        </address>
                     </div>
+
                 </div>
             </footer>
 
