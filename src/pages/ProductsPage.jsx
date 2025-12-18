@@ -45,10 +45,10 @@ export default function ProductsPage() {
               <p className="mt-2 text-sm text-gray-700">{data.page.intro}</p>
             </div>
 
-            <div className="bg-white rounded-md p-4 border shadow-sm">
+            {/* <div className="bg-white rounded-md p-4 border shadow-sm">
               <h4 className="text-lg font-semibold text-yellow-900">गैलरी</h4>
               <Gallery images={data.gallery} />
-            </div>
+            </div> */}
           </div>
         </div>
 

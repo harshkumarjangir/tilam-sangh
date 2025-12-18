@@ -41,7 +41,7 @@ export default function AboutPage() {
         </section>
 
         {/* PDF DOWNLOADS */}
-        <section className="bg-white p-6 border rounded shadow-sm">
+        {/* <section className="bg-white p-6 border rounded shadow-sm">
           <h2 className="text-xl font-semibold text-yellow-900 mb-4">
             दस्तावेज़ व अभिलेख
           </h2>
@@ -50,16 +50,16 @@ export default function AboutPage() {
               <PDFDownload key={pdf.id} pdf={pdf} />
             ))}
           </div>
-        </section>
+        </section> */}
 
         {/* GALLERY */}
-        <section>
+        {/* <section>
            <div className="flex justify-between items-center mb-2">
                 <h4 className="text-lg font-semibold text-yellow-900">गैलरी</h4>
                 <a href="/gallery" className="text-xl text-red-500 underline"> view all</a>
               </div>
           <Gallery images={data.gallery} />
-        </section>
+        </section> */}
 
       </main>
     </div>

@@ -43,7 +43,7 @@ export default function MarketingPage() {
               <p className="mt-3 text-sm text-gray-600">अधिक जानकारी के लिए PDF डाउनलोड करें।</p>
             </div>
 
-            <div className="bg-white rounded-md p-4 border shadow-sm">
+            {/* <div className="bg-white rounded-md p-4 border shadow-sm">
               <div className="flex justify-between items-center">
                 <h4 className="text-lg font-semibold text-yellow-900">गैलरी</h4>
                 <a href="/gallery" className="text-xl text-red-500 underline"> view all</a>
@@ -51,7 +51,7 @@ export default function MarketingPage() {
               <div className="mt-3">
                 <Gallery images={data.gallery} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
