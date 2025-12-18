@@ -13,8 +13,8 @@
       "bottomImage": "/assets/home/campaign-slider/gautam-kumar.webp"
     },
     "footer": {
-      "left": "सहकार सदस्यता अभियान",
-      "right": "Co-Operative Membership Campaign/सहकार सदस्यता अभियान के सदस्य बनने के लिए यहां क्लिक करें।"
+      "left": "(Tilam Sangh – Rajasthan)",
+      "right": "तिलम् संघ राज्य के तिलहन उत्पादक कृषकों को सहकारी व्यवस्था से जोड़कर उनके आर्थिक सामाजिक एवं व्यावसायिक विकास हेतु कार्य करता है। सहकारिता के माध्यम से कृषकों को उचित मूल्य, पारदर्शी विपणन, गुणवत्ता नियंत्रण एवं औद्योगिक अवसर उपलब्ध कराए जाते हैं।"
     }
   },
   "InfoScroller": {
@@ -47,19 +47,59 @@
     ],
     "tenders": [
       {
-        "date": "4/05/2025",
-        "text": "आदेश क्रमांक 338 दिनांक 17/11/2025 (जनरल सामान/विधुत तथा लकड़ी के सामान की आपूर्ति के संबंध में)।",
-        "link": "#"
+        "date": "28/11/2024",
+        "text": "Corrigendum For Appointment of Depot Agent/Distributor/Dealer For Bhilwara",
+        "link": "/assets/tenders/CBD.pdf"
       },
       {
-        "date": "5/4/2025",
-        "text": "NOTICE INVITING BID for Supply, installation & commissioning of IT Equipments (Date Corrigendum-12)",
-        "link": "#"
+        "date": "29/11/2024",
+        "text": "NOTICE FOR SECURITY GUARD AND SKILLED WORKER FOR FATEHNAGAR PROJECT",
+        "link": "/assets/tenders/SOW.pdf"
       },
       {
-        "date": "7/12/2025",
-        "text": "NOTICE INVITING BID for Supply, installation & commissioning of LED TVs, Tablets & Laptops (Date Corrigendum-12)",
-        "link": "#"
+        "date": "30/11/2024",
+        "text": "NOTICE FOR HIRING LABOUR, FILLING, PACKAGING, LOADING AND UNLOADING WORK IN FATEHNAGAR PROJECT",
+        "link": "/assets/tenders/PFL.pdf"
+      },
+      {
+        "date": "01/12/2024",
+        "text": "NOTICE FOR TRANSPORTATION WORK OF EDIBLE OIL IN FATEHNAGAR PROJECT",
+        "link": "/assets/tenders/EOTT.pdf"
+      },
+      {
+        "date": "02/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF 15 Kg. ISI Tin Containers (E-A3/24)",
+        "link": "/assets/tenders/tn.pdf"
+      },
+      {
+        "date": "03/12/2024",
+        "text": "NOTICE INVITING LIMITED BIDS for Valuation of Land, Building and Machinery",
+        "link": "/assets/tenders/bdval.pdf"
+      },
+      {
+        "date": "04/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF PET BOTTLE INCLUDING CAPS (E-SA1/24)",
+        "link": "/assets/tenders/PETNI.pdf"
+      },
+      {
+        "date": "05/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF CORRUGATED BOX AND FLAPS (E-SA2/24)",
+        "link": "/assets/tenders/CORNI.pdf"
+      },
+      {
+        "date": "06/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF SECURITY PERSONNEL (ES-3/23)",
+        "link": "/assets/tenders/SEP.pdf"
+      },
+      {
+        "date": "07/12/2024",
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Asnawar Purchase Center KOTA PROJECT",
+        "link": "/assets/tenders/Asnawar_merged.pdf"
+      },
+      {
+        "date": "08/12/2024",
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Panwad Purchase Center KOTA PROJECT",
+        "link": "/assets/tenders/Panwad_merged.pdf"
       }
     ],
     "news": [

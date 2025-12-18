@@ -99,7 +99,7 @@ export default function ScrollBox({ title, iconType, data }) {
     }
     if (iconType === "tenders") {
       return (
-        <div className="bg-red-600 text-white text-[12px] px-2 py-1 rounded font-bold min-w-18 min-h-7 text-center">
+        <div className="bg-red-600 text-white text-[12px] px-2 py-1 rounded font-bold min-w-20 min-h-7 text-center">
           {item.date}
         </div>
       );

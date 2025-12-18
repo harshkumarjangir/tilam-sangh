@@ -89,7 +89,7 @@ export default function CooperativeCampaignSlider({ data }) {
   }
   .animate-marquee {
     display: inline-block;
-    animation: marquee 12s linear infinite;
+    animation: marquee 20s linear infinite;
   }
 
 
