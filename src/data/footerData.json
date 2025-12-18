@@ -21,20 +21,28 @@
                     "url": "/"
                 },
                 {
-                    "label": "Activities and plans",
-                    "url": "/assets/footer/activities.png"
+                    "label": "Profile",
+                    "url": "/assets/footer/profile.png"
                 },
                 {
-                    "label": "Membership",
-                    "url": "/assets/footer/societies-list.pdf"
+                    "label": "Products",
+                      "url": "/assets/footer/PRODUCT.pdf"
                 },
                 {
-                    "label": "Earnings",
-                    "url": "/assets/footer/upargen.pdf"
+                    "label": "Infrastructure",
+                      "url": "/assets/footer/INFRA.jpg"
                 },
                 {
-                    "label": "Business activities",
-                    "url": "/assets/footer/plant.pdf"
+                    "label": "Marketing",
+                    "url": "/assets/footer/marketing.pdf"
+                },
+                {
+                    "label": "Quality",
+                    "url": "/assets/footer/quality.jpg"
+                },
+                {
+                    "label": "Financial Result",
+                       "url": "/assets/footer/fin.pdf"
                 }
             ]
         },
@@ -43,7 +51,7 @@
             "links": [
                 {
                     "label": "Prices",
-                    "url": "/prices"
+                    "url": "/assets/footer/rates.pdf"
                 },
                 {
                     "label": "Tenders",
@@ -51,11 +59,11 @@
                 },
                 {
                     "label": "RTI",
-                    "url": "/rti"
+                    "url": "/assets/footer/rti.pdf"
                 },
                  {
                     "label": "Contact",
-                    "url": "/contact"
+                    "url": "/assets/footer/contact.pdf"
                 }
             ],
             "visitors": "Website Visitors"
@@ -84,25 +92,33 @@
         "QuickLinks": {
             "title": "त्वरित लिंक",
             "links": [
-                {
+                  {
                     "label": "होम",
                     "url": "/"
                 },
                 {
-                    "label": "गतिविधियॉ एवं योजनाएं",
-                    "url": "/assets/footer/activities.png"
+                    "label": "प्रोफ़ाइल",
+                    "url": "/assets/footer/profile.png"
                 },
                 {
-                    "label": "सदस्यता",
-                    "url": "/assets/footer/societies-list.pdf"
+                    "label": "उत्पाद",
+                    "url": "/assets/footer/PRODUCT.pdf"
                 },
                 {
-                    "label": "उपार्जन",
-                    "url": "/assets/footer/upargen.pdf"
+                    "label": "इन्फ्रास्ट्रक्चर",
+                     "url": "/assets/footer/INFRA.jpg"
                 },
                 {
-                    "label": "व्यवसायिक गतिविधियॉँ",
-                    "url": "/assets/footer/plant.pdf"
+                    "label": "मार्केटिंग",
+                     "url": "/assets/footer/marketing.pdf"
+                },
+                {
+                    "label": "गुणवत्ता",
+                   "url": "/assets/footer/quality.jpg"
+                },
+                {
+                    "label": "वित्तीय परिणाम",
+                   "url": "/assets/footer/fin.pdf"
                 }
             ]
         },
@@ -111,7 +127,7 @@
             "links": [
                 {
                     "label": "मूल्य",
-                    "url": "/prices"
+                     "url": "/assets/footer/rates.pdf"
                 },
                 {
                     "label": "निविदाएँ",
@@ -119,11 +135,11 @@
                 },
                 {
                     "label": "आरटीआई",
-                    "url": "/rti"
+                     "url": "/assets/footer/rti.pdf"
                 },
                     {
                         "label": "संपर्क",
-                        "url": "/contact"
+                         "url": "/assets/footer/contact.pdf"
                     }
             ],
             "visitors": "वेबसाइट आगंतुक"

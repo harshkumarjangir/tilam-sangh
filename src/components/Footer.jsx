@@ -59,6 +59,15 @@ const Footer = () => {
                         </button> */}
                     </div>
 
+
+                    {/* <div>
+                        <h2 className="text-xl font-semibold">{data.Contact.title}</h2>
+                        <div className="h-[1px] bg-white my-3"></div>
+
+                        <p className="mb-3">{data.Contact.phone}</p>
+                        <p className="text-wrap">{data.Contact.email}</p>
+
+                    </div> */}
                     {/* Contact */}
                     <div className="space-y-3 text-xl">
                         <h2 className="font-semibold">
