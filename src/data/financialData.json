@@ -39,13 +39,13 @@
       "id": "financial-summary",
       "title": "वित्तीय परिणाम सारांश (2024-25)",
       "description": "आय-व्यय, लाभ-हानि व वित्तीय विश्लेषण का वार्षिक विवरण।",
-      "file": "/assets/tenders/marketing.pdf"
+      "file": "/assets/footer/fin.pdf"
     },
     {
       "id": "financial-full-report",
       "title": "पूर्ण वित्तीय रिपोर्ट (अभिलेख)",
       "description": "सभी वर्षों के वित्तीय आँकड़ों का विस्तृत संग्रह।",
-      "file": "/assets/tenders/marketing.pdf"
+      "file": "/assets/footer/fin.pdf"
     }
   ],
 
