@@ -14,12 +14,12 @@ const Home = ({ videoData , galleryData }) => {
         <>
             <CampaignSlider data={homeData?.campaignSlider} />
             <InfoScroller data={homeData?.InfoScroller} />
-            <SchemesSection />
-            <ProgramsSection />
-            <DepartmentsSection />
+            {/* <SchemesSection /> */}
+            {/* <ProgramsSection /> */}
+            {/* <DepartmentsSection /> */}
             <PhotoGallery data={galleryData} />
             <VideoGallery data={videoData} />
-            <BrandSlider />
+            {/* <BrandSlider /> */}
         </>
 
     )
