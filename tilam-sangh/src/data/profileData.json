@@ -1,0 +1,82 @@
+{
+  "pageId": "profile",
+  "meta": {
+    "title": "प्रोफ़ाइल | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ का परिचय, स्थापना, उद्देश्य एवं सहकारी ढांचा।"
+  },
+
+  "hero": {
+    "badge": "प्रोफ़ाइल",
+    "title": "Rajasthan Tilam Sangh – Cooperative Strength",
+    "subtitle": "राज्य के तिलहन उत्पादक कृषकों के लिए एक सशक्त सहकारी संस्था",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "प्रोफ़ाइल", "href": "/profile" }
+    ]
+  },
+
+  "page": {
+    "title": "तिलम् संघ – संक्षिप्त परिचय",
+    "intro": "राजस्थान राज्य सहकारी तिलहन उत्पादक संघ लिमिटेड (तिलम् संघ) राज्य में तिलहन उत्पादन, प्रसंस्करण एवं विपणन के क्षेत्र में एक अग्रणी सहकारी संस्था है। इसकी स्थापना राजस्थान सहकारी अधिनियम 1985 के अंतर्गत की गई तथा 1 जनवरी 1991 से यह विधिवत कार्यरत है।"
+  },
+
+  "highlights": [
+    {
+      "title": "कुल वर्षों की यात्रा",
+      "value": "30+",
+      "hint": "स्थापना से अब तक"
+    },
+    {
+      "title": "सहकारी अधिनियम",
+      "value": "1985",
+      "hint": "राजस्थान राज्य"
+    },
+    {
+      "title": "कार्य क्षेत्र",
+      "value": "राज्यव्यापी",
+      "hint": "कृषक आधारित सहकारिता"
+    }
+  ],
+
+  "timeline": [
+    {
+      "year": "1990",
+      "description": "राजस्थान राज्य सहकारी अधिनियम 1985 के अंतर्गत तिलम् संघ की स्थापना।"
+    },
+    {
+      "year": "1991",
+      "description": "संघ ने विधिवत रूप से कार्य प्रारंभ किया।"
+    },
+    {
+      "year": "2000-2010",
+      "description": "राज्य में तिलहन प्रसंस्करण एवं विपणन नेटवर्क का विस्तार।"
+    },
+    {
+      "year": "वर्तमान",
+      "description": "कृषकों को उचित मूल्य, गुणवत्ता नियंत्रण और ब्रांडेड तेल विपणन पर विशेष ध्यान।"
+    }
+  ],
+
+  "pdfs": [
+    {
+      "id": "profile-report",
+      "title": "तिलम् संघ – प्रोफ़ाइल रिपोर्ट",
+      "description": "स्थापना, उद्देश्य एवं सहकारी संरचना का विस्तृत विवरण।",
+      "file": "/assets/profile/profile.pdf"
+    },
+    {
+      "id": "annual-achievement",
+      "title": "वार्षिक उपलब्धियाँ एवं प्रदर्शन",
+      "description": "संघ की प्रमुख उपलब्धियाँ और वार्षिक प्रगति रिपोर्ट।",
+      "file": "/assets/profile/profile.pdf"
+    }
+  ],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "pageId": "about",
+  "meta": {
+    "title": "हमारे बारे में | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ का इतिहास, उद्देश्य, संगठन संरचना, उपलब्धियाँ एवं सहकारी विकास की यात्रा।"
+  },
+
+  "hero": {
+    "badge": "हमारे बारे में",
+    "title": "Tilam Sangh – A Cooperative Legacy of Trust & Growth",
+    "subtitle": "तिलहन उत्पादकों के आर्थिक, सामाजिक और तकनीकी विकास के लिए समर्पित एक विश्वसनीय संस्थान।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "हमारे बारे में", "href": "/about" }
+    ],
+    "ctaPrimary": {
+      "label": "इतिहास व स्थापना",
+      "targetId": "about-history"
+    },
+    "ctaSecondary": {
+      "label": "उद्देश्य एवं मिशन",
+      "targetId": "mission-section"
+    }
+  },
+
+  "page": {
+    "title": "हमारे बारे में - तिलम् संघ",
+    "subtitle": "राजस्थान के तिलहन उत्पादकों का प्रमुख सहकारी संगठन",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+    "intro": "तिलम् संघ की स्थापना किसानों को तिलहन उत्पादन, उपार्जन, भंडारण, प्रसंस्करण एवं विपणन में सहकारी आधार पर सहयोग प्रदान करने के उद्देश्य से की गई थी। संघ कृषि मूल्य श्रृंखला में विश्वसनीयता और पारदर्शिता का प्रतीक है।"
+  },
+
+  "sections": {
+    "history": {
+      "title": "इतिहास एवं स्थापना",
+      "content": "राजस्थान तिलम् संघ की स्थापना सहकारी ढांचे को मजबूत करने, तिलहन उत्पादक किसानों को बाज़ार से उचित मूल्य दिलवाने तथा प्रोसेसिंग सुविधाएँ उपलब्ध करवाने के उद्देश्य से की गई। 1984 में आधुनिक प्रोसेसिंग यूनिट्स की शुरुआत ने तिलहन क्रांति में महत्वपूर्ण योगदान दिया।"
+    },
+    "mission": {
+      "title": "हमारा मिशन",
+      "points": [
+        "किसानों को उचित मूल्य दिलाने हेतु संगठित विपणन प्रणाली विकसित करना।",
+        "आधुनिक तकनीक आधारित प्रोसेसिंग व गुणवत्ता नियंत्रण को बढ़ावा देना।",
+        "सहकारी आंदोलन के माध्यम से आर्थिक व सामाजिक उन्नति सुनिश्चित करना।",
+        "ब्रांडेड तेल, बीज एवं तिलहन उत्पादों को गुणवत्तापूर्ण रूप से उपलब्ध कराना।"
+      ]
+    },
+    "vision": {
+      "title": "दृष्टि",
+      "content": "एक सक्षम, पारदर्शी और किसान-केंद्रित सहकारी संस्था के रूप में तिलम् संघ को राष्ट्रीय स्तर पर स्थापित करना।"
+    },
+    "leadership": {
+      "title": "नेतृत्व एवं प्रबंधन",
+      "members": [
+        {
+          "name": "अध्यक्ष",
+          "role": "राजस्थान तिलम् संघ",
+          "image": "/assets/team/user-image.png"
+        },
+        {
+          "name": "प्रबंध निदेशक",
+          "role": "राजस्थान तिलम् संघ",
+          "image": "/assets/team/user-image.png"
+        },
+        {
+          "name": "तकनीकी सलाहकार",
+          "role": "गुणवत्ता व प्रसंस्करण विभाग",
+          "image": "/assets/team/user-image.png"
+        }
+      ]
+    }
+  },
+
+  "pdfs": [
+    {
+      "id": "about-profile",
+      "title": "तिलम् संघ प्रोफाइल",
+      "description": "संस्थान का इतिहास, उद्देश्यों एवं कार्यप्रणाली का विस्तृत विवरण।",
+      "file": "/assets/tenders/marketing.pdf"
+    },
+    {
+      "id": "about-mission",
+      "title": "मिशन व विजन दस्तावेज़",
+      "description": "संगठन की रणनीति, लक्ष्य एवं भविष्य की योजनाएँ।",
+      "file": "/assets/tenders/marketing.pdf"
+    }
+  ],
+
+  "years": [],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+
+  "lastUpdated": "2024-12-01"
+}

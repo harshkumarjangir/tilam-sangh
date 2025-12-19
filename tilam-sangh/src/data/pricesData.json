@@ -1,0 +1,83 @@
+{
+  "pageId": "prices",
+  "meta": {
+    "title": "मूल्य सूची | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ द्वारा विभिन्न तेल, बीज व उप-उत्पादों की अद्यतन मूल्य सूची।"
+  },
+
+  "hero": {
+    "badge": "मूल्य सूची",
+    "title": "Daily Updated Price List – Rajasthan Tilam Sangh",
+    "subtitle": "सरसों, सोयाबीन, मूँगफली एवं उप-उत्पादों की नवीनतम दरें",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "सूचनाएँ", "href": "" },
+      { "label": "मूल्य सूची", "href": "/prices" }
+    ],
+    "ctaPrimary": {
+      "label": "ताज़ा दरें देखें",
+      "targetId": "price-table-section"
+    },
+    "ctaSecondary": {
+      "label": "PDF डाउनलोड",
+      "targetId": "price-pdf-section"
+    }
+  },
+
+  "page": {
+    "title": "मूल्य सूची",
+    "subtitle": "दैनिक दरें",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+    "intro": "राजस्थान तिलम् संघ द्वारा जारी विभिन्न तेलों एवं तिलहन उप-उत्पादों की दैनिक और साप्ताहिक मूल्य सूची नीचे दी गई है।"
+  },
+
+  "pdfs": [
+    {
+      "id": "price-daily",
+      "title": "दैनिक मूल्य सूची (PDF)",
+      "description": "आज की ताज़ा कीमतें डाउनलोड करें।",
+      "file": "/assets/tenders/marketing.pdf"
+    },
+    {
+      "id": "price-weekly",
+      "title": "साप्ताहिक मूल्य सूची",
+      "description": "पूरे सप्ताह की दरें – रिपोर्ट PDF",
+      "file": "/assets/tenders/marketing.pdf"
+    }
+  ],
+
+  "years": [
+    {
+      "year": "2024-25",
+      "soyabean": 5200,
+      "mustard": 6300,
+      "groundnut": 7600,
+      "total": 19100
+    },
+    {
+      "year": "2023-24",
+      "soyabean": 4800,
+      "mustard": 6000,
+      "groundnut": 7100,
+      "total": 17900
+    },
+    {
+      "year": "2022-23",
+      "soyabean": 4550,
+      "mustard": 5800,
+      "groundnut": 6900,
+      "total": 17250
+    }
+  ],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+
+  "lastUpdated": "2025-01-10"
+}

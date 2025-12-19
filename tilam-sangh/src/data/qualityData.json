@@ -1,0 +1,131 @@
+{
+  "pageId": "quality",
+  "meta": {
+    "title": "गुणवत्ता नियंत्रण | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ में तेल गुणवत्ता निरीक्षण, लैब परीक्षण, मानक अनुपालन व प्रमाणन से जुड़ी सभी गतिविधियाँ।"
+  },
+
+  "hero": {
+    "badge": "गुणवत्ता नियंत्रण",
+    "title": "Ensuring Purity, Safety & Quality Standards",
+    "subtitle": "तिलम् संघ द्वारा तैयार किए गए सभी तेल एवं उत्पाद सख़्त गुणवत्ता मानकों व प्रमाणित प्रक्रियाओं से होकर गुजरते हैं।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "गुणवत्ता नियंत्रण", "href": "/quality" }
+    ],
+    "ctaPrimary": {
+      "label": "गुणवत्ता परीक्षण रिपोर्ट",
+      "targetId": "quality-report-section"
+    },
+    "ctaSecondary": {
+      "label": "प्रमाणन एवं मानक",
+      "targetId": "certification-section"
+    }
+  },
+
+  "page": {
+    "title": "गुणवत्ता नियंत्रण - तिलम् संघ",
+    "subtitle": "उच्च स्तरीय परीक्षण व गुणवत्ता आश्वासन",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+    "intro": "तिलम् संघ गुणवत्ता को सर्वोच्च प्राथमिकता देता है तथा उपभोक्ताओं को शुद्ध, सुरक्षित एवं मानक अनुरूप तेल उपलब्ध कराने के लिए निरंतर प्रयासरत है। संघ की सभी प्रोसेसिंग इकाइयों में आधुनिक एवं सुव्यवस्थित प्रयोगशालाएँ स्थापित की गई हैं, जहाँ तेल एवं तिलहन का वैज्ञानिक परीक्षण किया जाता है। इन प्रयोगशालाओं में कच्चे माल से लेकर अंतिम उत्पाद तक प्रत्येक चरण पर गुणवत्ता की निगरानी की जाती है।\n\nतेल की शुद्धता, नमी प्रतिशत, मुक्त फैटी एसिड (FFA), पेरॉक्साइड वैल्यू, फ्लैश पॉइंट एवं अन्य महत्वपूर्ण मानकों का परीक्षण BIS, FSSAI तथा ISO द्वारा निर्धारित दिशानिर्देशों के अनुसार किया जाता है। गुणवत्ता नियंत्रण प्रक्रिया के अंतर्गत प्रशिक्षित तकनीकी कार्मिकों द्वारा नियमित निरीक्षण, नमूना परीक्षण एवं दस्तावेज़ीकरण सुनिश्चित किया जाता है।\n\nतिलम् संघ का उद्देश्य न केवल गुणवत्ता मानकों का पालन करना है, बल्कि कृषकों द्वारा उत्पादित तिलहन का सर्वोत्तम मूल्य संवर्धन करते हुए उपभोक्ताओं तक उच्च गुणवत्ता वाले, स्वास्थ्यवर्धक एवं विश्वसनीय उत्पाद पहुँचाना भी है। गुणवत्ता नियंत्रण की यह सुदृढ़ व्यवस्था तिलम् संघ को सहकारी क्षेत्र में एक भरोसेमंद एवं प्रतिष्ठित संस्था के रूप में स्थापित करती है।"
+  },
+
+  "pdfs": [
+    {
+      "id": "quality-standards",
+      "title": "गुणवत्ता मानक व प्रक्रिया (2024)",
+      "description": "तिलम् संघ द्वारा अपनाई जाने वाली परीक्षण प्रक्रियाएँ व गुणवत्ता मापदंड।",
+      "file": "/assets/footer/quality.jpg"
+    },
+    {
+      "id": "lab-reports",
+      "title": "लैब टेस्ट रिपोर्ट – वार्षिक संकलन",
+      "description": "तेल नमूनों की प्रयोगशाला रिपोर्ट एवं विश्लेषण का विस्तृत विवरण।",
+      "file": "/assets/footer/quality.jpg"
+    }
+  ],
+
+  "parameters": [
+    {
+      "name": "FFA (Free Fatty Acid)",
+      "unit": "%",
+      "acceptableRange": "≤ 0.25",
+      "note": "सरसों एवं मूंगफली तेल के लिए"
+    },
+    {
+      "name": "Moisture Content",
+      "unit": "%",
+      "acceptableRange": "≤ 0.10",
+      "note": "सभी प्रकार के तेल हेतु"
+    },
+    {
+      "name": "Peroxide Value",
+      "unit": "meq/kg",
+      "acceptableRange": "≤ 10",
+      "note": "ऑक्सिडेशन स्तर का माप"
+    },
+    {
+      "name": "Flash Point",
+      "unit": "°C",
+      "acceptableRange": "≥ 250",
+      "note": "सुरक्षा मानक"
+    }
+  ],
+
+   "years": [
+    {
+      "year": "2019-20",
+      "soyabean": 1381.73,
+      "mustard": 110.12,
+      "groundnut": 685.86,
+      "total": 2177.71
+    },
+    {
+      "year": "2020-21",
+      "soyabean": 1384.26,
+      "mustard": 118.26,
+      "groundnut": 561.72,
+      "total": 2064.24
+    },
+    {
+      "year": "2021-22",
+      "soyabean": 393.98,
+      "mustard": 132.5,
+      "groundnut": 565.14,
+      "total": 1091.62
+    },
+    {
+      "year": "2022-23",
+      "soyabean": 169.32,
+      "mustard": 53.41,
+      "groundnut": 347.34,
+      "total": 570.07
+    },
+    {
+      "year": "2023-24",
+      "soyabean": 161.27,
+      "mustard": 47.78,
+      "groundnut": 115.52,
+      "total": 324.58
+    },
+    {
+      "year": "2024-25 (upto 31.10.2024)",
+      "soyabean": 69.94,
+      "mustard": 23.73,
+      "groundnut": 53.23,
+      "total": 146.90
+    }
+  ],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+
+  "lastUpdated": "2024-11-15"
+}
