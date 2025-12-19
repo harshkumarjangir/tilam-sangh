@@ -18,8 +18,6 @@ const navbarItemSchema = new mongoose.Schema(
       type: [submenuSchema],
       default: undefined
     },
-
-    // ✅ MetablockTech Standard
     status: {
       type: Boolean,
       default: true   // true = active, false = hidden
