@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom"
+import { Navigate, Route, Routes } from "react-router-dom"
 
 import videoData from "./data/videoData.json";
 import galleryData from "./data/galleryData.json"
@@ -43,6 +43,7 @@ const App = () => {
         <Route path="/rti" element={<RTIPage />} />
         <Route path="/prices" element={<PricesPage />} />
        
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
 
