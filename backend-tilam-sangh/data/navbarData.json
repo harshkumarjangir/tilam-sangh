@@ -1,0 +1,106 @@
+{
+  "English": [
+    {
+      "title": "Home",
+      "link": "/"
+    },
+    {
+      "title": "Profile",
+      "link": "/profile"
+    },
+    {
+      "title": "Tenders",
+      "link": "/tenders"
+    },
+    {
+      "title": "Infrastructure",
+      "link": "/infrastructure"
+    },
+    {
+      "title": "Marketing",
+      "link": "/marketing"
+    },
+    {
+      "title": "Quality",
+      "link": "/quality"
+    },
+    {
+      "title": "Products",
+      "link": "/products"
+    },
+    {
+      "title": "Financial Result",
+      "link": "/financial-results"
+    },
+    {
+      "title": "About Us",
+      "link": "/about"
+    },
+     {
+      "title": "Gallery",
+      "link": "",
+      "submenu": [
+        {
+          "title": "Photos Gallery",
+          "link": "/gallery"
+        },
+        {
+          "title": "Videos Gallery",
+          "link": "/videos"
+        }
+      ]
+    }
+  ],
+  "Hindi": [
+    {
+      "title": "होम",
+      "link": "/"
+    },
+    {
+      "title": "प्रोफ़ाइल",
+      "link": "/profile"
+    },
+    {
+      "title": "निविदाएँ",
+      "link": "/tenders"
+    },
+    {
+      "title": "इन्फ्रास्ट्रक्चर",
+      "link": "/infrastructure"
+    },
+    {
+      "title": "मार्केटिंग",
+      "link": "/marketing"
+    },
+    {
+      "title": "गुणवत्ता",
+      "link": "/quality"
+    },
+    {
+      "title": "उत्पाद",
+      "link": "/products"
+    },
+    {
+      "title": "वित्तीय परिणाम",
+      "link": "/financial-results"
+    },
+    {
+      "title": "हमारे बारे में",
+      "link": "/about"
+    },
+    {
+      "title": "गैलरी",
+      "link": "",
+      "submenu": [
+        {
+          "title": "फोटो गैलरी",
+          "link": "/gallery"
+        },
+        {
+          "title": "वीडियो गैलरी",
+          "link": "/videos"
+        }
+      ]
+    }
+  ]
+}
