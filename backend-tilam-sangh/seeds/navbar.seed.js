@@ -15,6 +15,10 @@ dotenv.config({
 
 const MONGO_URL = `${process.env.MONGODB_URI}/tilam-sangh`;
 
+// 🔑 helper: remove leading /
+const cleanLink = (link = "") =>
+  link.startsWith("/") ? link.slice(1) : link;
+
 const seedNavbar = async () => {
   await Navbar.deleteMany({});
 
@@ -25,15 +29,22 @@ const seedNavbar = async () => {
 
     items: navbarData[lang].map((item) => ({
       title: item.title,
-      link: item.link || "",
-      submenu: item.submenu || undefined,
+      link: cleanLink(item.link),
+
+      submenu: item.submenu
+        ? item.submenu.map((sub) => ({
+            title: sub.title,
+            link: cleanLink(sub.link),
+          }))
+        : undefined,
+
       status: true,
       deletedAt: null
     }))
   }));
 
   await Navbar.insertMany(payload);
-  console.log("✅ Navbar seeded with boolean status");
+  console.log("✅ Navbar seeded (links without /)");
 };
 
 const run = async () => {
