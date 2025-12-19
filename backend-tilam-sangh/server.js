@@ -3,6 +3,10 @@ import cors from 'cors'
 import 'dotenv/config'
 import cookieParser from 'cookie-parser'
 import connectDB from './config/connectDB.js'
+import layoutRoutes from "./routes/layout.routes.js";
+
+
+
 
 
 const app = express()
@@ -19,6 +23,10 @@ app.use(cors({
 
 // API EndPoints
 app.get('/',(req, res)=>res.send("API Working"))
+
+
+
+app.use("/api/layout", layoutRoutes);
 
 
 // Catch-all route - redirects any unmatched routes to home
