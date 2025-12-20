@@ -18,7 +18,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     credentials: true, // To send Cookies in Response fron Express App
-    origin: ['*']
+    origin: ['http://localhost:5173', 'https://tilam-sangh.vercel.app'] // React App Domain
 }))
 
 // API EndPoints

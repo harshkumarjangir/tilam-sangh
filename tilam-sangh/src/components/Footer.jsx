@@ -1,12 +1,24 @@
 import React from "react";
 import { FaArrowUp } from "react-icons/fa";
 import { useLanguage } from "../context/LanguageContext";
-import footerData from "../data/footerData.json";
-// import { Link } from "react-router-dom";
+import { useSelector } from 'react-redux';
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     const { language } = useLanguage();
-    const data = footerData[language];
+
+    // prefer API-provided footer (from redux); use empty object when missing
+    const nav = useSelector((s) => s.navigation.data);
+    const raw = nav?.footer || {};
+
+    // normalize keys (API uses lowercase keys; local JSON uses PascalCase)
+    const data = {
+        NodalOfficer: raw.NodalOfficer || raw.nodalOfficer || {},
+        QuickLinks: raw.QuickLinks || raw.quickLinks || { title: "", links: [] },
+        ImportantLinks: raw.ImportantLinks || raw.importantLinks || { title: "", links: [] },
+        Contact: raw.Contact || raw.contact || {},
+        copyright: raw.copyright || raw.copyright || ""
+    };
 
     return (
         <>
@@ -23,7 +35,7 @@ const Footer = () => {
 
                         </p>
                         <div className="mt-4">
-                            {data.NodalOfficer.address.map((line, i) => (
+                            {Array.isArray(data.NodalOfficer.address) && data.NodalOfficer.address.map((line, i) => (
                                 <p key={i} className="leading-6">{line}</p>
                             ))}
                         </div>
@@ -34,7 +46,7 @@ const Footer = () => {
                         <h2 className="text-xl font-semibold">{data.QuickLinks.title}</h2>
                         <div className="h-[1px] bg-white my-3"></div>
                         <ul>
-                            {data.QuickLinks.links.map((item, i) => (
+                            {(data.QuickLinks.links || []).map((item, i) => (
                                 <li key={i} className="mb-2 hover:text-gray-300 hover:underline">
                                     <a href={item.url} target="_blank">{item.label}</a>
                                 </li>
@@ -47,7 +59,7 @@ const Footer = () => {
                         <h2 className="text-xl font-semibold">{data.ImportantLinks.title}</h2>
                         <div className="h-[1px] bg-white my-3"></div>
                         <ul>
-                            {data.ImportantLinks.links.map((item, i) => (
+                            {(data.ImportantLinks.links || []).map((item, i) => (
                                 <li key={i} className="mb-2 hover:text-gray-300 hover:underline">
                                     <a href={item.url}>{item.label}</a>
                                 </li>
