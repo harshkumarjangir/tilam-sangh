@@ -7,13 +7,12 @@ import Page from "../models/page.model.js";
  */
 export const getPageBySlug = async (req, res) => {
   try {
-    const language = req.query.lang || "English";
+    // const language = req.query.lang || "English";
     const slug = req.params.slug || ""; // homepage case
 
     // 1️⃣ Try requested page
     let page = await Page.findOne({
       slug,
-      language,
       status: true,
       deletedAt: null
     }).lean();
@@ -22,7 +21,6 @@ export const getPageBySlug = async (req, res) => {
     if (!page) {
       page = await Page.findOne({
         slug: "",
-        language,
         status: true,
         deletedAt: null
       }).lean();

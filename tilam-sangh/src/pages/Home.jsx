@@ -26,7 +26,7 @@ const Home = ({ videoData , galleryData }) => {
     try {
       setLoading(true);
 
-      const url = `${API_BASE_URL}/api/pages/${slug}?lang=${language}`;
+      const url = `${API_BASE_URL}/api/pages/${slug}`;
 
       const res = await fetch(url, {
         cache: "no-store", // 🔑 KEY FIX
