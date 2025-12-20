@@ -1,4 +1,8 @@
 import { Navigate, Route, Routes } from "react-router-dom"
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { useLanguage } from "./context/LanguageContext";
+import { fetchNavigationData } from "./redux/slices/navigationSlice";
 
 import videoData from "./data/videoData.json";
 import galleryData from "./data/galleryData.json"
@@ -19,30 +23,38 @@ import AboutPage from "./pages/AboutPage";
 import ProfilePage from "./pages/ProfilePage";
 import RTIPage from "./pages/RTIPage";
 import PricesPage from "./pages/PricesPage";
+import Test from "./components/Test";
 
 
 const App = () => {
+  // const { language } = useLanguage();
+  // const dispatch = useDispatch();
 
+  // // Fetch layout (navbar + footer) whenever language changes
+  // useEffect(() => {
+  //   dispatch(fetchNavigationData(language));
+  // }, [language, dispatch]);
 
   return (
     <div>
+      {/* <Test /> */}
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home videoData={videoData.videoGallery} galleryData={galleryData}/>} />
+        <Route path="/" element={<Home videoData={videoData.videoGallery} galleryData={galleryData} />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/tenders" element={<Tenders />} />
         <Route path="/videos" element={<Video data={videoData.videoGallery} />} />
         <Route path="/gallery" element={<GalleryPage data={galleryData} />} />
-        <Route path="/infrastructure" element={<Infrastructure/>}/>
+        <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/marketing" element={<MarketingPage />} />
         <Route path="/quality" element={<QualityPage />} />
         <Route path="/financial-results" element={<FinancialResultPage />} />
         <Route path="/products" element={<ProductsPage />} />
-        <Route path="/profile" element={<ProfilePage/>}/>
+        <Route path="/profile" element={<ProfilePage />} />
         <Route path="/rti" element={<RTIPage />} />
         <Route path="/prices" element={<PricesPage />} />
-       
+
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
