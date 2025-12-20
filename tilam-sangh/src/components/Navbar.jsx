@@ -7,9 +7,9 @@ import {
     FiSearch,
     FiChevronUp
 } from "react-icons/fi";
-import navbarData from "../data/navbarData.json";
 import { useLanguage } from "../context/LanguageContext";
 import LanguageSwitcher from "./LanguageSwitcher";
+import { useSelector } from "react-redux";
 
 const FONT_CLASSES = {
     small: "text-sm",
@@ -25,9 +25,16 @@ const Navbar = () => {
     const [openSubmenu, setOpenSubmenu] = useState(null);
     const [fontSize, setFontSize] = useState("normal");
 
-    //     const data = navbarData[language];
+    // prefer data from API (stored in redux) and use empty array when missing
+    const navData = useSelector((s) => s.navigation.data);
+    const navItems = navData?.navbar || [];
 
-    const navItems = navbarData[language] || [];
+    // normalize links coming from backend (some entries may be 'profile' instead of '/profile')
+    const toLink = (link) => {
+        if (!link) return "#";
+        if (link.startsWith("/") || link.startsWith("http")) return link;
+        return `/${link}`;
+    };
 
     const toggleMobile = () => setMobileOpen((s) => !s);
     const toggleSubmenu = (i) => setOpenSubmenu((s) => (s === i ? null : i));
@@ -105,7 +112,7 @@ const Navbar = () => {
                     <ul className={`flex flex-wrap gap-x-5 w-full items-center ${FONT_CLASSES[fontSize]}`}>
                         {navItems.map((item, idx) => (
                             <li key={idx} className="relative group">
-                                <Link to={item.link || "#"} className="px-4 py-3 block hover:text-white hover:bg-[#eda004] border-r border-[#cfac42]">
+                                <Link to={toLink(item.link)} className="px-4 py-3 block hover:text-white hover:bg-[#eda004] border-r border-[#cfac42]">
                                     <div className="flex items-center text-nowrap gap-1">
                                         {item.title}
                                         {item.submenu && <FiChevronDown />}
@@ -118,7 +125,7 @@ const Navbar = () => {
                                             {item.submenu.map((sub, sidx) => (
                                                 <Link
                                                     key={sidx}
-                                                    to={sub.link || "#"}
+                                                    to={toLink(sub.link)}
                                                     className="block px-4 py-3 border-b border-white/20 hover:bg-[#d98e00]"
                                                 >
                                                     {sub.title}
@@ -151,7 +158,7 @@ const Navbar = () => {
                                         className="flex justify-between py-3"
                                         onClick={() => (item.submenu ? toggleSubmenu(i) : setMobileOpen(false))}
                                     >
-                                        <Link to={item.link || "#"}>{item.title}</Link>
+                                        <Link to={toLink(item.link)}>{item.title}</Link>
                                         {item.submenu && (expanded ? <FiChevronUp /> : <FiChevronDown />)}
                                     </div>
 
@@ -160,7 +167,7 @@ const Navbar = () => {
                                             {item.submenu.map((sub, si) => (
                                                 <Link
                                                     key={si}
-                                                    to={sub.link || "#"}
+                                                    to={toLink(sub.link)}
                                                     onClick={() => setMobileOpen(false)}
                                                     className="block px-4 py-3 border-b border-white/20"
                                                 >
