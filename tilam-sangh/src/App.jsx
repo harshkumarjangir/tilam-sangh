@@ -1,8 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom"
-import { useEffect } from "react";
-import { useDispatch } from "react-redux";
-import { useLanguage } from "./context/LanguageContext";
-import { fetchNavigationData } from "./redux/slices/navigationSlice";
+
 
 import videoData from "./data/videoData.json";
 import galleryData from "./data/galleryData.json"
