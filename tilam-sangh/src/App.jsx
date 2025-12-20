@@ -23,7 +23,7 @@ import AboutPage from "./pages/AboutPage";
 import ProfilePage from "./pages/ProfilePage";
 import RTIPage from "./pages/RTIPage";
 import PricesPage from "./pages/PricesPage";
-import Test from "./components/Test";
+
 
 
 const App = () => {
@@ -37,7 +37,6 @@ const App = () => {
 
   return (
     <div>
-      {/* <Test /> */}
       <Navbar />
       <Routes>
         <Route path="/" element={<Home videoData={videoData.videoGallery} galleryData={galleryData} />} />
