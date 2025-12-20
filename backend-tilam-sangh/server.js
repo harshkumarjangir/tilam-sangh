@@ -20,21 +20,11 @@ await connectDB()
 // Middlewares
 app.use(express.json())
 app.use(cookieParser())
-const allowedOrigins = [
-  "http://localhost:5173",
-  "http://localhost:3000"
-];
-
 app.use(cors({
-  origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
-      callback(null, true);
-    } else {
-      callback(new Error("Not allowed by CORS"));
-    }
-  },
-  credentials: true
-}));
+    credentials: true, // To send Cookies in Response fron Express App
+    origin: ['*']
+}))
+
 // API EndPoints
 app.get('/',(req, res)=>res.send("API Working"))
 
@@ -44,7 +34,10 @@ app.use("/api/layout", layoutRoutes);
 app.use("/api/pages", pageRoutes);
 
 
-
+// Catch-all route - redirects any unmatched routes to home
+app.use((req, res) => {
+    res.redirect('/')
+})
 
 app.listen(port, ()=>{
     console.log(`Server is running on PORT: ${port}`);
