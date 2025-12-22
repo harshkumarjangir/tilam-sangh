@@ -1,8 +1,9 @@
 import React from "react";
-import homeData from "../../data/homeData.json";
 import { Link } from "react-router-dom";
 
-const DepartmentsSection = () => {
+const DepartmentsSection = ({ data = [] }) => {
+    const departments = data || [];
+
     return (
         <section className="py-10 px-8">
             <h2 className="text-center text-3xl font-semibold mb-6">
@@ -10,7 +11,7 @@ const DepartmentsSection = () => {
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-6 px-4">
-                {homeData.departments.map((item, index) => (
+                {departments.map((item, index) => (
                     <Link
                         key={index}
                         to={item.link}

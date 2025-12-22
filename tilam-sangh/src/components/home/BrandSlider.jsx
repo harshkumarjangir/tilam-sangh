@@ -7,10 +7,9 @@ import "swiper/css/free-mode";
 import "swiper/css/navigation";
 
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-import homeData from "../../data/homeData.json";
 
-const BrandSlider = () => {
-    const { logos } = homeData.brandSlider;
+const BrandSlider = ({ data = {} }) => {
+    const logos = data?.logos || [];
     const swiperRef = useRef(null);
 
     return (

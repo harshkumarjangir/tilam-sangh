@@ -1,8 +1,8 @@
-import { Navigate, Route, Routes } from "react-router-dom"
-
+import { Navigate, Route, Routes, useLocation } from "react-router-dom"
+import { useEffect } from "react"
+import { useDispatch } from "react-redux"
 
 import videoData from "./data/videoData.json";
-import galleryData from "./data/galleryData.json"
 
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
@@ -20,28 +20,42 @@ import AboutPage from "./pages/AboutPage";
 import ProfilePage from "./pages/ProfilePage";
 import RTIPage from "./pages/RTIPage";
 import PricesPage from "./pages/PricesPage";
+import ScrollToTop from "./components/ScrollToTop";
+import { useLanguage } from "./context/LanguageContext";
+import { fetchPageBySlug } from "./redux/slices/pagesSlice";
+import DebugOverlay from "./components/Dev/DebugOverlay";
 
 
+const RouteListener = () => {
+  const location = useLocation();
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    // convert pathname to slug used by API
+    // root path -> empty slug
+    let slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
+    console.log("slug", slug)
+
+    // fetch page for current route
+    dispatch(fetchPageBySlug(slug));
+  }, [location.pathname, dispatch]);
+
+  return null;
+}
 
 const App = () => {
-  // const { language } = useLanguage();
-  // const dispatch = useDispatch();
-
-  // // Fetch layout (navbar + footer) whenever language changes
-  // useEffect(() => {
-  //   dispatch(fetchNavigationData(language));
-  // }, [language, dispatch]);
-
   return (
     <div>
+      <ScrollToTop />
       <Navbar />
+      <RouteListener />
       <Routes>
-        <Route path="/" element={<Home videoData={videoData.videoGallery} galleryData={galleryData} />} />
+        <Route path="/" element={<Home videoData={videoData.videoGallery} />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/tenders" element={<Tenders />} />
         <Route path="/videos" element={<Video data={videoData.videoGallery} />} />
-        <Route path="/gallery" element={<GalleryPage data={galleryData} />} />
+        <Route path="/gallery" element={<GalleryPage />} />
         <Route path="/infrastructure" element={<Infrastructure />} />
         <Route path="/marketing" element={<MarketingPage />} />
         <Route path="/quality" element={<QualityPage />} />
@@ -54,7 +68,7 @@ const App = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-
+      {import.meta.env.NODE_ENV === "development" && <DebugOverlay />}
     </div>
   )
 }

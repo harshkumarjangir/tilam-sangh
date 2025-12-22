@@ -4,6 +4,10 @@ import 'dotenv/config'
 import cookieParser from 'cookie-parser'
 import connectDB from './config/connectDB.js'
 import layoutRoutes from "./routes/layout.routes.js";
+import pageRoutes from "./routes/page.routes.js";
+
+
+
 
 
 
@@ -27,6 +31,7 @@ app.get('/',(req, res)=>res.send("API Working"))
 
 
 app.use("/api/layout", layoutRoutes);
+app.use("/api/pages", pageRoutes);
 
 
 // Catch-all route - redirects any unmatched routes to home
