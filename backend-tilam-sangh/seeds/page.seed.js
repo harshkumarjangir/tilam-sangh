@@ -5,6 +5,9 @@ import { fileURLToPath } from "url";
 
 import Page from "../models/page.model.js";
 import homeData from "../data/homeData.json" assert { type: "json" };
+import galleryData from "../data/galleryData.json" assert { type: "json" };
+import videoData from "../data/videoData.json" assert { type: "json" };
+import infrastructureData from "../data/infrastructure.json" assert { type: "json" };
 
 // 🔑 MEDIA SEO UTILS (IMPORTED)
 import { deepAddMediaSEO } from "./mediaSEO.seed.js";
@@ -21,13 +24,13 @@ const MONGO_URL = `${process.env.MONGODB_URI}/tilam-sangh`;
 const seedPages = async () => {
     try {
         // 🔥 Remove existing homepage
-        await Page.deleteMany({ slug: "", language: "English" });
+        // await Page.deleteMany({ slug: "", language: "English" });
 
         // 🔎 Collect OG images here
         const ogImages = [];
 
         // ✅ Add media SEO fields inside data
-        const enrichedData = deepAddMediaSEO(homeData, ogImages);
+        const enrichedData = deepAddMediaSEO(infrastructureData, ogImages);
 
         // 🔒 Guarantee: OpenGraph images never empty
         // const finalOgImages =
@@ -53,7 +56,7 @@ const seedPages = async () => {
 
         // ✅ Create homepage document
         await Page.create({
-            slug: "", // homepage
+            slug: "infrastructure", // homepage
             language: "English",
 
             data: enrichedData,

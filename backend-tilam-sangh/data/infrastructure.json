@@ -1,0 +1,292 @@
+{
+  "pageId": "infrastructure",
+  "meta": {
+    "title": "इन्फ्रास्ट्रक्चर | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ की प्रोसेसिंग यूनिट्स, भंडारण, गुणवत्ता नियंत्रण तथा सहकारी ढांचे से जुड़ा समृद्ध इन्फ्रास्ट्रक्चर।"
+  },
+  "hero": {
+    "badge": "इन्फ्रास्ट्रक्चर",
+    "title": "Rajasthan Tilam Sangh has a strong infrastructure.",
+    "subtitle": "आधुनिक प्रोसेसिंग इकाइयों, भंडारण क्षमता व सहकारी नेटवर्क के माध्यम से तिलहन उत्पादक कृषकों को मजबूत आधार।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "इन्फ्रास्ट्रक्चर", "href": "/infrastructure" }
+    ],
+    "ctaPrimary": {
+      "label": "प्रोसेसिंग इकाइयाँ देखें",
+      "targetId": "plants-section"
+    },
+    "ctaSecondary": {
+      "label": "कृषक हित सहयोग",
+      "targetId": "cooperative-section"
+    }
+  },
+  "introSection": {
+    "heading": "Tilam Association's activities and objectives",
+    "highlight": "कृषक हित में समग्र तिलहन प्रबंधन",
+    "paragraphs": [
+      "तिलम् संघ राज्य में तिलहन उत्पादन सहकारी समितियों के सदस्य कृषकों के हित में तिलहन उत्पादन, उपार्जन, प्रक्रियण तथा तिलहन उत्पादित उत्पादनों के विपणन को समुचित तौर पर एकीकृत करते हुए तिलहन उत्पादक कृषकों के आर्थिक एवं सामाजिक उत्थान हेतु सहकारी आधार पर कार्य करता है।",
+      "तिलम् संघ अपने उद्देश्यों की प्राप्ति हेतु सहकारी विकास, उपार्जन एवं प्रक्रियण तथा विपणन के क्षेत्रों में समन्वित रूप से कार्य करता है।"
+    ],
+    "pillars": [
+      {
+        "id": "pillar-1",
+        "title": "सहकारी विकास",
+        "description": "राज्य भर की तिलहन सहकारी समितियों को संगठनात्मक, वित्तीय व तकनीकी सहयोग।",
+        "icon": "users-group"
+      },
+      {
+        "id": "pillar-2",
+        "title": "उपार्जन एवं प्रक्रियण",
+        "description": "कृषकों से तिलहन की खरीद, वैज्ञानिक भंडारण व आधुनिक मशीनरी से प्रोसेसिंग।",
+        "icon": "factory"
+      },
+      {
+        "id": "pillar-3",
+        "title": "विपणन",
+        "description": "तिलहन व तिलहन आधारित उत्पादों के लिए स्थिर व पारदर्शी विपणन व्यवस्था।",
+        "icon": "market"
+      }
+    ]
+  },
+  "statsStrip": {
+    "backgroundTone": "light",
+    "items": [
+      {
+        "label": "स्थापना वर्ष",
+        "value": "1984",
+        "note": "आधुनिक प्रोसेसिंग इकाइयों की अवधारणा"
+      },
+      {
+        "label": "प्रोसेसिंग इकाइयाँ",
+        "value": "4",
+        "note": "वर्तमान में संचालित इकाइयाँ"
+      },
+      {
+        "label": "कुल इकाइयाँ स्थापित",
+        "value": "8",
+        "note": "कोटा, बीकानेर, फतहनगर, मेड़तासिटी, जालौर, गंगापुरसिटी, झुंझुनू, श्रीगंगानगर"
+      },
+      {
+        "label": "केंद्रित उद्देश्य",
+        "value": "उचित मूल्य",
+        "note": "कृषकों की फसल का न्यायोचित प्रतिफल"
+      }
+    ]
+  },
+  "plantsSection": {
+    "id": "plants-section",
+    "heading": "Processing units",
+    "subheading": "सन् 1984 से तिलहन प्रोसेसिंग की सुदृढ़ व्यवस्था",
+    "introText": "सहकारी क्षेत्र में आधुनिक औद्योगिककरण तथा तिलहन उत्पादकों को उनकी फसल का उचित मूल्य दिलवाने को दृष्टिगत रखते हुए सन् 1984 में राज्य में प्रोसेसिंग इकाइयों की स्थापना का संकल्प लिया गया।",
+    "note": "इन प्रोसेसिंग इकाइयों में से वर्तमान में 4 इकाइयाँ कार्यरत हैं जबकि शेष 3 इकाइयों को विभिन्न परिस्थितियों के कारण बन्द कर दिया गया है।",
+    "plants": [
+      {
+        "id": "kota",
+        "name": "कोटा प्रोसेसिंग इकाई",
+        "status": "सक्रिय",
+        "capacity": "उच्च क्षमता युक्त तेल निष्कर्षण व परिष्करण संयंत्र",
+        "focus": "तिलहन क्रशिंग व परिष्कृत तेल उत्पादन",
+        "location": "कोटा, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "bikaner",
+        "name": "बीकानेर प्रोसेसिंग इकाई",
+        "status": "सक्रिय",
+        "capacity": "तिलहन भंडारण व प्रसंस्करण की उन्नत सुविधाएँ",
+        "focus": "तिल, सरसों व अन्य तिलहनों की प्रोसेसिंग",
+        "location": "बीकानेर, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "fathehnagar",
+        "name": "फतहनगर प्रोसेसिंग इकाई",
+        "status": "सक्रिय",
+        "capacity": "क्षेत्रीय कृषकों के लिए त्वरित उपार्जन व प्रोसेसिंग",
+        "focus": "स्थानीय तिलहन उत्पादन का मूल्य संवर्धन",
+        "location": "फतहनगर, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "medta-city",
+        "name": "मेड़तासिटी प्रोसेसिंग इकाई",
+        "status": "सक्रिय",
+        "capacity": "स्वचालित मशीनरी व ऊर्जा दक्ष संयंत्र",
+        "focus": "तिलहन आधारित उत्पादों का बहुआयामी उत्पादन",
+        "location": "मेड़तासिटी, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "jalore",
+        "name": "जालौर प्रोसेसिंग इकाई",
+        "status": "निष्क्रिय",
+        "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+        "focus": "—",
+        "location": "जालौर, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "gangapur-city",
+        "name": "गंगापुरसिटी प्रोसेसिंग इकाई",
+        "status": "निष्क्रिय",
+        "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+        "focus": "—",
+        "location": "गंगापुर सिटी, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "jhunjhunu",
+        "name": "झुंझुनू प्रोसेसिंग इकाई",
+        "status": "निष्क्रिय",
+        "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+        "focus": "—",
+        "location": "झुंझुनू, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      },
+      {
+        "id": "sriganganagar",
+        "name": "श्रीगंगानगर प्रोसेसिंग इकाई",
+        "status": "निष्क्रिय",
+        "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+        "focus": "—",
+        "location": "श्रीगंगानगर, राजस्थान",
+        "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+      }
+    ]
+  },
+  "infrastructureHighlights": {
+    "heading": "Key features of the infrastructure",
+    "items": [
+      {
+        "id": "storage",
+        "title": "वैज्ञानिक भंडारण व्यवस्था",
+        "points": [
+          "तिलहन भंडारण हेतु आधुनिक गोदाम व साइलो",
+          "नमी, तापमान व सुरक्षा मानकों के अनुरूप स्टोरेज",
+          "फसल नुकसान को न्यूनतम रखने हेतु नियमित निरीक्षण"
+        ],
+        "icon": "warehouse"
+      },
+      {
+        "id": "processing",
+        "title": "आधुनिक प्रोसेसिंग संयंत्र",
+        "points": [
+          "ऊर्जा-कुशल क्रशिंग व रिफाइनिंग मशीनरी",
+          "स्वच्छता व गुणवत्ता मानकों के अनुरूप लेआउट",
+          "स्वचालित कन्वेयर, पैकेजिंग व हैंडलिंग सिस्टम"
+        ],
+        "icon": "cogs"
+      },
+      {
+        "id": "logistics",
+        "title": "लॉजिस्टिक्स व वितरण नेटवर्क",
+        "points": [
+          "राज्य भर में सहकारी समितियों के माध्यम से नेटवर्क",
+          "समयबद्ध परिवहन व आपूर्ति व्यवस्था",
+          "कृषक व उपभोक्ता दोनों के हित में लागत-प्रभावी वितरण"
+        ],
+        "icon": "truck"
+      }
+    ]
+  },
+  "qualityAssurance": {
+    "heading": "Quality control and standards",
+    "subheading": "कृषकों के विश्वास व उपभोक्ताओं की संतुष्टि के लिए सख्त गुणवत्ता नियंत्रण",
+    "labs": [
+      {
+        "id": "lab-1",
+        "title": "प्रयोगशाला परीक्षण",
+        "description": "तिलहन व तेल उत्पादों का नियमित सैंपलिंग व विश्लेषण, नमी, शुद्धता, तेल प्रतिशत व अन्य पैरामीटर्स की जांच।"
+      },
+      {
+        "id": "lab-2",
+        "title": "राष्ट्रीय मानकों के अनुरूप",
+        "description": "FSSAI तथा अन्य प्रासंगिक मानकों के अनुरूप उत्पादन व पैकेजिंग प्रक्रियाएँ।"
+      }
+    ],
+    "image": "/assets/infrastructure/quality-assurance/quality-testing.jpg"
+  },
+  "cooperativeImpact": {
+    "id": "cooperative-section",
+    "heading": "Cooperative impact and farmer interests",
+    "intro": "तिलम् संघ का इन्फ्रास्ट्रक्चर केवल मशीनरी या इमारतों तक सीमित नहीं है, बल्कि यह किसानों से जुड़ी एक सशक्त सहकारी व्यवस्था है।",
+    "benefits": [
+      "कृषकों को तिलहन की उचित व पारदर्शी कीमत सुनिश्चित करना।",
+      "समय पर भुगतान व फसल खरीद व्यवस्था।",
+      "तकनीकी मार्गदर्शन व फसल उत्पादकता बढ़ाने हेतु जागरूकता कार्यक्रम।",
+      "कृषकों के आर्थिक व सामाजिक उत्थान के लिए दीर्घकालिक योजनाएँ।"
+    ],
+    "image": "/assets/infrastructure/cooperative-impact/farmers.webp"
+  },
+  "pdfDownloadSection":{
+  "pdfSectionHeading": "(PDF Downloads)",
+  "pdfs": [
+    {
+      "id": 1,
+      "title": "तिलम् संघ परिचय एवं इतिहास",
+      "description": "तिलम् संघ की स्थापना, उद्देश्यों एवं ऐतिहासिक पृष्ठभूमि से जुड़ा विस्तृत दस्तावेज़।",
+      "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+      "date": "2024-01-10"
+    },
+    {
+      "id": 2,
+      "title": "प्रोसेसिंग यूनिट्स – कोटा, बीकानेर, मेड़तासिटी",
+      "description": "राज्य की प्रमुख तिलहन प्रोसेसिंग इकाइयों का इन्फ्रास्ट्रक्चर विवरण।",
+      "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+      "date": "2024-01-15"
+    },
+    {
+      "id": 3,
+      "title": "तिलहन विपणन एवं आपूर्ति श्रृंखला मॉडल",
+      "description": "तिलहन उत्पादन, उपार्जन, प्रसंस्करण एवं विपणन से संबंधित संरचना का दस्तावेज़।",
+      "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+      "date": "2024-02-01"
+    },
+    {
+      "id": 4,
+      "title": "वार्षिक प्रशासनिक रिपोर्ट – इन्फ्रास्ट्रक्चर",
+      "description": "सालाना इन्फ्रास्ट्रक्चर विकास, रखरखाव एवं विस्तार योजनाओं का विवरण।",
+      "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+      "date": "2024-02-18"
+    }
+  ]
+},
+  "gallerySection": {
+    "heading": "Infrastructure Highlights",
+    "subheading": "प्रोसेसिंग इकाइयों, गोदामों व सहकारी गतिविधियों की कुछ दृश्य झलकियाँ",
+    "images": [
+      {
+        "id": "gal-1",
+        "src": "/assets/infrastructure/gallery/meeting.jpg",
+        "alt": "प्रोसेसिंग इकाई के अंदर का दृश्य"
+      },
+      {
+        "id": "gal-2",
+        "src": "/assets/infrastructure/gallery/meeting.jpg",
+        "alt": "तिलहन भंडारण यार्ड"
+      },
+      {
+        "id": "gal-3",
+        "src": "/assets/infrastructure/gallery/meeting.jpg",
+        "alt": "किसानों के साथ सहकारी बैठक"
+      },
+      {
+        "id": "gal-4",
+        "src": "/assets/infrastructure/gallery/meeting.jpg",
+        "alt": "कंट्रोल रूम व मॉनिटरिंग सुविधा"
+      }
+    ]
+  },
+  "contactStrip": {
+    "heading": "अधिक जानकारी हेतु संपर्क करें",
+    "description": "इन्फ्रास्ट्रक्चर, प्रोसेसिंग इकाइयों या सहकारी व्यवस्थाओं से संबंधित किसी भी जानकारी हेतु तिलम् संघ कार्यालय से संपर्क करें।",
+    "cta": {
+      "label": "संपर्क विवरण देखें",
+      "href": "/contact"
+    }
+  }
+}
