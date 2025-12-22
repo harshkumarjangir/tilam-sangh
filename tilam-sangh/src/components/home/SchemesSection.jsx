@@ -1,9 +1,10 @@
 import React from "react";
-import homeData from "../../data/homeData.json";
 import { Link } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
 
-const SchemesSection = () => {
+const SchemesSection = ({ data = {} }) => {
+    const schemes = data || [];
+
     return (
         <section className="py-12 px-8">
             <h2 className="text-center text-3xl font-semibold mb-8 tracking-wide">
@@ -11,7 +12,7 @@ const SchemesSection = () => {
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8 px-4">
-                {homeData.schemes.map((item, index) => (
+                {(schemes || []).map((item, index) => (
                     <Link
                         key={index}
                         to={item.link}
@@ -38,13 +39,6 @@ const SchemesSection = () => {
                 ))}
 
                 {/* View more box */}
-                {/* <Link
-                    to="/schemes"
-                    className="bg-white rounded-lg shadow-lg hover:shadow-xl transition flex items-center justify-center 
-                     text-2xl font-semibold text-[#C64827]"
-                >
-                    View More <BsArrowRight className="ml-2" />
-                </Link> */}
             </div>
         </section>
     );

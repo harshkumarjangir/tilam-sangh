@@ -1,20 +1,63 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import VideoCard from "../components/home/VideoCard";
 import Pagination from "../components/resusable_components/Pagination";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchPageBySlug } from "../redux/slices/pagesSlice";
 
-const Video = ({ data }) => {
-    const { videos, title } = data;
+const Video = () => {
+    // const { videos, title } = data;
 
-      const itemsPerPage = 6; // rows per page
-      const [currentPage, setCurrentPage] = useState(1);
-    
-      // Calculate slice indexes
-      const indexOfLast = currentPage * itemsPerPage;
-      const indexOfFirst = indexOfLast - itemsPerPage;
-    
-      // Slice data for current page
-      const currentVideos = videos.slice(indexOfFirst, indexOfLast);
-      
+    const dispatch = useDispatch();
+    const slug = "videos";
+
+    const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
+    // console.log("videes page data", pageData);  
+    const loading = useSelector((s) => s.pages.loading);
+
+    useEffect(() => {
+        dispatch(fetchPageBySlug(slug));
+    }, [dispatch]);
+
+    const videos = pageData?.videoGallery?.videos || [];
+    const title = pageData?.videoGallery?.title || "Videos";
+
+    const itemsPerPage = 6; // rows per page
+    const [currentPage, setCurrentPage] = useState(1);
+
+    // Calculate slice indexes
+    const indexOfLast = currentPage * itemsPerPage;
+    const indexOfFirst = indexOfLast - itemsPerPage;
+
+    // Slice data for current page
+    const currentVideos = videos.slice(indexOfFirst, indexOfLast);
+
+    if (loading && !pageData) {
+        return (
+            <div className="min-h-[60vh] flex items-center justify-center">
+                <div className="text-center">
+                    <div className="inline-block w-12 h-12 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin" />
+                    <div className="mt-3 text-gray-700">Loading gallery…</div>
+                </div>
+            </div>
+        );
+    }
+
+    if (!loading && !pageData) {
+        return (
+            <div className="min-h-[60vh] flex items-center justify-center">
+                <div className="text-center">
+                    <p className="text-lg font-semibold">No gallery content available.</p>
+                    <div className="mt-4">
+                        <button
+                            onClick={() => dispatch(fetchPageBySlug(slug))}
+                            className="px-4 py-2 bg-[#C64827] text-white rounded"
+                        >Retry</button>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
 
     return (
         <section className="py-12 max-w-5xl mx-auto px-4">
@@ -27,11 +70,11 @@ const Video = ({ data }) => {
             </div>
 
             <Pagination
-                    totalItems={videos.length}
-                    itemsPerPage={itemsPerPage}
-                    currentPage={currentPage}
-                    onPageChange={setCurrentPage}
-                  />
+                totalItems={videos.length}
+                itemsPerPage={itemsPerPage}
+                currentPage={currentPage}
+                onPageChange={setCurrentPage}
+            />
 
             {/* <div className="flex justify-end pr-10 mt-4">
                 <button className="text-red-600 font-semibold underline">
