@@ -13,7 +13,7 @@ export const PageProvider = ({ slug = "" , children }) => {
     const fetchPage = async () => {
       try {
         setLoading(true);
-        const res = await fetch(`/api/pages/${slug}?lang=${language}`);
+        const res = await fetch(`/api/pages/${slug}`);
         const json = await res.json();
 
         if (json.success) {

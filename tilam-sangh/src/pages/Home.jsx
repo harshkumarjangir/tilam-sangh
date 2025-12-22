@@ -1,5 +1,3 @@
-import homeData from '../data/homeData.json'
-
 import CampaignSlider from '../components/home/CampaignSlider'
 import InfoScroller from '../components/home/InfoScroller'
 import SchemesSection from '../components/home/SchemesSection'
@@ -10,59 +8,66 @@ import VideoGallery from '../components/home/VideoGallery'
 import BrandSlider from '../components/home/BrandSlider'
 import { useEffect } from 'react'
 import { useLanguage } from '../context/LanguageContext'
-import { useState } from 'react'
-import { API_BASE_URL } from '../utilities/baseurl'
+import { useDispatch, useSelector } from 'react-redux'
+import { fetchPageBySlug } from '../redux/slices/pagesSlice'
 
-const Home = ({ videoData , galleryData }) => {
+const Home = ({ videoData }) => {
     const { language } = useLanguage();
-      const [pageData, setPageData] = useState(null);
-      console.log("pagedata",pageData);
-      
-      const [seo, setSeo] = useState(null);
-      const [loading, setLoading] = useState(false);
-      const slug =""
-   useEffect(() => {
-  const fetchPage = async () => {
-    try {
-      setLoading(true);
+    const dispatch = useDispatch();
+    const slug = ""; // home page slug
 
-      const url = `${API_BASE_URL}/api/pages/${slug}`;
+    const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
+    const galleryPage = useSelector((s) => s.pages.dataBySlug?.['gallery'] || null);
+    const videoPage = useSelector((s) => s.pages.dataBySlug?.['videos'] || null);
+    const loading = useSelector((s) => s.pages.loading);
 
-      const res = await fetch(url, {
-        cache: "no-store", // 🔑 KEY FIX
-      });
+    useEffect(() => {
+        dispatch(fetchPageBySlug(slug));
+        // also fetch the gallery page so Home can show latest gallery content
+        dispatch(fetchPageBySlug('gallery'));
+        dispatch(fetchPageBySlug('videos'));
+    }, [dispatch, slug]);
 
-      if (!res.ok) {
-        console.warn("Page API status:", res.status);
-        return;
-      }
-
-      const json = await res.json();
-
-      if (json.success) {
-        setPageData(json.data);
-        setSeo(json.seo);
-      }
-    } catch (err) {
-      console.error("Page load failed", err);
-    } finally {
-      setLoading(false);
+    // Loading and error UI
+    if (loading && !pageData) {
+        return (
+            <div className="min-h-[60vh] flex items-center justify-center">
+                <div className="text-center">
+                    <div className="inline-block w-12 h-12 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin" />
+                    <div className="mt-3 text-gray-700">Loading page content…</div>
+                </div>
+            </div>
+        );
     }
-  };
 
-  fetchPage();
-}, []); // slug empty but stable
+    if (!loading && !pageData) {
+        return (
+            <div className="min-h-[60vh] flex items-center justify-center">
+                <div className="text-center">
+                    <p className="text-lg font-semibold">No content available.</p>
+                    <p className="mt-2 text-sm text-gray-600">If this persists, please check the API or click retry.</p>
+                    <div className="mt-4">
+                        <button
+                            onClick={() => dispatch(fetchPageBySlug(slug))}
+                            className="px-4 py-2 bg-[#C64827] text-white rounded"
+                        >Retry</button>
+                    </div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <>
-            <CampaignSlider data={homeData?.campaignSlider} />
-            <InfoScroller data={homeData?.InfoScroller} />
-            {/* <SchemesSection /> */}
-            {/* <ProgramsSection /> */}
-            {/* <DepartmentsSection /> */}
-            <PhotoGallery data={galleryData} />
-            <VideoGallery data={videoData} />
-            {/* <BrandSlider /> */}
+            <CampaignSlider data={pageData?.campaignSlider || { slides: [], sidebar: {}, footer: {} }} />
+            <InfoScroller data={pageData?.InfoScroller || { latestUpdates: [], tenders: [], news: [] }} />
+            {/* <SchemesSection data={pageData?.schemes || []} /> */}
+            {/* <ProgramsSection data={pageData?.programs || []} /> */}
+            {/* <DepartmentsSection data={pageData?.departments || []} /> */}
+            <PhotoGallery data={galleryPage} />
+            {/* <PhotoGallery data={{ heading: pageData?.photoGalleryHeading || 'Photo Gallery', photoGallery: pageData?.photoGallery || [] }} /> */}
+            <VideoGallery data={videoPage.videoGallery} />
+            {/* <BrandSlider data={pageData?.brandSlider || { logos: [] }} /> */}
         </>
 
     )
