@@ -68,7 +68,7 @@ const App = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-      <DebugOverlay />
+      {import.meta.env.NODE_ENV === "development" && <DebugOverlay />}
     </div>
   )
 }
