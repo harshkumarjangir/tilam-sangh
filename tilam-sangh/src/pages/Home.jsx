@@ -66,7 +66,7 @@ const Home = ({ videoData }) => {
             {/* <DepartmentsSection data={pageData?.departments || []} /> */}
             <PhotoGallery data={galleryPage} />
             {/* <PhotoGallery data={{ heading: pageData?.photoGalleryHeading || 'Photo Gallery', photoGallery: pageData?.photoGallery || [] }} /> */}
-            <VideoGallery data={videoPage.videoGallery} />
+            {videoPage?.videoGallery && <VideoGallery data={videoPage?.videoGallery} />}
             {/* <BrandSlider data={pageData?.brandSlider || { logos: [] }} /> */}
         </>
 

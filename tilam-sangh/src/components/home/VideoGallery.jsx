@@ -3,7 +3,7 @@ import VideoCard from "./VideoCard";
 import { Link } from "react-router-dom";
 
 const VideoGallery = ({ data }) => {
-    const { videos, title } = data;
+    const { videos, title } = data
     // console.log("video gallery", data)
 
     return (
@@ -11,8 +11,8 @@ const VideoGallery = ({ data }) => {
             <h2 className="text-center text-3xl font-semibold mb-8">{title}</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-                {videos.slice(0, 3).map((video) => (
-                    <VideoCard key={video.id} video={video} />
+                {videos?.slice(0, 3)?.map((video) => (
+                    <VideoCard key={video?.id} video={video} />
                 ))}
             </div>
 
