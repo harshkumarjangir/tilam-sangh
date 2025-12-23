@@ -5,15 +5,58 @@ import PDFDownload from "../components/marketing/PDFDownload";
 import Gallery from "../components/marketing/Gallery";
 import StatsCard from "../components/marketing/StatsCard";
 
-import marketingData from "../data/marketingData.json"
+// import marketingData from "../data/marketingData.json"
 import HeroSection from "../components/infrastructure/HeroSection";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchPageBySlug } from "../redux/slices/pagesSlice";
 
 export default function MarketingPage() {
-  const [data, setData] = useState(marketingData);
-  console.log("data", data?.hero);
-  
+  // const [data, setData] = useState(marketingData);
+  // console.log("data", data?.hero);
 
-  if (!data) return <div className="p-8 text-center">Loading...</div>;
+  const dispatch = useDispatch();
+  const slug = "marketing";
+
+  const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
+  const loading = useSelector((s) => s.pages.loading);
+
+  console.log("data marketing", data)
+
+  // Fetch page data on mount
+  useEffect(() => {
+    dispatch(fetchPageBySlug(slug));
+  }, [dispatch, slug]);
+
+  // Loading and error UI
+  if (loading && !data) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center">
+        <div className="text-center">
+          <div className="inline-block w-12 h-12 border-4 border-yellow-400 border-t-transparent rounded-full animate-spin" />
+          <div className="mt-3 text-gray-700">Loading page content…</div>
+        </div>
+      </div>
+    );
+  }
+
+  if (!loading && !data) {
+    return (
+      <div className="min-h-[60vh] flex items-center justify-center">
+        <div className="text-center">
+          <p className="text-lg font-semibold">No content available.</p>
+          <p className="mt-2 text-sm text-gray-600">If this persists, please check the API or click retry.</p>
+          <div className="mt-4">
+            <button
+              onClick={() => dispatch(fetchPageBySlug(slug))}
+              className="px-4 py-2 bg-[#C64827] text-white rounded"
+            >Retry</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // if (!data) return <div className="p-8 text-center">Loading...</div>;
 
   // compute some quick totals for cards
   const totalLatest = data.years.reduce((s, y) => s + (y.total || 0), 0);
