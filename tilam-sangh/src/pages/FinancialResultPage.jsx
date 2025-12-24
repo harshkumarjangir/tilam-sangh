@@ -20,7 +20,7 @@ export default function FinancialResultPage() {
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
 
-  console.log("financial data", data)
+  // console.log("financial data", data)
 
   // Fetch page data on mount
   useEffect(() => {

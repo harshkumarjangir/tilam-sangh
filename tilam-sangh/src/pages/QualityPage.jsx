@@ -24,7 +24,7 @@ export default function QualityPage() {
     dispatch(fetchPageBySlug(slug));
   }, [dispatch, slug]);
 
-  console.log("quality data", data)
+  // console.log("quality data", data)
 
   // Loading and error UI
   if (loading && !data) {

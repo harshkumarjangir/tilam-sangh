@@ -13,13 +13,14 @@ const Video = () => {
     const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
     const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
-    // console.log("videes page data", pageData);  
     const loading = useSelector((s) => s.pages.loading);
-
+    
     useEffect(() => {
         dispatch(fetchPageBySlug(slug));
     }, [dispatch, slug]);
-
+    
+    // console.log("videes page data", pageData);  
+    
     const videos = pageData?.videoGallery?.videos || [];
     const title = pageData?.videoGallery?.title || "Videos";
 

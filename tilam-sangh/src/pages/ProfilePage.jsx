@@ -18,7 +18,7 @@ export default function ProfilePage() {
   const profileData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
 
-  console.log("profile data", profileData)
+  // console.log("profile data", profileData)
 
   // Fetch page data on mount
   useEffect(() => {

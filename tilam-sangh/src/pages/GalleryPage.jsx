@@ -11,7 +11,7 @@ const GalleryPage = () => {
     const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
     const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
-    console.log("pageData", pageData);
+    // console.log("pageData", pageData);
     const loading = useSelector((s) => s.pages.loading);
 
     useEffect(() => {

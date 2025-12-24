@@ -48,7 +48,7 @@ const App = () => {
     <div>
       <ScrollToTop />
       <Navbar />
-      <RouteListener />
+      {/* <RouteListener /> */}
       <Routes>
         <Route path="/" element={<Home videoData={videoData.videoGallery} />} />
         <Route path="/about" element={<AboutPage />} />
@@ -68,7 +68,7 @@ const App = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-      {import.meta.env.NODE_ENV === "development" && <DebugOverlay />}
+      {import.meta.env.VITE_NODE_ENV === "development" && <DebugOverlay />}
     </div>
   )
 }

@@ -20,7 +20,7 @@ export default function ProductsPage() {
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
 
-  console.log("products data", data)
+  // console.log("products data", data)
 
   // Fetch page data on mount
   useEffect(() => {

@@ -22,7 +22,7 @@ export default function MarketingPage() {
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
 
-  console.log("data marketing", data)
+  // console.log("data marketing", data)
 
   // Fetch page data on mount
   useEffect(() => {

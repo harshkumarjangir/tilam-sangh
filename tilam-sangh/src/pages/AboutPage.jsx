@@ -21,7 +21,7 @@ export default function AboutPage() {
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
 
-  console.log("about data", data)
+  // console.log("about data", data)
 
   //Fetch page data on mount
   useEffect(() => {

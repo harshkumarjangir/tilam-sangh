@@ -21,14 +21,14 @@ const NavInitializer = () => {
 }
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <BrowserRouter>
-      <Provider store={store}>
-        <LanguageProvider>
-          <NavInitializer />
-          <App />
-        </LanguageProvider>
-      </Provider>
-    </BrowserRouter>
-  </StrictMode>,
+
+  <BrowserRouter>
+    <Provider store={store}>
+      <LanguageProvider>
+        <NavInitializer />
+        <App />
+      </LanguageProvider>
+    </Provider>
+  </BrowserRouter>
+  ,
 )
