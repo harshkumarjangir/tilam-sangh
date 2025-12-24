@@ -1,14 +1,16 @@
 import React, { useEffect } from 'react'
+import { useLocation } from 'react-router-dom'
 import Table from '../components/resusable_components/Table'
 // import tenders from '../data/tenderTable.json'
 import { useDispatch, useSelector } from 'react-redux'
-import { fetchPageBySlug } from '../redux/slices/pagesSlice'
+import { fetchPageBySlug } from '../redux/slices/pagesSlice' 
 
 export default function Tenders() {
   // console.log("Tenders Json Data", tenders)
 
   const dispatch = useDispatch();
-  const slug = "tenders";
+  const location = useLocation();
+  const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
   const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);

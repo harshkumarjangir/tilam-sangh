@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import VideoCard from "../components/home/VideoCard";
 import Pagination from "../components/resusable_components/Pagination";
+import { useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
 
@@ -8,7 +9,8 @@ const Video = () => {
     // const { videos, title } = data;
 
     const dispatch = useDispatch();
-    const slug = "videos";
+    const location = useLocation();
+    const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
     const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
     // console.log("videes page data", pageData);  
@@ -16,7 +18,7 @@ const Video = () => {
 
     useEffect(() => {
         dispatch(fetchPageBySlug(slug));
-    }, [dispatch]);
+    }, [dispatch, slug]);
 
     const videos = pageData?.videoGallery?.videos || [];
     const title = pageData?.videoGallery?.title || "Videos";

@@ -9,16 +9,18 @@ import AboutSection from "../components/about/AboutSection";
 import LeadershipGrid from "../components/about/LeadershipGrid";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
+import { useLocation } from "react-router-dom";
 
 export default function AboutPage() {
   // const [data] = useState(aboutData);
 
   const dispatch = useDispatch();
-  const slug = "about";
+  const location = useLocation();
+  const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
-  
+
   console.log("about data", data)
 
   //Fetch page data on mount

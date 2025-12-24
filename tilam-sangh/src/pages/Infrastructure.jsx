@@ -11,13 +11,15 @@ import CooperativeSection from "@/components/infrastructure/CooperativeSection";
 import GallerySection from "../components/infrastructure/GallerySection";
 import ContactStrip from "../components/infrastructure/ContactStrip";
 import PdfDownloadSection from "../components/infrastructure/PdfDownloadSection";
+import { useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
 
 export default function Infrastructure() {
 
   const dispatch = useDispatch();
-  const slug = "infrastructure";
+  const location = useLocation();
+  const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
   const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);

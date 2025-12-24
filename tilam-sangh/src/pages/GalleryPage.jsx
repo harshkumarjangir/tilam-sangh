@@ -1,12 +1,14 @@
 import React, { useEffect, useState } from "react";
 import { useSelector, useDispatch } from 'react-redux';
+import { useLocation } from 'react-router-dom';
 import Pagination from "../components/resusable_components/Pagination";
 import ImageSliderModal from "../components/home/ImageSliderModal";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
 
 const GalleryPage = () => {
     const dispatch = useDispatch();
-    const slug = "gallery";
+    const location = useLocation();
+    const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
     const pageData = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
     console.log("pageData", pageData);
@@ -14,7 +16,7 @@ const GalleryPage = () => {
 
     useEffect(() => {
         dispatch(fetchPageBySlug(slug));
-    }, [dispatch]);
+    }, [dispatch, slug]);
 
 
     const { heading = 'Photo Gallery', photoGallery = [] } = pageData || {};

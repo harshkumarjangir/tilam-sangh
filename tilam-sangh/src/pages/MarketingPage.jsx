@@ -9,13 +9,15 @@ import StatsCard from "../components/marketing/StatsCard";
 import HeroSection from "../components/infrastructure/HeroSection";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
+import { useLocation } from "react-router-dom";
 
 export default function MarketingPage() {
   // const [data, setData] = useState(marketingData);
   // console.log("data", data?.hero);
 
   const dispatch = useDispatch();
-  const slug = "marketing";
+  const location = useLocation();
+  const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);

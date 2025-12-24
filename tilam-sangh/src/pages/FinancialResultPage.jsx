@@ -6,6 +6,7 @@ import PDFDownload from "../components/marketing/PDFDownload";
 import StatsCard from "../components/marketing/StatsCard";
 import MarketingTable from "../components/marketing/MarketingTable";
 import Gallery from "../components/marketing/Gallery";
+import { useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
 
@@ -13,7 +14,8 @@ export default function FinancialResultPage() {
   // const [data] = useState(financialData);
 
   const dispatch = useDispatch();
-  const slug = "financial-results";
+  const location = useLocation();
+  const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);

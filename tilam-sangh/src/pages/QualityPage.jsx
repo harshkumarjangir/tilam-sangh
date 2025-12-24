@@ -7,12 +7,14 @@ import MarketingTable from "../components/marketing/MarketingTable";
 import Gallery from "../components/marketing/Gallery";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchPageBySlug } from "../redux/slices/pagesSlice";
+import { useLocation } from "react-router-dom";
 
 export default function QualityPage() {
   // const [data] = useState(qualityData);
 
   const dispatch = useDispatch();
-  const slug = "quality";
+  const location = useLocation();
+  const slug = location.pathname === "/" ? "" : location.pathname.replace(/^\//, "");
 
   const data = useSelector((s) => s.pages.dataBySlug?.[slug] || null);
   const loading = useSelector((s) => s.pages.loading);
