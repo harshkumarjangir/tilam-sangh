@@ -22,7 +22,7 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     credentials: true, // To send Cookies in Response fron Express App
-    origin: ['http://localhost:5173', 'http://localhost:5173', 'https://tilam-sangh.vercel.app'] // React App Domain
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://tilam-sangh.vercel.app'] // React App Domain
 }))
 
 // API EndPoints
@@ -35,9 +35,10 @@ app.use("/api/pages", pageRoutes);
 
 
 // Catch-all route - redirects any unmatched routes to home
-app.use((req, res) => {
-    res.redirect('/')
-})
+// app.use((req, res) => {
+//     // res.redirect('/')
+//     res.status(404).json({ message: "API endpoint not found" });
+// })
 
 app.listen(port, () => {
     console.log(`Server is running on PORT: ${port}`);
