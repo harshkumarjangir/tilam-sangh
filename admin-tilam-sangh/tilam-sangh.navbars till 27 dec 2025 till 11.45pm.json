@@ -1,0 +1,174 @@
+[{
+  "_id": {
+    "$oid": "69451e52ea8a4a497dbe5a5d"
+  },
+  "language": "English",
+  "items": [
+    {
+      "title": "Home",
+      "link": "/",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Profile",
+      "link": "profile",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Tenders",
+      "link": "tenders",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Infrastructure",
+      "link": "infrastructure",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Marketing",
+      "link": "marketing",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Quality",
+      "link": "quality",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Products",
+      "link": "products",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Financial Result",
+      "link": "financial-results",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "About Us",
+      "link": "about",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "Gallery",
+      "link": "",
+      "submenu": [
+        {
+          "title": "Photos Gallery",
+          "link": "gallery"
+        },
+        {
+          "title": "Videos Gallery",
+          "link": "videos"
+        }
+      ],
+      "status": true,
+      "deletedAt": null
+    }
+  ],
+  "status": true,
+  "deletedAt": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-19T09:43:46.988Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-19T09:43:46.988Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69451e52ea8a4a497dbe5a5e"
+  },
+  "language": "Hindi",
+  "items": [
+    {
+      "title": "होम",
+      "link": "/",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "प्रोफ़ाइल",
+      "link": "profile",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "निविदाएँ",
+      "link": "tenders",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "इन्फ्रास्ट्रक्चर",
+      "link": "infrastructure",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "मार्केटिंग",
+      "link": "marketing",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "गुणवत्ता",
+      "link": "quality",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "उत्पाद",
+      "link": "products",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "वित्तीय परिणाम",
+      "link": "financial-results",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "हमारे बारे में",
+      "link": "about",
+      "status": true,
+      "deletedAt": null
+    },
+    {
+      "title": "गैलरी",
+      "link": "",
+      "submenu": [
+        {
+          "title": "फोटो गैलरी",
+          "link": "gallery"
+        },
+        {
+          "title": "वीडियो गैलरी",
+          "link": "videos"
+        }
+      ],
+      "status": true,
+      "deletedAt": null
+    }
+  ],
+  "status": true,
+  "deletedAt": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-19T09:43:46.990Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-19T09:43:46.990Z"
+  }
+}]
