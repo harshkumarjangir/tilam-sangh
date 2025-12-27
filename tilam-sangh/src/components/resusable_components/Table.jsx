@@ -14,6 +14,8 @@ export default function Table({ data }) {
 
   // Slice data for current page
   const currentTenders = tenders.slice(indexOfFirst, indexOfLast);
+  // console.log("currentTenders", currentTenders);
+  
 
   return (
     <section className="w-full bg-white py-10">

@@ -1,5 +1,5 @@
 import express from "express";
-import { getPageBySlug } from "../controllers/page.controller.js";
+import { getPageBySlug, patchServiceBySlug } from "../controllers/page.controller.js";
 
 const router = express.Router();
 
@@ -8,5 +8,7 @@ router.get("/", getPageBySlug);
 
 // Any page
 router.get("/:slug", getPageBySlug);
+
+router.patch("/update-service/:slug", patchServiceBySlug)
 
 export default router;

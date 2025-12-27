@@ -5,6 +5,7 @@ import cookieParser from 'cookie-parser'
 import connectDB from './config/connectDB.js'
 import layoutRoutes from "./routes/layout.routes.js";
 import pageRoutes from "./routes/page.routes.js";
+import multerRoutes from "./routes/multer.routes.js";
 
 
 
@@ -22,16 +23,18 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     credentials: true, // To send Cookies in Response fron Express App
-    origin: ['http://localhost:5173', 'https://tilam-sangh.vercel.app'] // React App Domain
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://tilam-sangh.vercel.app'] // React App Domain
 }))
 
 // API EndPoints
 app.get('/',(req, res)=>res.send("API Working"))
 
+app.use("/uploads", express.static("uploads")); 
 
 
 app.use("/api/layout", layoutRoutes);
 app.use("/api/pages", pageRoutes);
+app.use("/api/multer", multerRoutes);
 
 
 // Catch-all route - redirects any unmatched routes to home
