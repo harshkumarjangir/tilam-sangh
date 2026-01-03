@@ -1,0 +1,154 @@
+{
+    "English": {
+        "NodalOfficer": {
+            "title": "Nodal Officer (Website)",
+            "name": "Mr Nomaan Ashraf",
+            "contact": "0141 2740487",
+            "designation": "",
+            "mission": "",
+            "address": [
+                "Rajasthan State Tilhan Utpadak Sahakari Sangh Ltd. (Tilam Sangh) Second Floor, Nehru Sahakar Bhawan, Bhawani Singh Road, Jaipur",
+                "Rajasthan, India",
+                "",
+                ""
+            ]
+        },
+        "QuickLinks": {
+            "title": "Quick Links",
+            "links": [
+                {
+                    "label": "Home",
+                    "url": "/"
+                },
+                {
+                    "label": "Profile",
+                    "url": "/assets/footer/profile.png"
+                },
+                {
+                    "label": "Products",
+                      "url": "/assets/footer/PRODUCT.pdf"
+                },
+                {
+                    "label": "Infrastructure",
+                      "url": "/assets/footer/INFRA.jpg"
+                },
+                {
+                    "label": "Marketing",
+                    "url": "/assets/footer/marketing.pdf"
+                },
+                {
+                    "label": "Quality",
+                    "url": "/assets/footer/quality.jpg"
+                },
+                {
+                    "label": "Financial Result",
+                       "url": "/assets/footer/fin.pdf"
+                }
+            ]
+        },
+        "ImportantLinks": {
+            "title": "Important Links",
+            "links": [
+                {
+                    "label": "Prices",
+                    "url": "/assets/footer/rates.pdf"
+                },
+                {
+                    "label": "Tenders",
+                    "url": "/tenders"
+                },
+                {
+                    "label": "RTI",
+                    "url": "/assets/footer/rti.pdf"
+                },
+                 {
+                    "label": "Contact",
+                    "url": "/assets/footer/contact.pdf"
+                }
+            ],
+            "visitors": "Website Visitors"
+        },
+        "Contact": {
+            "title": "Connect With Us",
+            "phone": "0141 2740487",
+            "email": "tilamsangh1@gmail.com"
+        },
+        "copyright": "© 2025 Tilam Sangh. All rights reserved."
+    },
+    "Hindi": {
+        "NodalOfficer": {
+            "title": "नोडल अधिकारी (वेबसाइट)",
+            "name": "श्री नोमान अशरफ",
+            "contact": "0141 2740487",
+            "designation": "",
+            "mission": "",
+            "address": [
+                "राजस्थान राज्य तिलहन उत्पादक सहकारी संघ लि. (तिलम् संघ) द्वितीय तल, नेहरु सहकार भवन, भवानी सिंह रोड, जयपुर",
+                "राजस्थान, भारत",
+                "",
+                ""
+            ]
+        },
+        "QuickLinks": {
+            "title": "त्वरित लिंक",
+            "links": [
+                  {
+                    "label": "होम",
+                    "url": "/"
+                },
+                {
+                    "label": "प्रोफ़ाइल",
+                    "url": "/assets/footer/profile.png"
+                },
+                {
+                    "label": "उत्पाद",
+                    "url": "/assets/footer/PRODUCT.pdf"
+                },
+                {
+                    "label": "इन्फ्रास्ट्रक्चर",
+                     "url": "/assets/footer/INFRA.jpg"
+                },
+                {
+                    "label": "मार्केटिंग",
+                     "url": "/assets/footer/marketing.pdf"
+                },
+                {
+                    "label": "गुणवत्ता",
+                   "url": "/assets/footer/quality.jpg"
+                },
+                {
+                    "label": "वित्तीय परिणाम",
+                   "url": "/assets/footer/fin.pdf"
+                }
+            ]
+        },
+        "ImportantLinks": {
+            "title": "महत्वपूर्ण लिंक",
+            "links": [
+                {
+                    "label": "मूल्य",
+                     "url": "/assets/footer/rates.pdf"
+                },
+                {
+                    "label": "निविदाएँ",
+                    "url": "/tenders"
+                },
+                {
+                    "label": "आरटीआई",
+                     "url": "/assets/footer/rti.pdf"
+                },
+                    {
+                        "label": "संपर्क",
+                         "url": "/assets/footer/contact.pdf"
+                    }
+            ],
+            "visitors": "वेबसाइट आगंतुक"
+        },
+        "Contact": {
+            "title": "हमसे संपर्क करें",
+            "phone": "0141 2740487",
+            "email": "tilamsangh1@gmail.com"
+        },
+        "copyright": "© 2025 तिलम संघ. सर्वाधिकार सुरक्षित."
+    }
+}

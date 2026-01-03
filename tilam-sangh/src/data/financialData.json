@@ -1,0 +1,105 @@
+{
+  "pageId": "financial-results",
+  "meta": {
+    "title": "वित्तीय परिणाम | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ के वार्षिक वित्तीय परिणाम, आय-व्यय, लाभ-हानि तथा वित्तीय प्रदर्शन का सारांश।"
+  },
+
+  "hero": {
+    "badge": "वित्तीय परिणाम",
+    "title": "Annual Financial Performance of Tilam Sangh",
+    "subtitle": "राजस्व, व्यय, लाभ-हानि और वार्षिक आर्थिक प्रगति का विस्तृत विवरण।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "वित्तीय परिणाम", "href": "/financial-results" }
+    ],
+    "ctaPrimary": {
+      "label": "वार्षिक वित्तीय रिपोर्ट",
+      "targetId": "financial-report-section"
+    },
+    "ctaSecondary": {
+      "label": "आय-व्यय विवरण",
+      "targetId": "income-expense-section"
+    }
+  },
+
+  "page": {
+    "title": "वित्तीय परिणाम - तिलम् संघ",
+    "subtitle": "राजस्व, व्यय एवं वित्तीय प्रबंधन",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+     "intro": "तिलम् संघ द्वारा प्रत्येक वित्तीय वर्ष में अपने आर्थिक प्रदर्शन का विस्तृत एवं व्यवस्थित विश्लेषण किया जाता है, जिसमें कुल आय, व्यय, लाभ-हानि, परिचालन लागत तथा पूंजीगत निवेश से संबंधित सभी महत्वपूर्ण आँकड़े सम्मिलित होते हैं। संघ का मुख्य उद्देश्य पारदर्शी, उत्तरदायी एवं सुदृढ़ वित्तीय प्रबंधन प्रणाली के माध्यम से सहकारी गतिविधियों को दीर्घकालिक रूप से सशक्त बनाना है।\n\nवित्तीय विवरणों के माध्यम से तिलम् संघ की समग्र आर्थिक स्थिति, तेल विपणन एवं प्रोसेसिंग गतिविधियों की दक्षता, कार्यशील पूंजी की उपलब्धता तथा भविष्य की विकास योजनाओं हेतु संसाधनों की स्थिति का मूल्यांकन किया जाता है। यह विवरण न केवल आंतरिक प्रशासन एवं प्रबंधन के लिए उपयोगी है, बल्कि राज्य सरकार, लेखा परीक्षण एजेंसियों एवं अन्य संबंधित संस्थाओं के लिए भी एक महत्वपूर्ण संदर्भ प्रदान करता है। नीचे प्रस्तुत वित्तीय आँकड़े तिलम् संघ की कार्यप्रणाली में पारदर्शिता, वित्तीय अनुशासन एवं जवाबदेही को स्पष्ट रूप से प्रदर्शित करते हैं।"
+
+  },
+
+  "pdfs": [
+    {
+      "id": "financial-summary",
+      "title": "वित्तीय परिणाम सारांश (2024-25)",
+      "description": "आय-व्यय, लाभ-हानि व वित्तीय विश्लेषण का वार्षिक विवरण।",
+      "file": "/assets/footer/fin.pdf"
+    },
+    {
+      "id": "financial-full-report",
+      "title": "पूर्ण वित्तीय रिपोर्ट (अभिलेख)",
+      "description": "सभी वर्षों के वित्तीय आँकड़ों का विस्तृत संग्रह।",
+      "file": "/assets/footer/fin.pdf"
+    }
+  ],
+
+  "years": [
+    {
+      "year": "2019-20",
+      "income": 2540.75,
+      "expense": 2487.10,
+      "profit": 53.65,
+      "total": 2540.75
+    },
+    {
+      "year": "2020-21",
+      "income": 2611.40,
+      "expense": 2575.20,
+      "profit": 36.20,
+      "total": 2611.40
+    },
+    {
+      "year": "2021-22",
+      "income": 1984.33,
+      "expense": 2051.12,
+      "profit": -66.79,
+      "total": 1984.33
+    },
+    {
+      "year": "2022-23",
+      "income": 1741.26,
+      "expense": 1678.11,
+      "profit": 63.15,
+      "total": 1741.26
+    },
+    {
+      "year": "2023-24",
+      "income": 1522.90,
+      "expense": 1490.55,
+      "profit": 32.35,
+      "total": 1522.90
+    },
+    {
+      "year": "2024-25 (upto 31.10.2024)",
+      "income": 754.10,
+      "expense": 721.60,
+      "profit": 32.50,
+      "total": 754.10
+    }
+  ],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+
+  "lastUpdated": "2024-11-20"
+}

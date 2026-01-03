@@ -1,0 +1,118 @@
+{
+  "pageId": "products",
+  "meta": {
+    "title": "उत्पाद | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ द्वारा उत्पादित एवं ब्रांडेड तेल एवं अन्य उत्पादों की सूची, गुणवत्ता विवरण और उपलब्ध पैकेजिंग।"
+  },
+
+  "hero": {
+    "badge": "उत्पाद",
+    "title": "Tilam Sangh – Trusted Branded Products",
+    "subtitle": "सरसों, सोयाबीन, मूंगफली एवं अन्य तिलहनों से बने उच्च गुणवत्ता वाले ब्रांडेड तेल एवं उत्पाद।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "उत्पाद", "href": "/products" }
+    ],
+    "ctaPrimary": {
+      "label": "उत्पाद विवरण देखें",
+      "targetId": "product-list-section"
+    },
+    "ctaSecondary": {
+      "label": "पैकेजिंग व गुणवत्ता",
+      "targetId": "packaging-section"
+    }
+  },
+
+  "page": {
+    "title": "तिलम् संघ — ब्रांडेड उत्पाद",
+    "subtitle": "उच्च गुणवत्ता वाले खाद्य तेल एवं संबंधित उत्पाद",
+    "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "themeColor": "#D99A00",
+    "intro": "तिलम् संघ गुणवत्ता को सर्वोच्च प्राथमिकता देता है और यह सुनिश्चित करता है कि कृषकों से लेकर उपभोक्ताओं तक केवल सुरक्षित, शुद्ध एवं मानक अनुरूप उत्पाद ही पहुँचें। संघ की सभी प्रोसेसिंग इकाइयों में आधुनिक प्रयोगशालाएँ स्थापित हैं, जहाँ तिलहन एवं तेल का वैज्ञानिक परीक्षण किया जाता है। इन प्रयोगशालाओं में तेल की शुद्धता, नमी, फैटी एसिड स्तर, ऑक्सिडेशन तथा अन्य गुणवत्ता मापदण्डों की जाँच BIS, FSSAI एवं ISO द्वारा निर्धारित मानकों के अनुसार की जाती है।\n\nतिलम् संघ द्वारा उत्पादित एवं विक्रय किए जाने वाले सभी ब्रांडेड तेल गुणवत्ता एवं शुद्धता के कठोर मानकों का पालन करते हैं। प्रत्येक उत्पाद को स्वीकृत प्रोसेसिंग प्रक्रियाओं से गुजरने के बाद ही पैक किया जाता है, जिससे उपभोक्ताओं को सुरक्षित, पोषणयुक्त एवं भरोसेमंद खाद्य तेल उपलब्ध हो सके। गुणवत्ता नियंत्रण की यह सुदृढ़ व्यवस्था न केवल उपभोक्ताओं का विश्वास मजबूत करती है, बल्कि तिलहन उत्पादक कृषकों को भी उनके उत्पाद का उचित मूल्य एवं स्थायी बाजार प्रदान करती है।"
+  },
+
+  "pdfs": [
+    {
+      "id": "products-list",
+      "title": "उत्पाद सूची – 2024",
+      "description": "तिलम् संघ द्वारा निर्मित सभी उत्पादों की आधिकारिक सूची।",
+      "file": "/assets/footer/PRODUCT.pdf"
+    },
+    {
+      "id": "packaging-details",
+      "title": "पैकेजिंग एवं गुणवत्ता मानक",
+      "description": "उत्पाद पैकेजिंग, लेबलिंग एवं गुणवत्ता मानक से जुड़े दस्तावेज।",
+      "file": "/assets/footer/PRODUCT.pdf"
+    }
+  ],
+
+  "years": [
+    {
+      "year": "सरसों तेल",
+      "soyabean": 0,
+      "mustard": 100,
+      "groundnut": 0,
+      "total": 100
+    },
+    {
+      "year": "सोयाबीन तेल",
+      "soyabean": 100,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 100
+    },
+    {
+      "year": "मूंगफली तेल",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 100,
+      "total": 100
+    },
+    {
+      "year": "मिक्स ब्लेंड तेल",
+      "soyabean": 50,
+      "mustard": 50,
+      "groundnut": 0,
+      "total": 100
+    },
+    {
+      "year": "सरसों तेल",
+      "soyabean": 0,
+      "mustard": 100,
+      "groundnut": 0,
+      "total": 100
+    },
+    {
+      "year": "सोयाबीन तेल",
+      "soyabean": 100,
+      "mustard": 0,
+      "groundnut": 0,
+      "total": 100
+    },
+    {
+      "year": "मूंगफली तेल",
+      "soyabean": 0,
+      "mustard": 0,
+      "groundnut": 100,
+      "total": 100
+    },
+    {
+      "year": "मिक्स ब्लेंड तेल",
+      "soyabean": 50,
+      "mustard": 50,
+      "groundnut": 0,
+      "total": 100
+    }
+  ],
+
+  "gallery": [
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+    "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+  ],
+
+  "lastUpdated": "2024-11-20"
+}

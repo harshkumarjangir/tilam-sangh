@@ -1,0 +1,38 @@
+{
+  "pageId": "contact",
+  "meta": {
+    "title": "संपर्क करें | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ से संपर्क करने हेतु ईमेल, हेल्पलाइन, कार्यालय का पता एवं पूछताछ फॉर्म।"
+  },
+
+  "hero": {
+    "badge": "संपर्क करें",
+    "title": "We Are Here To Assist You",
+    "subtitle": "कोई भी प्रश्न, सुझाव या जानकारी — हमसे संपर्क करें।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "संपर्क", "href": "/contact" }
+    ]
+  },
+
+  "page": {
+    "title": "संपर्क विवरण",
+    "intro": "निम्न माध्यमों से तिलम् संघ के मुख्यालय से संपर्क स्थापित किया जा सकता है।",
+    "themeColor": "#D99A00"
+  },
+
+  "contactInfo": {
+    "address": "राजस्थान तिलम् संघ, जयपुर – 302005",
+    "phone": "0141-1234567",
+    "email": "info@tilamsangh.in",
+    "officeHours": "सोम–शुक्र : 10 AM – 6 PM"
+  },
+
+  "branches": [
+    { "name": "कोटा प्रोसेसिंग यूनिट", "phone": "0744-000000" },
+    { "name": "बीकानेर प्रोसेसिंग यूनिट", "phone": "0151-000000" },
+    { "name": "जालौर प्रोसेसिंग यूनिट", "phone": "02973-000000" }
+  ]
+}

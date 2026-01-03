@@ -1,0 +1,388 @@
+{
+  "campaignSlider": {
+    "slides": [
+      {
+        "image": "/assets/home/campaign-slider/tilam-sangh-banner.webp"
+      },
+      {
+        "image": "/assets/home/campaign-slider/kids-smiling-banner.webp"
+      }
+    ],
+    "sidebar": {
+      "topImage": "/assets/home/campaign-slider/cm-rajasthan.webp",
+      "bottomImage": "/assets/home/campaign-slider/gautam-kumar.webp"
+    },
+    "footer": {
+      "left": "(Tilam Sangh – Rajasthan)",
+      "right": "तिलम् संघ राज्य के तिलहन उत्पादक कृषकों को सहकारी व्यवस्था से जोड़कर उनके आर्थिक सामाजिक एवं व्यावसायिक विकास हेतु कार्य करता है। सहकारिता के माध्यम से कृषकों को उचित मूल्य, पारदर्शी विपणन, गुणवत्ता नियंत्रण एवं औद्योगिक अवसर उपलब्ध कराए जाते हैं।"
+    }
+  },
+  "InfoScroller": {
+    "latestUpdates": [
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 Jhalarapatan Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Jhalarapatan_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Bakani Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Bakani_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at K. Patan Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/K.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mayja Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Mayja_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nainwa Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Nainwa_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Gudanathavtan Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Gudanathavtan_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hindoli Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Hindoli_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kaithoon Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Kaithoon_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hingoniya Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Hingoniya_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sobhagpura Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Sobhagpura_merged.pdf",
+        "date": ""
+      }
+    ],
+    "tenders": [
+      {
+        "date": "28/11/2024",
+        "text": "Corrigendum For Appointment of Depot Agent/Distributor/Dealer For Bhilwara",
+        "link": "/assets/tenders/CBD.pdf"
+      },
+      {
+        "date": "29/11/2024",
+        "text": "NOTICE FOR SECURITY GUARD AND SKILLED WORKER FOR FATEHNAGAR PROJECT",
+        "link": "/assets/tenders/SOW.pdf"
+      },
+      {
+        "date": "30/11/2024",
+        "text": "NOTICE FOR HIRING LABOUR, FILLING, PACKAGING, LOADING AND UNLOADING WORK IN FATEHNAGAR PROJECT",
+        "link": "/assets/tenders/PFL.pdf"
+      },
+      {
+        "date": "01/12/2024",
+        "text": "NOTICE FOR TRANSPORTATION WORK OF EDIBLE OIL IN FATEHNAGAR PROJECT",
+        "link": "/assets/tenders/EOTT.pdf"
+      },
+      {
+        "date": "02/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF 15 Kg. ISI Tin Containers (E-A3/24)",
+        "link": "/assets/tenders/tn.pdf"
+      },
+      {
+        "date": "03/12/2024",
+        "text": "NOTICE INVITING LIMITED BIDS for Valuation of Land, Building and Machinery",
+        "link": "/assets/tenders/bdval.pdf"
+      },
+      {
+        "date": "04/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF PET BOTTLE INCLUDING CAPS (E-SA1/24)",
+        "link": "/assets/tenders/PETNI.pdf"
+      },
+      {
+        "date": "05/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF CORRUGATED BOX AND FLAPS (E-SA2/24)",
+        "link": "/assets/tenders/CORNI.pdf"
+      },
+      {
+        "date": "06/12/2024",
+        "text": "e-TENDER NOTICE FOR SUPPLY OF SECURITY PERSONNEL (ES-3/23)",
+        "link": "/assets/tenders/SEP.pdf"
+      },
+      {
+        "date": "07/12/2024",
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Asnawar Purchase Center KOTA PROJECT",
+        "link": "/assets/tenders/Asnawar_merged.pdf"
+      },
+      {
+        "date": "08/12/2024",
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Panwad Purchase Center KOTA PROJECT",
+        "link": "/assets/tenders/Panwad_merged.pdf"
+      }
+    ],
+    "news": [
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 Jhalarapatan Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Jhalarapatan_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Bakani Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Bakani_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at K. Patan Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/K.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mayja Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Mayja_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nainwa Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Nainwa_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Gudanathavtan Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Gudanathavtan_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hindoli Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Hindoli_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kaithoon Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Kaithoon_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hingoniya Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Hingoniya_merged.pdf",
+        "date": ""
+      },
+      {
+        "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sobhagpura Purchase center KOTA PROJECT",
+        "link": "/assets/tenders/Sobhagpura_merged.pdf",
+        "date": ""
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "title": "मुख्यमंत्री निशुल्क दवा योजना",
+      "image": "/assets/home/schemes/cmdyojna.png",
+      "link": "#"
+    },
+    {
+      "title": "मुख्यमंत्री निशुल्क जाँच योजना",
+      "image": "/assets/home/schemes/cmjyojna.png",
+      "link": "#"
+    },
+    {
+      "title": "मुख्यमंत्री आयुष्मान आरोग्य योज...",
+      "image": "/assets/home/schemes/maayojna.png",
+      "link": "#"
+    },
+    {
+      "title": "जननी सुरक्षा योजना...",
+      "image": "/assets/home/schemes/jsyoyna.png",
+      "link": "#"
+    },
+    {
+      "title": "View More Scheme...",
+      "image": "/assets/home/schemes/view-more.png",
+      "link": "#"
+    }
+  ],
+  "programs": [
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "ABDM",
+      "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+      "image": "/assets/home/programs/abdm.png",
+      "link": "#"
+    },
+    {
+      "title": "View More Scheme...",
+      "description": "Explore more health programs and initiatives",
+      "image": "/assets/home/programs/view-more.png",
+      "link": "#"
+    }
+  ],
+  "departments": [
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "RMSCL",
+      "image": "/assets/home/programs/rscl.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    },
+    {
+      "title": "NHM",
+      "image": "/assets/home/departments/nhm.png",
+      "link": "#"
+    }
+  ],
+  "brandSlider": {
+    "logos": [
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      },
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      },
+      {
+        "id": 1,
+        "name": "RajHealth",
+        "logo": "/assets/home/brand-slider/rajhealth.png"
+      },
+      {
+        "id": 2,
+        "name": "eSanjeevani",
+        "logo": "/assets/home/brand-slider/eSanjeevani.png"
+      },
+      {
+        "id": 3,
+        "name": "MyGov",
+        "logo": "/assets/home/brand-slider/mygov.png"
+      },
+      {
+        "id": 4,
+        "name": "Make In India",
+        "logo": "/assets/home/brand-slider/makeinindia.png"
+      },
+      {
+        "id": 5,
+        "name": "IGOD",
+        "logo": "/assets/home/brand-slider/iGod.png"
+      },
+      {
+        "id": 6,
+        "name": "India.gov.in",
+        "logo": "/assets/home/brand-slider/india-gov.png"
+      }
+    ]
+  }
+}

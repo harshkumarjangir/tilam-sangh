@@ -1,0 +1,115 @@
+{
+    "videoGallery": {
+        "title": "VIDEO GALLERY",
+        "videos": [
+            {
+                "id": 1,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+            },
+            {
+                "id": 2,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+            },
+            {
+                "id": 3,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+            },
+            {
+                "id": 4,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+            },
+            {
+                "id": 5,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+            },
+            {
+                "id": 6,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+            },
+            {
+                "id": 7,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+            },
+            {
+                "id": 8,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+            },
+            {
+                "id": 9,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+            },
+            {
+                "id": 10,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+            },
+            {
+                "id": 11,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+            },
+            {
+                "id": 12,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+            },
+            {
+                "id": 13,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+            },
+            {
+                "id": 14,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+            },
+            {
+                "id": 15,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+            },
+            {
+                "id": 16,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu"
+            },
+            {
+                "id": 17,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w"
+            },
+            {
+                "id": 18,
+                "title": "World Mental Health Day | October 10, 2025",
+                "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+                "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW"
+            }
+        ]
+    }
+}

@@ -1,0 +1,70 @@
+{
+  "pageId": "rti",
+  "meta": {
+    "title": "सूचना का अधिकार (RTI) | राजस्थान तिलम् संघ",
+    "description": "राजस्थान तिलम् संघ से संबंधित RTI जानकारी, संपर्क विवरण, अधिसूचनाएँ एवं अनिवार्य प्रकटीकरण।"
+  },
+
+  "hero": {
+    "badge": "RTI - सूचना का अधिकार",
+    "title": "Right to Information – Transparency & Accountability",
+    "subtitle": "तिलम् संघ RTI अधिनियम 2005 के अंतर्गत पारदर्शिता बनाए रखने के लिए प्रतिबद्ध है।",
+    "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+    "overlayOpacity": 0.82,
+    "breadcrumb": [
+      { "label": "होम", "href": "/" },
+      { "label": "तिलम् संघ", "href": "" },
+      { "label": "RTI", "href": "/rti" }
+    ],
+    "ctaPrimary": {
+      "label": "RTI आवेदन प्रक्रियाएँ",
+      "targetId": "rti-process-section"
+    },
+    "ctaSecondary": {
+      "label": "अनिवार्य प्रकटीकरण",
+      "targetId": "rti-disclosure-section"
+    }
+  },
+
+  "page": {
+    "title": "RTI Information",
+    "subtitle": "सूचना का अधिकार अधिनियम 2005",
+    "themeColor": "#D99A00",
+    "intro": "तिलम् संघ सूचना का अधिकार अधिनियम 2005 का पूर्णतः पालन करता है। यहाँ RTI आवेदन प्रक्रिया, PIO विवरण, प्रकटीकरण एवं सम्बंधित दस्तावेज उपलब्ध हैं।"
+  },
+
+  "pdfs": [
+    {
+      "id": "rti-mannual",
+      "title": "RTI Manual (अध्याय 1–17)",
+      "description": "RTI अधिनियम के अनुसार आवश्यक अनिवार्य प्रकटीकरण।",
+      "file": "/assets/rti/RTI_MANUAL.pdf"
+    },
+    {
+      "id": "rti-disclosure",
+      "title": "अनिवार्य प्रकटीकरण",
+      "description": "तिलम् संघ द्वारा समय-समय पर किए गए प्रकटीकरण का विवरण।",
+      "file": "/assets/rti/RTI_DISCLOSURE.pdf"
+    }
+  ],
+
+  "rtiSections": [
+    {
+      "title": "1. PIO / APIO विवरण",
+      "content": "→ मुख्य जन सूचना अधिकारी (PIO)\nनाम: _______\nमोबाइल: _______\nईमेल: _______\n→ अपीलीय अधिकारी (FAA)\nनाम: _______\nसंपर्क: _______"
+    },
+    {
+      "title": "2. RTI आवेदन प्रक्रिया",
+      "content": "RTI आवेदन डाक, ईमेल या व्यक्तिगत रूप से जमा कराया जा सकता है। आवेदन शुल्क ₹10/- निर्धारित है।"
+    },
+    {
+      "title": "3. तिलम् संघ की संरचना",
+      "content": "संघ की प्रशासनिक संरचना, विभाग, शाखाएँ एवं प्रोसेसिंग यूनिट्स का विवरण।"
+    },
+    {
+      "title": "4. अनिवार्य प्रकटीकरण",
+      "content": "अधिनियम के तहत संगठन के कार्य, बजट, संकल्प, निदेशक मंडल एवं निर्णय प्रक्रिया से जुड़े दस्तावेज उपलब्ध हैं।"
+    }
+  ],
+  "lastUpdated": "2024-12-15"
+}

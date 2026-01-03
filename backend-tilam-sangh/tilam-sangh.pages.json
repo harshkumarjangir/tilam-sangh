@@ -1,0 +1,3351 @@
+[{
+  "_id": {
+    "$oid": "69464554a71002db943dd7df"
+  },
+  "slug": "",
+  "language": "English",
+  "data": {
+    "campaignSlider": {
+      "slides": [
+        {
+          "image": "/assets/home/campaign-slider/tilam-sangh-banner.webp",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "image": "/assets/home/campaign-slider/kids-smiling-banner.webp",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        }
+      ],
+      "sidebar": {
+        "topImage": "/assets/home/campaign-slider/cm-rajasthan.webp",
+        "bottomImage": "/assets/home/campaign-slider/gautam-kumar.webp",
+        "topImage_alt": "",
+        "topImage_width": "",
+        "topImage_height": "",
+        "topImage_type": "image",
+        "bottomImage_alt": "",
+        "bottomImage_width": "",
+        "bottomImage_height": "",
+        "bottomImage_type": "image"
+      },
+      "footer": {
+        "left": "(Tilam Sangh – Rajasthan)",
+        "right": "तिलम् संघ राज्य के तिलहन उत्पादक कृषकों को सहकारी व्यवस्था से जोड़कर उनके आर्थिक सामाजिक एवं व्यावसायिक विकास हेतु कार्य करता है। सहकारिता के माध्यम से कृषकों को उचित मूल्य, पारदर्शी विपणन, गुणवत्ता नियंत्रण एवं औद्योगिक अवसर उपलब्ध कराए जाते हैं।"
+      }
+    },
+    "InfoScroller": {
+      "latestUpdates": [
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 Jhalarapatan Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Jhalarapatan_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Bakani Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Bakani_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at K. Patan Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/K.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mayja Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Mayja_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nainwa Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Nainwa_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Gudanathavtan Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Gudanathavtan_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hindoli Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Hindoli_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kaithoon Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Kaithoon_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hingoniya Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Hingoniya_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sobhagpura Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Sobhagpura_merged.pdf",
+          "date": ""
+        }
+      ],
+      "tenders": [
+        {
+          "date": "28/11/2024",
+          "text": "Corrigendum For Appointment of Depot Agent/Distributor/Dealer For Bhilwara",
+          "link": "/assets/tenders/CBD.pdf"
+        },
+        {
+          "date": "29/11/2024",
+          "text": "NOTICE FOR SECURITY GUARD AND SKILLED WORKER FOR FATEHNAGAR PROJECT",
+          "link": "/assets/tenders/SOW.pdf"
+        },
+        {
+          "date": "30/11/2024",
+          "text": "NOTICE FOR HIRING LABOUR, FILLING, PACKAGING, LOADING AND UNLOADING WORK IN FATEHNAGAR PROJECT",
+          "link": "/assets/tenders/PFL.pdf"
+        },
+        {
+          "date": "01/12/2024",
+          "text": "NOTICE FOR TRANSPORTATION WORK OF EDIBLE OIL IN FATEHNAGAR PROJECT",
+          "link": "/assets/tenders/EOTT.pdf"
+        },
+        {
+          "date": "02/12/2024",
+          "text": "e-TENDER NOTICE FOR SUPPLY OF 15 Kg. ISI Tin Containers (E-A3/24)",
+          "link": "/assets/tenders/tn.pdf"
+        },
+        {
+          "date": "03/12/2024",
+          "text": "NOTICE INVITING LIMITED BIDS for Valuation of Land, Building and Machinery",
+          "link": "/assets/tenders/bdval.pdf"
+        },
+        {
+          "date": "04/12/2024",
+          "text": "e-TENDER NOTICE FOR SUPPLY OF PET BOTTLE INCLUDING CAPS (E-SA1/24)",
+          "link": "/assets/tenders/PETNI.pdf"
+        },
+        {
+          "date": "05/12/2024",
+          "text": "e-TENDER NOTICE FOR SUPPLY OF CORRUGATED BOX AND FLAPS (E-SA2/24)",
+          "link": "/assets/tenders/CORNI.pdf"
+        },
+        {
+          "date": "06/12/2024",
+          "text": "e-TENDER NOTICE FOR SUPPLY OF SECURITY PERSONNEL (ES-3/23)",
+          "link": "/assets/tenders/SEP.pdf"
+        },
+        {
+          "date": "07/12/2024",
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Asnawar Purchase Center KOTA PROJECT",
+          "link": "/assets/tenders/Asnawar_merged.pdf"
+        },
+        {
+          "date": "08/12/2024",
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Panwad Purchase Center KOTA PROJECT",
+          "link": "/assets/tenders/Panwad_merged.pdf"
+        }
+      ],
+      "news": [
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 Jhalarapatan Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Jhalarapatan_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Bakani Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Bakani_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at K. Patan Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/K.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mayja Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Mayja_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nainwa Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Nainwa_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Gudanathavtan Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Gudanathavtan_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hindoli Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Hindoli_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kaithoon Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Kaithoon_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hingoniya Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Hingoniya_merged.pdf",
+          "date": ""
+        },
+        {
+          "text": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sobhagpura Purchase center KOTA PROJECT",
+          "link": "/assets/tenders/Sobhagpura_merged.pdf",
+          "date": ""
+        }
+      ]
+    },
+    "schemes": [
+      {
+        "title": "मुख्यमंत्री निशुल्क दवा योजना",
+        "image": "/assets/home/schemes/cmdyojna.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "मुख्यमंत्री निशुल्क जाँच योजना",
+        "image": "/assets/home/schemes/cmjyojna.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "मुख्यमंत्री आयुष्मान आरोग्य योज...",
+        "image": "/assets/home/schemes/maayojna.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "जननी सुरक्षा योजना...",
+        "image": "/assets/home/schemes/jsyoyna.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "View More Scheme...",
+        "image": "/assets/home/schemes/view-more.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      }
+    ],
+    "programs": [
+      {
+        "title": "ABDM",
+        "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+        "image": "/assets/home/programs/abdm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "ABDM",
+        "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+        "image": "/assets/home/programs/abdm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "ABDM",
+        "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+        "image": "/assets/home/programs/abdm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "ABDM",
+        "description": "Ayushman Bharat Digital Mission is a digital health initiative",
+        "image": "/assets/home/programs/abdm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "View More Scheme...",
+        "description": "Explore more health programs and initiatives",
+        "image": "/assets/home/programs/view-more.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      }
+    ],
+    "departments": [
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "RMSCL",
+        "image": "/assets/home/programs/rscl.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "title": "NHM",
+        "image": "/assets/home/departments/nhm.png",
+        "link": "#",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      }
+    ],
+    "brandSlider": {
+      "logos": [
+        {
+          "id": 1,
+          "name": "RajHealth",
+          "logo": "/assets/home/brand-slider/rajhealth.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 2,
+          "name": "eSanjeevani",
+          "logo": "/assets/home/brand-slider/eSanjeevani.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "MyGov",
+          "logo": "/assets/home/brand-slider/mygov.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 4,
+          "name": "Make In India",
+          "logo": "/assets/home/brand-slider/makeinindia.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 5,
+          "name": "IGOD",
+          "logo": "/assets/home/brand-slider/iGod.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 6,
+          "name": "India.gov.in",
+          "logo": "/assets/home/brand-slider/india-gov.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 1,
+          "name": "RajHealth",
+          "logo": "/assets/home/brand-slider/rajhealth.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 2,
+          "name": "eSanjeevani",
+          "logo": "/assets/home/brand-slider/eSanjeevani.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "MyGov",
+          "logo": "/assets/home/brand-slider/mygov.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 4,
+          "name": "Make In India",
+          "logo": "/assets/home/brand-slider/makeinindia.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 5,
+          "name": "IGOD",
+          "logo": "/assets/home/brand-slider/iGod.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 6,
+          "name": "India.gov.in",
+          "logo": "/assets/home/brand-slider/india-gov.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 1,
+          "name": "RajHealth",
+          "logo": "/assets/home/brand-slider/rajhealth.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 2,
+          "name": "eSanjeevani",
+          "logo": "/assets/home/brand-slider/eSanjeevani.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 3,
+          "name": "MyGov",
+          "logo": "/assets/home/brand-slider/mygov.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 4,
+          "name": "Make In India",
+          "logo": "/assets/home/brand-slider/makeinindia.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 5,
+          "name": "IGOD",
+          "logo": "/assets/home/brand-slider/iGod.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        },
+        {
+          "id": 6,
+          "name": "India.gov.in",
+          "logo": "/assets/home/brand-slider/india-gov.png",
+          "logo_alt": "",
+          "logo_width": "",
+          "logo_height": "",
+          "logo_type": "image"
+        }
+      ]
+    }
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "website",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-20T06:42:28.573Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-20T06:42:28.593Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-20T06:42:28.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694694bbeb6e5272b86a18b5"
+  },
+  "slug": "gallery",
+  "language": "English",
+  "data": {
+    "heading": "Photo Gallery",
+    "photoGallery": [
+      {
+        "image": "/assets/home/photo-gallery/image_one.png",
+        "title": "World Mental Health Day | October 10, 2025",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_two.png",
+        "title": "Event Celebration Program",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_three.png",
+        "title": "Government Awareness Yatra",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_four.png",
+        "title": "Health Camp Exhibition",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_one.png",
+        "title": "World Mental Health Day | October 10, 2025",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_two.png",
+        "title": "Event Celebration Program",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_three.png",
+        "title": "Government Awareness Yatra",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_four.png",
+        "title": "Health Camp Exhibition",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_four.png",
+        "title": "Health Camp Exhibition",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_one.png",
+        "title": "World Mental Health Day | October 10, 2025",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_two.png",
+        "title": "Event Celebration Program",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_three.png",
+        "title": "Government Awareness Yatra",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_four.png",
+        "title": "Health Camp Exhibition",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_one.png",
+        "title": "World Mental Health Day | October 10, 2025",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_two.png",
+        "title": "Event Celebration Program",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_three.png",
+        "title": "Government Awareness Yatra",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_four.png",
+        "title": "Health Camp Exhibition",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      },
+      {
+        "image": "/assets/home/photo-gallery/image_four.png",
+        "title": "Health Camp Exhibition",
+        "image_alt": "",
+        "image_width": "",
+        "image_height": "",
+        "image_type": "image"
+      }
+    ]
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-20T12:21:15.355Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-20T12:21:15.381Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-20T12:21:15.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694696e642883d017aa10453"
+  },
+  "slug": "videos",
+  "language": "English",
+  "data": {
+    "videoGallery": {
+      "title": "VIDEO GALLERY",
+      "videos": [
+        {
+          "id": 1,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 2,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 3,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 4,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 5,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 6,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 7,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 8,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 9,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 10,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 11,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 12,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 13,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 14,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 15,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 16,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/abc123/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/P62fA5Uw_RQ?si=tkW-ZRgxP_t0IHSu",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 17,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/xyz456/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/LZRheqzarSE?si=0OL1XIabyjlsij4w",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        },
+        {
+          "id": 18,
+          "title": "World Mental Health Day | October 10, 2025",
+          "thumbnail": "https://img.youtube.com/vi/pqr789/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/suZ8dVoXz4c?si=DLndlGhUtClK9jcW",
+          "thumbnail_alt": "",
+          "thumbnail_width": "",
+          "thumbnail_height": "",
+          "thumbnail_type": "image"
+        }
+      ]
+    }
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "website",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-20T12:30:30.063Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-20T12:30:30.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-20T12:30:30.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69491ff1537afe23863dc778"
+  },
+  "slug": "infrastructure",
+  "language": "English",
+  "data": {
+    "pageId": "infrastructure",
+    "meta": {
+      "title": "इन्फ्रास्ट्रक्चर | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ की प्रोसेसिंग यूनिट्स, भंडारण, गुणवत्ता नियंत्रण तथा सहकारी ढांचे से जुड़ा समृद्ध इन्फ्रास्ट्रक्चर।"
+    },
+    "hero": {
+      "badge": "इन्फ्रास्ट्रक्चर",
+      "title": "Rajasthan Tilam Sangh has a strong infrastructure.",
+      "subtitle": "आधुनिक प्रोसेसिंग इकाइयों, भंडारण क्षमता व सहकारी नेटवर्क के माध्यम से तिलहन उत्पादक कृषकों को मजबूत आधार।",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "इन्फ्रास्ट्रक्चर",
+          "href": "/infrastructure"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "प्रोसेसिंग इकाइयाँ देखें",
+        "targetId": "plants-section"
+      },
+      "ctaSecondary": {
+        "label": "कृषक हित सहयोग",
+        "targetId": "cooperative-section"
+      },
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "introSection": {
+      "heading": "Tilam Association's activities and objectives",
+      "highlight": "कृषक हित में समग्र तिलहन प्रबंधन",
+      "paragraphs": [
+        "तिलम् संघ राज्य में तिलहन उत्पादन सहकारी समितियों के सदस्य कृषकों के हित में तिलहन उत्पादन, उपार्जन, प्रक्रियण तथा तिलहन उत्पादित उत्पादनों के विपणन को समुचित तौर पर एकीकृत करते हुए तिलहन उत्पादक कृषकों के आर्थिक एवं सामाजिक उत्थान हेतु सहकारी आधार पर कार्य करता है।",
+        "तिलम् संघ अपने उद्देश्यों की प्राप्ति हेतु सहकारी विकास, उपार्जन एवं प्रक्रियण तथा विपणन के क्षेत्रों में समन्वित रूप से कार्य करता है।"
+      ],
+      "pillars": [
+        {
+          "id": "pillar-1",
+          "title": "सहकारी विकास",
+          "description": "राज्य भर की तिलहन सहकारी समितियों को संगठनात्मक, वित्तीय व तकनीकी सहयोग।",
+          "icon": "users-group"
+        },
+        {
+          "id": "pillar-2",
+          "title": "उपार्जन एवं प्रक्रियण",
+          "description": "कृषकों से तिलहन की खरीद, वैज्ञानिक भंडारण व आधुनिक मशीनरी से प्रोसेसिंग।",
+          "icon": "factory"
+        },
+        {
+          "id": "pillar-3",
+          "title": "विपणन",
+          "description": "तिलहन व तिलहन आधारित उत्पादों के लिए स्थिर व पारदर्शी विपणन व्यवस्था।",
+          "icon": "market"
+        }
+      ]
+    },
+    "statsStrip": {
+      "backgroundTone": "light",
+      "items": [
+        {
+          "label": "स्थापना वर्ष",
+          "value": "1984",
+          "note": "आधुनिक प्रोसेसिंग इकाइयों की अवधारणा"
+        },
+        {
+          "label": "प्रोसेसिंग इकाइयाँ",
+          "value": "4",
+          "note": "वर्तमान में संचालित इकाइयाँ"
+        },
+        {
+          "label": "कुल इकाइयाँ स्थापित",
+          "value": "8",
+          "note": "कोटा, बीकानेर, फतहनगर, मेड़तासिटी, जालौर, गंगापुरसिटी, झुंझुनू, श्रीगंगानगर"
+        },
+        {
+          "label": "केंद्रित उद्देश्य",
+          "value": "उचित मूल्य",
+          "note": "कृषकों की फसल का न्यायोचित प्रतिफल"
+        }
+      ]
+    },
+    "plantsSection": {
+      "id": "plants-section",
+      "heading": "Processing units",
+      "subheading": "सन् 1984 से तिलहन प्रोसेसिंग की सुदृढ़ व्यवस्था",
+      "introText": "सहकारी क्षेत्र में आधुनिक औद्योगिककरण तथा तिलहन उत्पादकों को उनकी फसल का उचित मूल्य दिलवाने को दृष्टिगत रखते हुए सन् 1984 में राज्य में प्रोसेसिंग इकाइयों की स्थापना का संकल्प लिया गया।",
+      "note": "इन प्रोसेसिंग इकाइयों में से वर्तमान में 4 इकाइयाँ कार्यरत हैं जबकि शेष 3 इकाइयों को विभिन्न परिस्थितियों के कारण बन्द कर दिया गया है।",
+      "plants": [
+        {
+          "id": "kota",
+          "name": "कोटा प्रोसेसिंग इकाई",
+          "status": "सक्रिय",
+          "capacity": "उच्च क्षमता युक्त तेल निष्कर्षण व परिष्करण संयंत्र",
+          "focus": "तिलहन क्रशिंग व परिष्कृत तेल उत्पादन",
+          "location": "कोटा, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "bikaner",
+          "name": "बीकानेर प्रोसेसिंग इकाई",
+          "status": "सक्रिय",
+          "capacity": "तिलहन भंडारण व प्रसंस्करण की उन्नत सुविधाएँ",
+          "focus": "तिल, सरसों व अन्य तिलहनों की प्रोसेसिंग",
+          "location": "बीकानेर, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "fathehnagar",
+          "name": "फतहनगर प्रोसेसिंग इकाई",
+          "status": "सक्रिय",
+          "capacity": "क्षेत्रीय कृषकों के लिए त्वरित उपार्जन व प्रोसेसिंग",
+          "focus": "स्थानीय तिलहन उत्पादन का मूल्य संवर्धन",
+          "location": "फतहनगर, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "medta-city",
+          "name": "मेड़तासिटी प्रोसेसिंग इकाई",
+          "status": "सक्रिय",
+          "capacity": "स्वचालित मशीनरी व ऊर्जा दक्ष संयंत्र",
+          "focus": "तिलहन आधारित उत्पादों का बहुआयामी उत्पादन",
+          "location": "मेड़तासिटी, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "jalore",
+          "name": "जालौर प्रोसेसिंग इकाई",
+          "status": "निष्क्रिय",
+          "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+          "focus": "—",
+          "location": "जालौर, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "gangapur-city",
+          "name": "गंगापुरसिटी प्रोसेसिंग इकाई",
+          "status": "निष्क्रिय",
+          "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+          "focus": "—",
+          "location": "गंगापुर सिटी, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "jhunjhunu",
+          "name": "झुंझुनू प्रोसेसिंग इकाई",
+          "status": "निष्क्रिय",
+          "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+          "focus": "—",
+          "location": "झुंझुनू, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        },
+        {
+          "id": "sriganganagar",
+          "name": "श्रीगंगानगर प्रोसेसिंग इकाई",
+          "status": "निष्क्रिय",
+          "capacity": "पूर्व में संचालित, वर्तमान में बन्द",
+          "focus": "—",
+          "location": "श्रीगंगानगर, राजस्थान",
+          "image": "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+          "image_alt": "",
+          "image_width": "",
+          "image_height": "",
+          "image_type": "image"
+        }
+      ]
+    },
+    "infrastructureHighlights": {
+      "heading": "Key features of the infrastructure",
+      "items": [
+        {
+          "id": "storage",
+          "title": "वैज्ञानिक भंडारण व्यवस्था",
+          "points": [
+            "तिलहन भंडारण हेतु आधुनिक गोदाम व साइलो",
+            "नमी, तापमान व सुरक्षा मानकों के अनुरूप स्टोरेज",
+            "फसल नुकसान को न्यूनतम रखने हेतु नियमित निरीक्षण"
+          ],
+          "icon": "warehouse"
+        },
+        {
+          "id": "processing",
+          "title": "आधुनिक प्रोसेसिंग संयंत्र",
+          "points": [
+            "ऊर्जा-कुशल क्रशिंग व रिफाइनिंग मशीनरी",
+            "स्वच्छता व गुणवत्ता मानकों के अनुरूप लेआउट",
+            "स्वचालित कन्वेयर, पैकेजिंग व हैंडलिंग सिस्टम"
+          ],
+          "icon": "cogs"
+        },
+        {
+          "id": "logistics",
+          "title": "लॉजिस्टिक्स व वितरण नेटवर्क",
+          "points": [
+            "राज्य भर में सहकारी समितियों के माध्यम से नेटवर्क",
+            "समयबद्ध परिवहन व आपूर्ति व्यवस्था",
+            "कृषक व उपभोक्ता दोनों के हित में लागत-प्रभावी वितरण"
+          ],
+          "icon": "truck"
+        }
+      ]
+    },
+    "qualityAssurance": {
+      "heading": "Quality control and standards",
+      "subheading": "कृषकों के विश्वास व उपभोक्ताओं की संतुष्टि के लिए सख्त गुणवत्ता नियंत्रण",
+      "labs": [
+        {
+          "id": "lab-1",
+          "title": "प्रयोगशाला परीक्षण",
+          "description": "तिलहन व तेल उत्पादों का नियमित सैंपलिंग व विश्लेषण, नमी, शुद्धता, तेल प्रतिशत व अन्य पैरामीटर्स की जांच।"
+        },
+        {
+          "id": "lab-2",
+          "title": "राष्ट्रीय मानकों के अनुरूप",
+          "description": "FSSAI तथा अन्य प्रासंगिक मानकों के अनुरूप उत्पादन व पैकेजिंग प्रक्रियाएँ।"
+        }
+      ],
+      "image": "/assets/infrastructure/quality-assurance/quality-testing.jpg",
+      "image_alt": "",
+      "image_width": "",
+      "image_height": "",
+      "image_type": "image"
+    },
+    "cooperativeImpact": {
+      "id": "cooperative-section",
+      "heading": "Cooperative impact and farmer interests",
+      "intro": "तिलम् संघ का इन्फ्रास्ट्रक्चर केवल मशीनरी या इमारतों तक सीमित नहीं है, बल्कि यह किसानों से जुड़ी एक सशक्त सहकारी व्यवस्था है।",
+      "benefits": [
+        "कृषकों को तिलहन की उचित व पारदर्शी कीमत सुनिश्चित करना।",
+        "समय पर भुगतान व फसल खरीद व्यवस्था।",
+        "तकनीकी मार्गदर्शन व फसल उत्पादकता बढ़ाने हेतु जागरूकता कार्यक्रम।",
+        "कृषकों के आर्थिक व सामाजिक उत्थान के लिए दीर्घकालिक योजनाएँ।"
+      ],
+      "image": "/assets/infrastructure/cooperative-impact/farmers.webp",
+      "image_alt": "",
+      "image_width": "",
+      "image_height": "",
+      "image_type": "image"
+    },
+    "pdfDownloadSection": {
+      "pdfSectionHeading": "(PDF Downloads)",
+      "pdfs": [
+        {
+          "id": 1,
+          "title": "तिलम् संघ परिचय एवं इतिहास",
+          "description": "तिलम् संघ की स्थापना, उद्देश्यों एवं ऐतिहासिक पृष्ठभूमि से जुड़ा विस्तृत दस्तावेज़।",
+          "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+          "date": "2024-01-10"
+        },
+        {
+          "id": 2,
+          "title": "प्रोसेसिंग यूनिट्स – कोटा, बीकानेर, मेड़तासिटी",
+          "description": "राज्य की प्रमुख तिलहन प्रोसेसिंग इकाइयों का इन्फ्रास्ट्रक्चर विवरण।",
+          "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+          "date": "2024-01-15"
+        },
+        {
+          "id": 3,
+          "title": "तिलहन विपणन एवं आपूर्ति श्रृंखला मॉडल",
+          "description": "तिलहन उत्पादन, उपार्जन, प्रसंस्करण एवं विपणन से संबंधित संरचना का दस्तावेज़।",
+          "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+          "date": "2024-02-01"
+        },
+        {
+          "id": 4,
+          "title": "वार्षिक प्रशासनिक रिपोर्ट – इन्फ्रास्ट्रक्चर",
+          "description": "सालाना इन्फ्रास्ट्रक्चर विकास, रखरखाव एवं विस्तार योजनाओं का विवरण।",
+          "pdfUrl": "/assets/infrastructure/infrastructure.pdf",
+          "date": "2024-02-18"
+        }
+      ]
+    },
+    "gallerySection": {
+      "heading": "Infrastructure Highlights",
+      "subheading": "प्रोसेसिंग इकाइयों, गोदामों व सहकारी गतिविधियों की कुछ दृश्य झलकियाँ",
+      "images": [
+        {
+          "id": "gal-1",
+          "src": "/assets/infrastructure/gallery/meeting.jpg",
+          "alt": "प्रोसेसिंग इकाई के अंदर का दृश्य",
+          "src_alt": "",
+          "src_width": "",
+          "src_height": "",
+          "src_type": "image"
+        },
+        {
+          "id": "gal-2",
+          "src": "/assets/infrastructure/gallery/meeting.jpg",
+          "alt": "तिलहन भंडारण यार्ड",
+          "src_alt": "",
+          "src_width": "",
+          "src_height": "",
+          "src_type": "image"
+        },
+        {
+          "id": "gal-3",
+          "src": "/assets/infrastructure/gallery/meeting.jpg",
+          "alt": "किसानों के साथ सहकारी बैठक",
+          "src_alt": "",
+          "src_width": "",
+          "src_height": "",
+          "src_type": "image"
+        },
+        {
+          "id": "gal-4",
+          "src": "/assets/infrastructure/gallery/meeting.jpg",
+          "alt": "कंट्रोल रूम व मॉनिटरिंग सुविधा",
+          "src_alt": "",
+          "src_width": "",
+          "src_height": "",
+          "src_type": "image"
+        }
+      ]
+    },
+    "contactStrip": {
+      "heading": "अधिक जानकारी हेतु संपर्क करें",
+      "description": "इन्फ्रास्ट्रक्चर, प्रोसेसिंग इकाइयों या सहकारी व्यवस्थाओं से संबंधित किसी भी जानकारी हेतु तिलम् संघ कार्यालय से संपर्क करें।",
+      "cta": {
+        "label": "संपर्क विवरण देखें",
+        "href": "/contact"
+      }
+    }
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-22T10:39:45.778Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-22T10:39:45.852Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-22T10:39:45.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a24a876b312262b06ad31"
+  },
+  "slug": "tenders",
+  "language": "English",
+  "data": {
+    "heading": "Tender Document Download Section",
+    "tenders": [
+      {
+        "sno": 1,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 NAINWA PURCHASE CENTRE (ES-01NNW/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/NainTD.pdf"
+      },
+      {
+        "sno": 2,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 MAYJA PURCHASE CENTRE (ES-27MYJ/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/ma.pdf"
+      },
+      {
+        "sno": 3,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 HINDOLI PURCHASE CENTRE (ES-04HDL/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/HINTD.pdf"
+      },
+      {
+        "sno": 4,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 HINGONIA PURCHASE CENTRE (ES-02HGN/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/HINGTD.pdf"
+      },
+      {
+        "sno": 5,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 GUDANATHAWAT PURCHASE CENTRE (ES-03GDN/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/GUDTD.pdf"
+      },
+      {
+        "sno": 6,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 DEHIT PURCHASE CENTRE (ES-05DHT/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/dt.pdf"
+      },
+      {
+        "sno": 7,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 JHALIPURA PURCHASE CENTRE (ES-23JHP/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/JHATD.pdf"
+      },
+      {
+        "sno": 8,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 KAITHUN PURCHASE CENTRE (ES-26KTH/24))",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/kai.pdf"
+      },
+      {
+        "sno": 9,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 KANWARPURA PURCHASE CENTRE (ES-20KWR/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/KARTD.pdf"
+      },
+      {
+        "sno": 10,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 KHERLI MAHADEET PURCHASE CENTRE (ES-19KHMD/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/kma.pdf"
+      },
+      {
+        "sno": 11,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 KOTA PROJECT PURCHASE CENTRE (ES-24KT/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/KPTD.pdf"
+      },
+      {
+        "sno": 12,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 SANGOD PURCHASE CENTRE (ES-18SGD/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/SANTD.pdf"
+      },
+      {
+        "sno": 13,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 SAROLA (RICHHAHEDI) PURCHASE CENTRE (ES-21RCHH/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/SRTD.pdf"
+      },
+      {
+        "sno": 14,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 TALAB PURCHASE CENTRE (ES-22TLB/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TALTD.pdf"
+      },
+      {
+        "sno": 15,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 UMMEDPURA PURCHASE CENTRE (ES-07UMM/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/UTD.pdf"
+      },
+      {
+        "sno": 16,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 KISHANPURA BORDA PURCHASE CENTRE (ES-06KBR/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/KBTD.pdf"
+      },
+      {
+        "sno": 17,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 NAHARGARH PURCHASE CENTRE (ES-08NHG/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/NTD.pdf"
+      },
+      {
+        "sno": 18,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 SHOBHAGPURA PURCHASE CENTRE (ES-09SBG/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/SOTD.pdf"
+      },
+      {
+        "sno": 19,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 ANTA PURCHASE CENTRE (ES-10AT/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/ANTD.pdf"
+      },
+      {
+        "sno": 20,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 JHALARAPATAN PURCHASE CENTRE (ES-14JHL/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/JHTD.pdf"
+      },
+      {
+        "sno": 21,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 PANWAD PURCHASE CENTRE (ES-16PNW/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/PATD.pdf"
+      },
+      {
+        "sno": 22,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 BAKANI PURCHASE CENTRE (ES-17BKN/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/BATD.pdf"
+      },
+      {
+        "sno": 23,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 AKLERA PURCHASE CENTRE (ES-13AKL/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/AKTD.pdf"
+      },
+      {
+        "sno": 24,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 ASNAWAR PURCHASE CENTRE (ES-30ASN/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/ASTD.pdf"
+      },
+      {
+        "sno": 25,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 KARAULI PURCHASE CENTRE (ES-25KRL/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/KARTD.pdf"
+      },
+      {
+        "sno": 26,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 ZEROTA PURCHASE CENTRE (ES-29ZRT/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/ZERTD.pdf"
+      },
+      {
+        "sno": 27,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Pillibanga Purchase center in Distt. Hanumangarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/PIT8.pdf"
+      },
+      {
+        "sno": 28,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Lakhasar Purchase center in Distt. Hanumangarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/LT7.pdf"
+      },
+      {
+        "sno": 29,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Kalibanga Purchase center in Distt. Hanumangarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/KATD6.pdf"
+      },
+      {
+        "sno": 30,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Jhanachak Purchase center in Distt. Hanumangarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/JCTD5.pdf"
+      },
+      {
+        "sno": 31,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Amarpurarathan Purchase center in Distt. Hanumangarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/ARTD4.pdf"
+      },
+      {
+        "sno": 32,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Ramsaranjakhran Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/RJTD14.pdf"
+      },
+      {
+        "sno": 33,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Jodhewala Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/JOTD21.pdf"
+      },
+      {
+        "sno": 34,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Sri Karanpur Purchase center in Distt. Sri Ganganagar)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/SKTD20.pdf"
+      },
+      {
+        "sno": 35,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Vinayak Krishi Mandi Yard Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/VKTD18.pdf"
+      },
+      {
+        "sno": 36,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Master ji Krishi Mandi Yard Ridmalsar Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/MKTD19.pdf"
+      },
+      {
+        "sno": 37,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Sujawalpur Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/SUTD17.pdf"
+      },
+      {
+        "sno": 38,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Sadulsahar Purchase center in Distt. Sri Ganganagar)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/SSTD16.pdf"
+      },
+      {
+        "sno": 39,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Ridmalsar Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/RITD15.pdf"
+      },
+      {
+        "sno": 40,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Padampur Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/PATD13.pdf"
+      },
+      {
+        "sno": 41,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Mahiyawali Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/MATD12.pdf"
+      },
+      {
+        "sno": 42,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Kesrisinghpur Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/KETD11.pdf"
+      },
+      {
+        "sno": 43,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Binjhbayala Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/BITD10.pdf"
+      },
+      {
+        "sno": 44,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Behrampurabodla Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/BEHTD09.pdf"
+      },
+      {
+        "sno": 45,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at Nahranwali Purchase center in Distt. Anoopgarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/NTD01.pdf"
+      },
+      {
+        "sno": 46,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at 8 STB Purchase center in Distt. Anoopgarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/8STBTD02.pdf"
+      },
+      {
+        "sno": 47,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at 50GB Purchase center in Distt. Anoopgarh",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/50GBTD03.pdf"
+      },
+      {
+        "sno": 48,
+        "particular": "CORREGENDUM OF VINAYAK KRISHI MANDI YARD",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/CORRE.pdf"
+      },
+      {
+        "sno": 49,
+        "particular": "Notice Inviting Offline and Online Bids/ E-Auction for Sale of Gram",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TGR.pdf"
+      },
+      {
+        "sno": 50,
+        "particular": "CONTACT INFORMATION OF ONLINE GRAM TRADING PLATFORM",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/GSI.pdf"
+      },
+      {
+        "sno": 51,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at KESHORAIPATAN PURCHASE CENTRE (ES-32KPT/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/kp.pdf"
+      },
+      {
+        "sno": 52,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2024-25 at MUNDLA PURCHASE CENTRE (ES-31MDL/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/mu.pdf"
+      },
+      {
+        "sno": 53,
+        "particular": "TENDER NOTICE FOR SALE OF SCRAP AT TILAM SANGH JAIPUR HO",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/scra.pdf"
+      },
+      {
+        "sno": 54,
+        "particular": "Notice Inviting Offline and Online Bids/ E-Auction for Sale of Gram",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TGR.pdf"
+      },
+      {
+        "sno": 55,
+        "particular": "CORRIGENDUM FOR OFFLINE GRAM SALE",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/CORRIGENDUM.pdf"
+      },
+      {
+        "sno": 56,
+        "particular": "TENDER FOR HIRING OF CONTRACT MANPOWER",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/mp.pdf"
+      },
+      {
+        "sno": 57,
+        "particular": "TENDER FOR SCRAP IN GANGANAGAR PROJECT AT SRIGANGANAGAR",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/GNRSCRAP.pdf"
+      },
+      {
+        "sno": 58,
+        "particular": "e-AUCTION NOTICE FOR SALE OF RIICO INDUSTIAL LAND AT GANGAPUR CITY",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/e-auctionNotice Gangapurcity 21aug24 with QR code.pdf"
+      },
+      {
+        "sno": 59,
+        "particular": "SUPPLY OF MANPOWER FOR ELECTRIC/MECHANICAL EQUIPMENT RUNNIG AND MAINTAINANCE",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TENDELECT.pdf"
+      },
+      {
+        "sno": 60,
+        "particular": "SUPPLY MENPOWER/LABOUR FOR OIL FILLING/PACKING AND GODOWN WORK",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TENDFILLING.pdf"
+      },
+      {
+        "sno": 61,
+        "particular": "TRASPORATION OF EDIBLE OIL FROM KOTA PROJECT TO DEPOT IN RAJASTHAN",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/tendtrasport.pdf"
+      },
+      {
+        "sno": 62,
+        "particular": "e-TENDER NOTICE FOR SEED GRADING WORKS (ES-01/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/tenseedkth.pdf"
+      },
+      {
+        "sno": 63,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF SECURITY PERSONNEL (ES-2/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TENDSECURITY.pdf"
+      },
+      {
+        "sno": 64,
+        "particular": "Corrigendum of Technical Bid of e-Tender for Supply of Security Personnel to our Gangapurcity & Merta City Projects (UBN : TIL2425SSOB00009 )",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/Corrsecurity.pdf"
+      },
+      {
+        "sno": 65,
+        "particular": "Tender for supply of HDPE Jar 5 Ltr at Fatehnagar Bids (LB-3J/24)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/tendjarfnr.pdf"
+      },
+      {
+        "sno": 66,
+        "particular": "Tender for supply of Security Guards at Bikaner Project",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TENDSECURITYBKN.pdf"
+      },
+      {
+        "sno": 67,
+        "particular": "Tender for supply of Labour on Contract basis at Sriganganagar project)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TENLABRGNR.pdf"
+      },
+      {
+        "sno": 68,
+        "particular": "Cancellation Of Notice Inviting Bids (LB-4CB/24) for supply of Corrugated Boxes.",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/Cancelln.pdf"
+      },
+      {
+        "sno": 69,
+        "particular": "Notice Notice Inviting Bids (LB-5CB/24) For Sealed bids, on prescribed bid document, are invited from reputed parties registered under GST, for supply of Corrugated Boxes.",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/bcb.pdf"
+      },
+      {
+        "sno": 70,
+        "particular": "Corrigendum For Appointment of Depot Agent/Distributor/Dealer For Bhilwara",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/CBD.pdf"
+      },
+      {
+        "sno": 71,
+        "particular": "NOTICE FOR SECURITY GUARD AND SKILLED WORKER FOR FATEHNAGAR PROJECT",
+        "date": "2024-11-29",
+        "downloadUrl": "/assets/tenders/SOW.pdf"
+      },
+      {
+        "sno": 72,
+        "particular": "NOTICE FOR HIRING LABOUR, FILLING, PACKAGING, LOADING AND UNLOADING WORK IN FATEHNAGAR PROJECT",
+        "date": "2024-11-30",
+        "downloadUrl": "/assets/tenders/PFL.pdf"
+      },
+      {
+        "sno": 73,
+        "particular": "NOTICE FOR TRANSPORTATION WORK OF EDIBLE OIL IN FATEHNAGAR PROJECT",
+        "date": "2024-12-01",
+        "downloadUrl": "/assets/tenders/EOTT.pdf"
+      },
+      {
+        "sno": 74,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF 15 Kg. ISI Tin Containers (E-A3/24)",
+        "date": "2024-12-02",
+        "downloadUrl": "/assets/tenders/tn.pdf"
+      },
+      {
+        "sno": 75,
+        "particular": "NOTICE INVITING LIMITED BIDS for Valuation of Land, Building and Machinery",
+        "date": "2024-12-03",
+        "downloadUrl": "/assets/tenders/bdval.pdf"
+      },
+      {
+        "sno": 76,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF PET BOTTLE INCLUDING CAPS (E-SA1/24)",
+        "date": "2024-12-04",
+        "downloadUrl": "/assets/tenders/PETNI.pdf"
+      },
+      {
+        "sno": 77,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF CORRUGATED BOX AND FLAPS (E-SA2/24)",
+        "date": "2024-12-05",
+        "downloadUrl": "/assets/tenders/CORNI.pdf"
+      },
+      {
+        "sno": 78,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF SECURITY PERSONNEL (ES-3/23)",
+        "date": "2024-12-06",
+        "downloadUrl": "/assets/tenders/SEP.pdf"
+      },
+      {
+        "sno": 79,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Asnawar Purchase Center KOTA PROJECT",
+        "date": "2024-12-07",
+        "downloadUrl": "/assets/tenders/Asnawar_merged.pdf"
+      },
+      {
+        "sno": 80,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Panwad Purchase Center KOTA PROJECT",
+        "date": "2024-12-08",
+        "downloadUrl": "/assets/tenders/Panwad_merged.pdf"
+      },
+      {
+        "sno": 81,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 Jhalarapatan Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Jhalarapatan_merged.pdf",
+        "date": "2024-11-28"
+      },
+      {
+        "sno": 82,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Bakani Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Bakani_merged.pdf",
+        "date": "2024-11-29"
+      },
+      {
+        "sno": 83,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at K. Patan Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/K.pdf",
+        "date": "2024-11-30"
+      },
+      {
+        "sno": 84,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mayja Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Mayja_merged.pdf",
+        "date": "2025-11-28"
+      },
+      {
+        "sno": 85,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nainwa Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Nainwa_merged.pdf",
+        "date": "2024-12-01"
+      },
+      {
+        "sno": 86,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Gudanathavtan Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Gudanathavtan_merged.pdf",
+        "date": "2024-12-02"
+      },
+      {
+        "sno": 87,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hindoli Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Hindoli_merged.pdf",
+        "date": "2024-12-03"
+      },
+      {
+        "sno": 88,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kaithoon Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Kaithoon_merged.pdf",
+        "date": "2024-12-04"
+      },
+      {
+        "sno": 89,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hingoniya Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Hingoniya_merged.pdf",
+        "date": "2024-12-05"
+      },
+      {
+        "sno": 90,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sobhagpura Purchase center KOTA PROJECT",
+        "downloadUrl": "/assets/tenders/Sobhagpura_merged.pdf",
+        "date": "2024-12-06"
+      },
+      {
+        "sno": 91,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Ummedpura Purchase center KOTA PROJECT",
+        "date": "2024-11-29",
+        "downloadUrl": "/assets/tenders/Ummedpura_merged.pdf"
+      },
+      {
+        "sno": 92,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kishanpura Borada Purchase center KOTA PROJECT",
+        "date": "2024-11-30",
+        "downloadUrl": "/assets/tenders/KishanpuraBorada_merged.pdf"
+      },
+      {
+        "sno": 93,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Anta Purchase center KOTA PROJECT",
+        "date": "2024-12-01",
+        "downloadUrl": "/assets/tenders/Anta_merged.pdf"
+      },
+      {
+        "sno": 94,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kanwarpura Purchase Center KOTA PROJECT",
+        "date": "2024-12-02",
+        "downloadUrl": "/assets/tenders/Kanwarpura_merged.pdf"
+      },
+      {
+        "sno": 95,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mundala Purchase Center KOTA PROJECT",
+        "date": "2024-12-03",
+        "downloadUrl": "/assets/tenders/Mundala_merged.pdf"
+      },
+      {
+        "sno": 96,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sarola Richhari Purchase Center KOTA PROJECT",
+        "date": "2024-12-04",
+        "downloadUrl": "/assets/tenders/SarolaRichaheri_merged.pdf"
+      },
+      {
+        "sno": 97,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Talab Purchase Center KOTA PROJECT",
+        "date": "2024-12-05",
+        "downloadUrl": "/assets/tenders/Talab_merged.pdf"
+      },
+      {
+        "sno": 98,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kherli Mahadev Purchase Center KOTA PROJECT",
+        "date": "2024-12-06",
+        "downloadUrl": "/assets/tenders/KherliMahadev_merged.pdf"
+      },
+      {
+        "sno": 99,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sangod Purchase Center KOTA PROJECT",
+        "date": "2024-12-09",
+        "downloadUrl": "/assets/tenders/Sangod_merged.pdf"
+      },
+      {
+        "sno": 100,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Jhalipura Purchase Center KOTA PROJECT",
+        "date": "2024-12-09",
+        "downloadUrl": "/assets/tenders/Jhalipura_merged.pdf"
+      },
+      {
+        "sno": 101,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Jhanachak Purchase Center in Distt. Hanumangarh",
+        "date": "2024-12-06",
+        "downloadUrl": "/assets/tenders/Jhana.pdf"
+      },
+      {
+        "sno": 102,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Amrapurathana Purchase Center in Distt. Hanumangarh",
+        "date": "2024-12-07",
+        "downloadUrl": "/assets/tenders/Am.pdf"
+      },
+      {
+        "sno": 103,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Pakkasarana Purchase Center in Distt. Hanumangarh",
+        "date": "2024-12-08",
+        "downloadUrl": "/assets/tenders/Pak.pdf"
+      },
+      {
+        "sno": 104,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Hirnawali Purchase Center in Distt. Hanumangarh",
+        "date": "2024-12-09",
+        "downloadUrl": "/assets/tenders/Hir.pdf"
+      },
+      {
+        "sno": 105,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sadulsahar Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-10",
+        "downloadUrl": "/assets/tenders/sad.pdf"
+      },
+      {
+        "sno": 106,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Kesrisinghpur Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-11",
+        "downloadUrl": "/assets/tenders/ke.pdf"
+      },
+      {
+        "sno": 107,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at SriKaranpur Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-12",
+        "downloadUrl": "/assets/tenders/sr.pdf"
+      },
+      {
+        "sno": 108,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Padampur Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-13",
+        "downloadUrl": "/assets/tenders/pa.pdf"
+      },
+      {
+        "sno": 109,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Ridmalsar Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-14",
+        "downloadUrl": "/assets/tenders/ri.pdf"
+      },
+      {
+        "sno": 110,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Beejbhayala Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-15",
+        "downloadUrl": "/assets/tenders/be.pdf"
+      },
+      {
+        "sno": 111,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at 8 STB Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-16",
+        "downloadUrl": "/assets/tenders/st.pdf"
+      },
+      {
+        "sno": 112,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nahranwli Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-17",
+        "downloadUrl": "/assets/tenders/na.pdf"
+      },
+      {
+        "sno": 113,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at 50GB Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-18",
+        "downloadUrl": "/assets/tenders/gb.pdf"
+      },
+      {
+        "sno": 114,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Raisinghnagar Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-19",
+        "downloadUrl": "/assets/tenders/rs.pdf"
+      },
+      {
+        "sno": 115,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at 15A Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-20",
+        "downloadUrl": "/assets/tenders/a.pdf"
+      },
+      {
+        "sno": 116,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Patroda Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-21",
+        "downloadUrl": "/assets/tenders/atro.pdf"
+      },
+      {
+        "sno": 117,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at 12MLD Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-22",
+        "downloadUrl": "/assets/tenders/mld.pdf"
+      },
+      {
+        "sno": 118,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Suratgarh Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-23",
+        "downloadUrl": "/assets/tenders/sura.pdf"
+      },
+      {
+        "sno": 119,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Sujawalpur Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-24",
+        "downloadUrl": "/assets/tenders/suj.pdf"
+      },
+      {
+        "sno": 120,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Ramsaranjashran Purchase Center in Distt. Sri Ganganagar",
+        "date": "2024-12-25",
+        "downloadUrl": "/assets/tenders/ram.pdf"
+      },
+      {
+        "sno": 121,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Bhrampurabodla Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-12-26",
+        "downloadUrl": "/assets/tenders/bb.pdf"
+      },
+      {
+        "sno": 122,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Jodhewala Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-12-27",
+        "downloadUrl": "/assets/tenders/jo.pdf"
+      },
+      {
+        "sno": 123,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Mahiyawali Purchase center in Distt. Sri Ganganagar",
+        "date": "2024-12-28",
+        "downloadUrl": "/assets/tenders/mahi.pdf"
+      },
+      {
+        "sno": 124,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Barod Purchase center KOTA PROJECT",
+        "date": "2024-12-29",
+        "downloadUrl": "/assets/tenders/bar.pdf"
+      },
+      {
+        "sno": 125,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Palayatha Purchase center KOTA PROJECT",
+        "date": "2024-12-30",
+        "downloadUrl": "/assets/tenders/pal.pdf"
+      },
+      {
+        "sno": 126,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Ralayati Purchase center KOTA PROJECT",
+        "date": "2024-12-31",
+        "downloadUrl": "/assets/tenders/ral.pdf"
+      },
+      {
+        "sno": 127,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Ranipura Purchase center KOTA PROJECT",
+        "date": "2025-01-01",
+        "downloadUrl": "/assets/tenders/ran.pdf"
+      },
+      {
+        "sno": 128,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Luhawad Purchase center KOTA PROJECT",
+        "date": "2025-01-02",
+        "downloadUrl": "/assets/tenders/lu.pdf"
+      },
+      {
+        "sno": 129,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Ganesgarh Purchase center in Distt. Sri Ganganagar",
+        "date": "2025-01-03",
+        "downloadUrl": "/assets/tenders/ga.pdf"
+      },
+      {
+        "sno": 130,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at Nirvana Purchase center in Distt. Sri Ganganagar",
+        "date": "2025-01-04",
+        "downloadUrl": "/assets/tenders/ni.pdf"
+      },
+      {
+        "sno": 131,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at 12GB Purchase center in Distt. Sri Ganganagar",
+        "date": "2025-01-05",
+        "downloadUrl": "/assets/tenders/tw.pdf"
+      },
+      {
+        "sno": 132,
+        "particular": "e-TENDER NOTICE FOR HANDLING (HAMMALI WORK) & TRANSPORTATION OF WHEAT PURCHASE UNDER MSP 2025-26 at KUPALI Purchase center in Distt. Sri Ganganagar",
+        "date": "2025-01-06",
+        "downloadUrl": "/assets/tenders/ku.pdf"
+      },
+      {
+        "sno": 133,
+        "particular": "Short Term Notice Inviting Bids for Supply of 250 KVA Transformer (TS-1/25) at Tilam Sangh, Kota Project site",
+        "date": "2025-01-07",
+        "downloadUrl": "/assets/tenders/trr.pdf"
+      },
+      {
+        "sno": 134,
+        "particular": "E-AUCTION FOR SALE OF COMMODITIES (GUNNY BAGS)",
+        "date": "2025-01-08",
+        "downloadUrl": "/assets/tenders/god.pdf"
+      },
+      {
+        "sno": 135,
+        "particular": "E-AUCTION FOR SALE OF COMMODITIES (GUNNY BAGS) REVISED",
+        "date": "2025-01-09",
+        "downloadUrl": "/assets/tenders/gdr.pdf"
+      },
+      {
+        "sno": 136,
+        "particular": "ACCEPTANCE OF E-AUCTION FOR SALE OF COMMODITIES (GUNNY BAGS)",
+        "date": "2025-01-10",
+        "downloadUrl": "/assets/tenders/AC.pdf"
+      },
+      {
+        "sno": 137,
+        "particular": "E-AUCTION FOR SALE OF GRAM",
+        "date": "2025-01-11",
+        "downloadUrl": "/assets/tenders/GRM.pdf"
+      },
+      {
+        "sno": 138,
+        "particular": "e-TENDER NOTICE 2025-26 FOR SUPPLY OF MANPOWER IN TILAM SANGH HEAD OFFICE JAIPUR",
+        "date": "2025-01-12",
+        "downloadUrl": "/assets/tenders/cp.pdf"
+      },
+      {
+        "sno": 139,
+        "particular": "Notice Inviting Bids (LB-1J/25) for Supply of 5 ltr. HDPE Jars to our Kota Project, for edible oil filling",
+        "date": "2025-01-13",
+        "downloadUrl": "/assets/tenders/JARF.pdf"
+      },
+      {
+        "sno": 140,
+        "particular": "Tender Notice For Supply of 1 Ltr. or 500 ML Bottle for Refined Soyabean oil label",
+        "date": "2025-01-14",
+        "downloadUrl": "/assets/tenders/SPJ.pdf"
+      },
+      {
+        "sno": 141,
+        "particular": "Tender Notice For Supply of SUPPLY OF SECURITY AND OFFICE WORKER 2025-26",
+        "date": "2025-01-15",
+        "downloadUrl": "/assets/tenders/SO.pdf"
+      },
+      {
+        "sno": 142,
+        "particular": "Tender Notice For Supply of EDIBLE OIL TIN TRANSPORTATION 2025-26",
+        "date": "2025-01-16",
+        "downloadUrl": "/assets/tenders/TTRA.pdf"
+      },
+      {
+        "sno": 143,
+        "particular": "Tender Notice For Supply of EDIBLE OIL PACKING-FILLING AND LOADING-UNLOADING 2025-26",
+        "date": "2025-01-17",
+        "downloadUrl": "/assets/tenders/OPFL.pdf"
+      },
+      {
+        "sno": 144,
+        "particular": "E-AUCTION ON 07.10.2025 FOR GANGAPUR CITY LAND SALE",
+        "date": "2025-01-18",
+        "downloadUrl": "/assets/tenders/gc.pdf"
+      },
+      {
+        "sno": 145,
+        "particular": "BID DOCUMENT FOR GANGAPUR CITY LAND SALE",
+        "date": "2025-01-19",
+        "downloadUrl": "/assets/tenders/ts.pdf"
+      },
+      {
+        "sno": 146,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF 15 Kg. ISI Tin Containers (E-A1/25)",
+        "date": "2025-01-20",
+        "downloadUrl": "/assets/tenders/tnkg.pdf"
+      },
+      {
+        "sno": 147,
+        "particular": "TENDER NOTICE FOR OIL TRANSPORTATION",
+        "date": "2025-01-21",
+        "downloadUrl": "/assets/tenders/ot.pdf"
+      },
+      {
+        "sno": 148,
+        "particular": "TENDER NOTICE FOR OIL PACKING AND FILLING",
+        "date": "2025-01-22",
+        "downloadUrl": "/assets/tenders/opf.pdf"
+      },
+      {
+        "sno": 149,
+        "particular": "TENDER NOTICE FOR ELECTRIC EQUIPMENT AND MAINTENANCE",
+        "date": "2025-01-23",
+        "downloadUrl": "/assets/tenders/em.pdf"
+      },
+      {
+        "sno": 150,
+        "particular": "e-TENDER NOTICE FOR SUPPLY OF 15 Kg. ISI Tin Containers (E-A1/25)",
+        "date": "2025-01-24",
+        "downloadUrl": "/assets/tenders/tc.pdf"
+      },
+      {
+        "sno": 151,
+        "particular": "TENDER NOTICE FOR OIL PACKING AND FILLING",
+        "date": "2025-01-25",
+        "downloadUrl": "/assets/tenders/fs.pdf"
+      },
+      {
+        "sno": 152,
+        "particular": "TENDER NOTICE FOR ELECTRIC EQUIPMENT AND MAINTENANCE",
+        "date": "2025-01-26",
+        "downloadUrl": "/assets/tenders/es.pdf"
+      },
+      {
+        "sno": 153,
+        "particular": "NOTICE INVITING LIMITED BIDS FOR VALUATION LAND, BUILDING AND MACHINERY",
+        "date": "2025-01-27",
+        "downloadUrl": "/assets/tenders/MC.pdf"
+      },
+      {
+        "sno": 154,
+        "particular": "Corrigendum of Technical Bid of e-Tender for Seed Grading Works (UBN : TIL2425SSOB00008 )",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/Corrseedg.pdf"
+      },
+      {
+        "sno": 155,
+        "particular": "Tender for supply of Security Guards at Sriganganar Project)",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/TENDSEURITYGNR.pdf"
+      },
+      {
+        "sno": 156,
+        "particular": "Notice Inviting Bids (LB-4CB/24) for supply of Corrugated Boxes.",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/cbtender.pdf"
+      },
+      {
+        "sno": 157,
+        "particular": "Document For Appointment of Depot Agent/Distributor/Dealer For Bhilwara",
+        "date": "2024-11-28",
+        "downloadUrl": "/assets/tenders/dept.pdf"
+      }
+    ]
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "website",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T05:12:08.875Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-23T05:12:08.895Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T05:12:08.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a3ff8047f6ecbe7a89c23"
+  },
+  "slug": "marketing",
+  "language": "English",
+  "data": {
+    "page": {
+      "title": "तेल विपणन - तिलम् संघ",
+      "subtitle": "सरसों, सोयाबीन, मूंगफली ब्रांडेड तेल का विपणन",
+      "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "themeColor": "#D99A00",
+      "intro": "राजस्थान राज्य तिलम् संघ द्वारा राज्य के तिलहन उत्पादक कृषकों से निर्धारित गुणवत्ता मानकों के अनुरूप सरसों, सोयाबीन एवं मूंगफली तेल का क्रय कर संगठित एवं नियंत्रित तरीके से विपणन किया जाता है। संघ का उद्देश्य कृषकों को उनकी उपज का उचित मूल्य दिलाना तथा उपभोक्ताओं को शुद्ध, सुरक्षित एवं गुणवत्तापूर्ण ब्रांडेड खाद्य तेल उपलब्ध कराना है। तिलम् संघ द्वारा तेल विपणन की यह व्यवस्था सहकारी ढांचे पर आधारित है, जिससे उत्पादन से लेकर उपभोग तक की श्रृंखला में पारदर्शिता बनी रहती है। हालाँकि, कार्यशील पूंजी की सीमित उपलब्धता के कारण हाल के वर्षों में तेल विपणन गतिविधियों में अपेक्षाकृत कमी देखी गई है, फिर भी संघ निरंतर अपने संसाधनों के सुदृढ़ीकरण एवं विपणन क्षमता बढ़ाने हेतु प्रयासरत है।",
+      "heroImage_alt": "",
+      "heroImage_width": "",
+      "heroImage_height": "",
+      "heroImage_type": "image"
+    },
+    "pageId": "marketing",
+    "meta": {
+      "title": "तेल विपणन | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ द्वारा सरसों, सोयाबीन एवं मूँगफली ब्रांडेड तेल का विपणन एवं वार्षिक बिक्री विवरण।"
+    },
+    "hero": {
+      "badge": "तेल विपणन",
+      "title": "Tilam Sangh – Trusted Oil Marketing Network",
+      "subtitle": "सरसों, सोयाबीन एवं मूँगफली के ब्रांडेड तेल का गुणवत्तापूर्ण विपणन एवं पारदर्शी वितरण।",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "तेल विपणन",
+          "href": "/marketing"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "वार्षिक विपणन रिपोर्ट",
+        "targetId": "yearly-marketing-section"
+      },
+      "ctaSecondary": {
+        "label": "ब्रांडेड तेल विवरण",
+        "targetId": "oil-category-section"
+      },
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "pdfs": [
+      {
+        "id": "marketing-overview",
+        "title": "तेल विपणन रिपोर्ट - सारांश (2024)",
+        "description": "विस्तृत रिपोर्ट जिसमें मात्रा और बिक्री का विवरण है।",
+        "file": "/assets/tenders/marketing.pdf"
+      },
+      {
+        "id": "marketing-full",
+        "title": "तेल विपणन - पूर्ण विवरण (अभिलेख)",
+        "description": "पुराने वर्षों के आँकड़े और पॉलिसी नोट्स।",
+        "file": "/assets/tenders/marketing.pdf"
+      }
+    ],
+    "years": [
+      {
+        "year": "2019-20",
+        "soyabean": 1381.73,
+        "mustard": 110.12,
+        "groundnut": 685.86,
+        "total": 2177.71
+      },
+      {
+        "year": "2020-21",
+        "soyabean": 1384.26,
+        "mustard": 118.26,
+        "groundnut": 561.72,
+        "total": 2064.24
+      },
+      {
+        "year": "2021-22",
+        "soyabean": 393.98,
+        "mustard": 132.5,
+        "groundnut": 565.14,
+        "total": 1091.62
+      },
+      {
+        "year": "2022-23",
+        "soyabean": 169.32,
+        "mustard": 53.41,
+        "groundnut": 347.34,
+        "total": 570.07
+      },
+      {
+        "year": "2023-24",
+        "soyabean": 161.27,
+        "mustard": 47.78,
+        "groundnut": 115.52,
+        "total": 324.58
+      },
+      {
+        "year": "2024-25 (upto 31.10.2024)",
+        "soyabean": 69.94,
+        "mustard": 23.73,
+        "groundnut": 53.23,
+        "total": 146.9
+      }
+    ],
+    "gallery": [
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+    ],
+    "lastUpdated": "2024-10-31"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T07:08:40.138Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-23T07:08:40.166Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T07:08:40.166Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a42e8027e46433351c825"
+  },
+  "slug": "quality",
+  "language": "English",
+  "data": {
+    "pageId": "quality",
+    "meta": {
+      "title": "गुणवत्ता नियंत्रण | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ में तेल गुणवत्ता निरीक्षण, लैब परीक्षण, मानक अनुपालन व प्रमाणन से जुड़ी सभी गतिविधियाँ।"
+    },
+    "hero": {
+      "badge": "गुणवत्ता नियंत्रण",
+      "title": "Ensuring Purity, Safety & Quality Standards",
+      "subtitle": "तिलम् संघ द्वारा तैयार किए गए सभी तेल एवं उत्पाद सख़्त गुणवत्ता मानकों व प्रमाणित प्रक्रियाओं से होकर गुजरते हैं।",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "गुणवत्ता नियंत्रण",
+          "href": "/quality"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "गुणवत्ता परीक्षण रिपोर्ट",
+        "targetId": "quality-report-section"
+      },
+      "ctaSecondary": {
+        "label": "प्रमाणन एवं मानक",
+        "targetId": "certification-section"
+      },
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "page": {
+      "title": "गुणवत्ता नियंत्रण - तिलम् संघ",
+      "subtitle": "उच्च स्तरीय परीक्षण व गुणवत्ता आश्वासन",
+      "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "themeColor": "#D99A00",
+      "intro": "तिलम् संघ गुणवत्ता को सर्वोच्च प्राथमिकता देता है तथा उपभोक्ताओं को शुद्ध, सुरक्षित एवं मानक अनुरूप तेल उपलब्ध कराने के लिए निरंतर प्रयासरत है। संघ की सभी प्रोसेसिंग इकाइयों में आधुनिक एवं सुव्यवस्थित प्रयोगशालाएँ स्थापित की गई हैं, जहाँ तेल एवं तिलहन का वैज्ञानिक परीक्षण किया जाता है। इन प्रयोगशालाओं में कच्चे माल से लेकर अंतिम उत्पाद तक प्रत्येक चरण पर गुणवत्ता की निगरानी की जाती है।\n\nतेल की शुद्धता, नमी प्रतिशत, मुक्त फैटी एसिड (FFA), पेरॉक्साइड वैल्यू, फ्लैश पॉइंट एवं अन्य महत्वपूर्ण मानकों का परीक्षण BIS, FSSAI तथा ISO द्वारा निर्धारित दिशानिर्देशों के अनुसार किया जाता है। गुणवत्ता नियंत्रण प्रक्रिया के अंतर्गत प्रशिक्षित तकनीकी कार्मिकों द्वारा नियमित निरीक्षण, नमूना परीक्षण एवं दस्तावेज़ीकरण सुनिश्चित किया जाता है।\n\nतिलम् संघ का उद्देश्य न केवल गुणवत्ता मानकों का पालन करना है, बल्कि कृषकों द्वारा उत्पादित तिलहन का सर्वोत्तम मूल्य संवर्धन करते हुए उपभोक्ताओं तक उच्च गुणवत्ता वाले, स्वास्थ्यवर्धक एवं विश्वसनीय उत्पाद पहुँचाना भी है। गुणवत्ता नियंत्रण की यह सुदृढ़ व्यवस्था तिलम् संघ को सहकारी क्षेत्र में एक भरोसेमंद एवं प्रतिष्ठित संस्था के रूप में स्थापित करती है।",
+      "heroImage_alt": "",
+      "heroImage_width": "",
+      "heroImage_height": "",
+      "heroImage_type": "image"
+    },
+    "pdfs": [
+      {
+        "id": "quality-standards",
+        "title": "गुणवत्ता मानक व प्रक्रिया (2024)",
+        "description": "तिलम् संघ द्वारा अपनाई जाने वाली परीक्षण प्रक्रियाएँ व गुणवत्ता मापदंड।",
+        "file": "/assets/footer/quality.jpg",
+        "file_alt": "",
+        "file_width": "",
+        "file_height": "",
+        "file_type": "image"
+      },
+      {
+        "id": "lab-reports",
+        "title": "लैब टेस्ट रिपोर्ट – वार्षिक संकलन",
+        "description": "तेल नमूनों की प्रयोगशाला रिपोर्ट एवं विश्लेषण का विस्तृत विवरण।",
+        "file": "/assets/footer/quality.jpg",
+        "file_alt": "",
+        "file_width": "",
+        "file_height": "",
+        "file_type": "image"
+      }
+    ],
+    "parameters": [
+      {
+        "name": "FFA (Free Fatty Acid)",
+        "unit": "%",
+        "acceptableRange": "≤ 0.25",
+        "note": "सरसों एवं मूंगफली तेल के लिए"
+      },
+      {
+        "name": "Moisture Content",
+        "unit": "%",
+        "acceptableRange": "≤ 0.10",
+        "note": "सभी प्रकार के तेल हेतु"
+      },
+      {
+        "name": "Peroxide Value",
+        "unit": "meq/kg",
+        "acceptableRange": "≤ 10",
+        "note": "ऑक्सिडेशन स्तर का माप"
+      },
+      {
+        "name": "Flash Point",
+        "unit": "°C",
+        "acceptableRange": "≥ 250",
+        "note": "सुरक्षा मानक"
+      }
+    ],
+    "years": [
+      {
+        "year": "2019-20",
+        "soyabean": 1381.73,
+        "mustard": 110.12,
+        "groundnut": 685.86,
+        "total": 2177.71
+      },
+      {
+        "year": "2020-21",
+        "soyabean": 1384.26,
+        "mustard": 118.26,
+        "groundnut": 561.72,
+        "total": 2064.24
+      },
+      {
+        "year": "2021-22",
+        "soyabean": 393.98,
+        "mustard": 132.5,
+        "groundnut": 565.14,
+        "total": 1091.62
+      },
+      {
+        "year": "2022-23",
+        "soyabean": 169.32,
+        "mustard": 53.41,
+        "groundnut": 347.34,
+        "total": 570.07
+      },
+      {
+        "year": "2023-24",
+        "soyabean": 161.27,
+        "mustard": 47.78,
+        "groundnut": 115.52,
+        "total": 324.58
+      },
+      {
+        "year": "2024-25 (upto 31.10.2024)",
+        "soyabean": 69.94,
+        "mustard": 23.73,
+        "groundnut": 53.23,
+        "total": 146.9
+      }
+    ],
+    "gallery": [
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+    ],
+    "lastUpdated": "2024-11-15"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T07:21:12.577Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-23T07:21:12.585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T07:21:12.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a53ea0787490ca75a40f8"
+  },
+  "slug": "products",
+  "language": "English",
+  "data": {
+    "pageId": "products",
+    "meta": {
+      "title": "उत्पाद | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ द्वारा उत्पादित एवं ब्रांडेड तेल एवं अन्य उत्पादों की सूची, गुणवत्ता विवरण और उपलब्ध पैकेजिंग।"
+    },
+    "hero": {
+      "badge": "उत्पाद",
+      "title": "Tilam Sangh – Trusted Branded Products",
+      "subtitle": "सरसों, सोयाबीन, मूंगफली एवं अन्य तिलहनों से बने उच्च गुणवत्ता वाले ब्रांडेड तेल एवं उत्पाद।",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "उत्पाद",
+          "href": "/products"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "उत्पाद विवरण देखें",
+        "targetId": "product-list-section"
+      },
+      "ctaSecondary": {
+        "label": "पैकेजिंग व गुणवत्ता",
+        "targetId": "packaging-section"
+      },
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "page": {
+      "title": "तिलम् संघ — ब्रांडेड उत्पाद",
+      "subtitle": "उच्च गुणवत्ता वाले खाद्य तेल एवं संबंधित उत्पाद",
+      "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "themeColor": "#D99A00",
+      "intro": "तिलम् संघ गुणवत्ता को सर्वोच्च प्राथमिकता देता है और यह सुनिश्चित करता है कि कृषकों से लेकर उपभोक्ताओं तक केवल सुरक्षित, शुद्ध एवं मानक अनुरूप उत्पाद ही पहुँचें। संघ की सभी प्रोसेसिंग इकाइयों में आधुनिक प्रयोगशालाएँ स्थापित हैं, जहाँ तिलहन एवं तेल का वैज्ञानिक परीक्षण किया जाता है। इन प्रयोगशालाओं में तेल की शुद्धता, नमी, फैटी एसिड स्तर, ऑक्सिडेशन तथा अन्य गुणवत्ता मापदण्डों की जाँच BIS, FSSAI एवं ISO द्वारा निर्धारित मानकों के अनुसार की जाती है। तिलम् संघ द्वारा उत्पादित एवं विक्रय किए जाने वाले सभी ब्रांडेड तेल गुणवत्ता एवं शुद्धता के कठोर मानकों का पालन करते हैं। प्रत्येक उत्पाद को स्वीकृत प्रोसेसिंग प्रक्रियाओं से गुजरने के बाद ही पैक किया जाता है, जिससे उपभोक्ताओं को सुरक्षित, पोषणयुक्त एवं भरोसेमंद खाद्य तेल उपलब्ध हो सके। गुणवत्ता नियंत्रण की यह सुदृढ़ व्यवस्था न केवल उपभोक्ताओं का विश्वास मजबूत करती है, बल्कि तिलहन उत्पादक कृषकों को भी उनके उत्पाद का उचित मूल्य एवं स्थायी बाजार प्रदान करती है। ",
+      "heroImage_alt": "",
+      "heroImage_width": "",
+      "heroImage_height": "",
+      "heroImage_type": "image"
+    },
+    "pdfs": [
+      {
+        "id": "products-list",
+        "title": "उत्पाद सूची – 2024",
+        "description": "तिलम् संघ द्वारा निर्मित सभी उत्पादों की आधिकारिक सूची।",
+        "file": "/assets/footer/PRODUCT.pdf"
+      },
+      {
+        "id": "packaging-details",
+        "title": "पैकेजिंग एवं गुणवत्ता मानक",
+        "description": "उत्पाद पैकेजिंग, लेबलिंग एवं गुणवत्ता मानक से जुड़े दस्तावेज।",
+        "file": "/assets/footer/PRODUCT.pdf"
+      }
+    ],
+    "years": [
+      {
+        "year": "सरसों तेल",
+        "soyabean": 0,
+        "mustard": 100,
+        "groundnut": 0,
+        "total": 100
+      },
+      {
+        "year": "सोयाबीन तेल",
+        "soyabean": 100,
+        "mustard": 0,
+        "groundnut": 0,
+        "total": 100
+      },
+      {
+        "year": "मूंगफली तेल",
+        "soyabean": 0,
+        "mustard": 0,
+        "groundnut": 100,
+        "total": 100
+      },
+      {
+        "year": "मिक्स ब्लेंड तेल",
+        "soyabean": 50,
+        "mustard": 50,
+        "groundnut": 0,
+        "total": 100
+      },
+      {
+        "year": "सरसों तेल",
+        "soyabean": 0,
+        "mustard": 100,
+        "groundnut": 0,
+        "total": 100
+      },
+      {
+        "year": "सोयाबीन तेल",
+        "soyabean": 100,
+        "mustard": 0,
+        "groundnut": 0,
+        "total": 100
+      },
+      {
+        "year": "मूंगफली तेल",
+        "soyabean": 0,
+        "mustard": 0,
+        "groundnut": 100,
+        "total": 100
+      },
+      {
+        "year": "मिक्स ब्लेंड तेल",
+        "soyabean": 50,
+        "mustard": 50,
+        "groundnut": 0,
+        "total": 100
+      }
+    ],
+    "gallery": [
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+    ],
+    "lastUpdated": "2024-11-20"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T08:33:46.410Z"
+  },
+  "dateUpdated": {
+    "$date": "2025-12-23T11:07:27.115Z"
+  },
+  "createdAt": {
+    "$date": "2025-12-23T08:33:46.440Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T11:07:27.117Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a54c49aec8b354dd3cef8"
+  },
+  "slug": "financial-results",
+  "language": "English",
+  "data": {
+    "pageId": "financial-results",
+    "meta": {
+      "title": "वित्तीय परिणाम | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ के वार्षिक वित्तीय परिणाम, आय-व्यय, लाभ-हानि तथा वित्तीय प्रदर्शन का सारांश।"
+    },
+    "hero": {
+      "badge": "वित्तीय परिणाम",
+      "title": "Annual Financial Performance of Tilam Sangh",
+      "subtitle": "राजस्व, व्यय, लाभ-हानि और वार्षिक आर्थिक प्रगति का विस्तृत विवरण।",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "वित्तीय परिणाम",
+          "href": "/financial-results"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "वार्षिक वित्तीय रिपोर्ट",
+        "targetId": "financial-report-section"
+      },
+      "ctaSecondary": {
+        "label": "आय-व्यय विवरण",
+        "targetId": "income-expense-section"
+      },
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "page": {
+      "title": "वित्तीय परिणाम - तिलम् संघ",
+      "subtitle": "राजस्व, व्यय एवं वित्तीय प्रबंधन",
+      "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "themeColor": "#D99A00",
+      "intro": "तिलम् संघ द्वारा प्रत्येक वित्तीय वर्ष में अपने आर्थिक प्रदर्शन का विस्तृत एवं व्यवस्थित विश्लेषण किया जाता है, जिसमें कुल आय, व्यय, लाभ-हानि, परिचालन लागत तथा पूंजीगत निवेश से संबंधित सभी महत्वपूर्ण आँकड़े सम्मिलित होते हैं। संघ का मुख्य उद्देश्य पारदर्शी, उत्तरदायी एवं सुदृढ़ वित्तीय प्रबंधन प्रणाली के माध्यम से सहकारी गतिविधियों को दीर्घकालिक रूप से सशक्त बनाना है।\n\nवित्तीय विवरणों के माध्यम से तिलम् संघ की समग्र आर्थिक स्थिति, तेल विपणन एवं प्रोसेसिंग गतिविधियों की दक्षता, कार्यशील पूंजी की उपलब्धता तथा भविष्य की विकास योजनाओं हेतु संसाधनों की स्थिति का मूल्यांकन किया जाता है। यह विवरण न केवल आंतरिक प्रशासन एवं प्रबंधन के लिए उपयोगी है, बल्कि राज्य सरकार, लेखा परीक्षण एजेंसियों एवं अन्य संबंधित संस्थाओं के लिए भी एक महत्वपूर्ण संदर्भ प्रदान करता है। नीचे प्रस्तुत वित्तीय आँकड़े तिलम् संघ की कार्यप्रणाली में पारदर्शिता, वित्तीय अनुशासन एवं जवाबदेही को स्पष्ट रूप से प्रदर्शित करते हैं।",
+      "heroImage_alt": "",
+      "heroImage_width": "",
+      "heroImage_height": "",
+      "heroImage_type": "image"
+    },
+    "pdfs": [
+      {
+        "id": "financial-summary",
+        "title": "वित्तीय परिणाम सारांश (2024-25)",
+        "description": "आय-व्यय, लाभ-हानि व वित्तीय विश्लेषण का वार्षिक विवरण।",
+        "file": "/assets/financial-results/P-&-L-From-1990.pdf"
+      },
+      {
+        "id": "financial-full-report",
+        "title": "पूर्ण वित्तीय रिपोर्ट (अभिलेख)",
+        "description": "सभी वर्षों के वित्तीय आँकड़ों का विस्तृत संग्रह।",
+        "file": "/assets/footer/fin.pdf"
+      }
+    ],
+    "years": [
+      {
+        "year": "2019-20",
+        "income": 2540.75,
+        "expense": 2487.1,
+        "profit": 53.65,
+        "total": 2540.75
+      },
+      {
+        "year": "2020-21",
+        "income": 2611.4,
+        "expense": 2575.2,
+        "profit": 36.2,
+        "total": 2611.4
+      },
+      {
+        "year": "2021-22",
+        "income": 1984.33,
+        "expense": 2051.12,
+        "profit": -66.79,
+        "total": 1984.33
+      },
+      {
+        "year": "2022-23",
+        "income": 1741.26,
+        "expense": 1678.11,
+        "profit": 63.15,
+        "total": 1741.26
+      },
+      {
+        "year": "2023-24",
+        "income": 1522.9,
+        "expense": 1490.55,
+        "profit": 32.35,
+        "total": 1522.9
+      },
+      {
+        "year": "2024-25 (upto 31.10.2024)",
+        "income": 754.1,
+        "expense": 721.6,
+        "profit": 32.5,
+        "total": 754.1
+      }
+    ],
+    "gallery": [
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+    ],
+    "lastUpdated": "2024-11-20"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T08:37:24.933Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-23T08:37:24.956Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T08:37:24.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a560236550b5319e1b34b"
+  },
+  "slug": "about",
+  "language": "English",
+  "data": {
+    "pageId": "about",
+    "meta": {
+      "title": "हमारे बारे में | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ का इतिहास, उद्देश्य, संगठन संरचना, उपलब्धियाँ एवं सहकारी विकास की यात्रा।"
+    },
+    "hero": {
+      "badge": "हमारे बारे में",
+      "title": "Tilam Sangh – A Cooperative Legacy of Trust & Growth",
+      "subtitle": "तिलहन उत्पादकों के आर्थिक, सामाजिक और तकनीकी विकास के लिए समर्पित एक विश्वसनीय संस्थान।",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "हमारे बारे में",
+          "href": "/about"
+        }
+      ],
+      "ctaPrimary": {
+        "label": "इतिहास व स्थापना",
+        "targetId": "about-history"
+      },
+      "ctaSecondary": {
+        "label": "उद्देश्य एवं मिशन",
+        "targetId": "mission-section"
+      },
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "page": {
+      "title": "हमारे बारे में - तिलम् संघ",
+      "subtitle": "राजस्थान के तिलहन उत्पादकों का प्रमुख सहकारी संगठन",
+      "heroImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "themeColor": "#D99A00",
+      "intro": "तिलम् संघ की स्थापना किसानों को तिलहन उत्पादन, उपार्जन, भंडारण, प्रसंस्करण एवं विपणन में सहकारी आधार पर सहयोग प्रदान करने के उद्देश्य से की गई थी। संघ कृषि मूल्य श्रृंखला में विश्वसनीयता और पारदर्शिता का प्रतीक है।",
+      "heroImage_alt": "",
+      "heroImage_width": "",
+      "heroImage_height": "",
+      "heroImage_type": "image"
+    },
+    "sections": {
+      "history": {
+        "title": "इतिहास एवं स्थापना",
+        "content": "राजस्थान तिलम् संघ की स्थापना सहकारी ढांचे को मजबूत करने, तिलहन उत्पादक किसानों को बाज़ार से उचित मूल्य दिलवाने तथा प्रोसेसिंग सुविधाएँ उपलब्ध करवाने के उद्देश्य से की गई। 1984 में आधुनिक प्रोसेसिंग यूनिट्स की शुरुआत ने तिलहन क्रांति में महत्वपूर्ण योगदान दिया।"
+      },
+      "mission": {
+        "title": "हमारा मिशन",
+        "points": [
+          "किसानों को उचित मूल्य दिलाने हेतु संगठित विपणन प्रणाली विकसित करना।",
+          "आधुनिक तकनीक आधारित प्रोसेसिंग व गुणवत्ता नियंत्रण को बढ़ावा देना।",
+          "सहकारी आंदोलन के माध्यम से आर्थिक व सामाजिक उन्नति सुनिश्चित करना।",
+          "ब्रांडेड तेल, बीज एवं तिलहन उत्पादों को गुणवत्तापूर्ण रूप से उपलब्ध कराना।"
+        ]
+      },
+      "vision": {
+        "title": "दृष्टि",
+        "content": "एक सक्षम, पारदर्शी और किसान-केंद्रित सहकारी संस्था के रूप में तिलम् संघ को राष्ट्रीय स्तर पर स्थापित करना।"
+      },
+      "leadership": {
+        "title": "नेतृत्व एवं प्रबंधन",
+        "members": [
+          {
+            "name": "अध्यक्ष",
+            "role": "राजस्थान तिलम् संघ",
+            "image": "/assets/team/user-image.png",
+            "image_alt": "",
+            "image_width": "",
+            "image_height": "",
+            "image_type": "image"
+          },
+          {
+            "name": "प्रबंध निदेशक",
+            "role": "राजस्थान तिलम् संघ",
+            "image": "/assets/team/user-image.png",
+            "image_alt": "",
+            "image_width": "",
+            "image_height": "",
+            "image_type": "image"
+          },
+          {
+            "name": "तकनीकी सलाहकार",
+            "role": "गुणवत्ता व प्रसंस्करण विभाग",
+            "image": "/assets/team/user-image.png",
+            "image_alt": "",
+            "image_width": "",
+            "image_height": "",
+            "image_type": "image"
+          }
+        ]
+      }
+    },
+    "pdfs": [
+      {
+        "id": "about-profile",
+        "title": "तिलम् संघ प्रोफाइल",
+        "description": "संस्थान का इतिहास, उद्देश्यों एवं कार्यप्रणाली का विस्तृत विवरण।",
+        "file": "/assets/tenders/marketing.pdf"
+      },
+      {
+        "id": "about-mission",
+        "title": "मिशन व विजन दस्तावेज़",
+        "description": "संगठन की रणनीति, लक्ष्य एवं भविष्य की योजनाएँ।",
+        "file": "/assets/tenders/marketing.pdf"
+      }
+    ],
+    "years": [],
+    "gallery": [
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+    ],
+    "lastUpdated": "2024-12-01"
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T08:42:42.993Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-23T08:42:43.011Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T08:42:43.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "694a7e0243cf7f5c8efc29f9"
+  },
+  "slug": "profile",
+  "language": "English",
+  "data": {
+    "pageId": "profile",
+    "meta": {
+      "title": "प्रोफ़ाइल | राजस्थान तिलम् संघ",
+      "description": "राजस्थान तिलम् संघ का परिचय, स्थापना, उद्देश्य एवं सहकारी ढांचा।"
+    },
+    "hero": {
+      "badge": "प्रोफ़ाइल",
+      "title": "Rajasthan Tilam Sangh – Cooperative Strength",
+      "subtitle": "राज्य के तिलहन उत्पादक कृषकों के लिए एक सशक्त सहकारी संस्था",
+      "backgroundImage": "/assets/infrastructure/hero-section/tilam-sangh-banner.png",
+      "overlayOpacity": 0.82,
+      "breadcrumb": [
+        {
+          "label": "होम",
+          "href": "/"
+        },
+        {
+          "label": "तिलम् संघ",
+          "href": ""
+        },
+        {
+          "label": "प्रोफ़ाइल",
+          "href": "/profile"
+        }
+      ],
+      "backgroundImage_alt": "",
+      "backgroundImage_width": "",
+      "backgroundImage_height": "",
+      "backgroundImage_type": "image"
+    },
+    "page": {
+      "title": "तिलम् संघ – संक्षिप्त परिचय",
+      "intro": "राजस्थान राज्य सहकारी तिलहन उत्पादक संघ लिमिटेड (तिलम् संघ) राज्य में तिलहन उत्पादन, प्रसंस्करण एवं विपणन के क्षेत्र में एक अग्रणी सहकारी संस्था है। इसकी स्थापना राजस्थान सहकारी अधिनियम 1985 के अंतर्गत की गई तथा 1 जनवरी 1991 से यह विधिवत कार्यरत है।"
+    },
+    "highlights": [
+      {
+        "title": "कुल वर्षों की यात्रा",
+        "value": "30+",
+        "hint": "स्थापना से अब तक"
+      },
+      {
+        "title": "सहकारी अधिनियम",
+        "value": "1985",
+        "hint": "राजस्थान राज्य"
+      },
+      {
+        "title": "कार्य क्षेत्र",
+        "value": "राज्यव्यापी",
+        "hint": "कृषक आधारित सहकारिता"
+      }
+    ],
+    "timeline": [
+      {
+        "year": "1990",
+        "description": "राजस्थान राज्य सहकारी अधिनियम 1985 के अंतर्गत तिलम् संघ की स्थापना।"
+      },
+      {
+        "year": "1991",
+        "description": "संघ ने विधिवत रूप से कार्य प्रारंभ किया।"
+      },
+      {
+        "year": "2000-2010",
+        "description": "राज्य में तिलहन प्रसंस्करण एवं विपणन नेटवर्क का विस्तार।"
+      },
+      {
+        "year": "वर्तमान",
+        "description": "कृषकों को उचित मूल्य, गुणवत्ता नियंत्रण और ब्रांडेड तेल विपणन पर विशेष ध्यान।"
+      }
+    ],
+    "pdfs": [
+      {
+        "id": "profile-report",
+        "title": "तिलम् संघ – प्रोफ़ाइल रिपोर्ट",
+        "description": "स्थापना, उद्देश्य एवं सहकारी संरचना का विस्तृत विवरण।",
+        "file": "/assets/profile/profile.pdf"
+      },
+      {
+        "id": "annual-achievement",
+        "title": "वार्षिक उपलब्धियाँ एवं प्रदर्शन",
+        "description": "संघ की प्रमुख उपलब्धियाँ और वार्षिक प्रगति रिपोर्ट।",
+        "file": "/assets/profile/profile.pdf"
+      }
+    ],
+    "gallery": [
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg",
+      "/assets/infrastructure/plant-grid/infrastruture-image1.jpg"
+    ]
+  },
+  "seo": {
+    "title": "",
+    "description": "",
+    "canonical": "",
+    "openGraph": {
+      "title": "",
+      "description": "",
+      "url": "",
+      "type": "",
+      "images": [
+        {
+          "url": "",
+          "width": null,
+          "height": null,
+          "alt": ""
+        }
+      ]
+    }
+  },
+  "status": true,
+  "deletedAt": null,
+  "dateCreated": {
+    "$date": "2025-12-23T11:33:22.314Z"
+  },
+  "dateUpdated": null,
+  "createdAt": {
+    "$date": "2025-12-23T11:33:22.340Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-23T11:33:22.340Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,380 @@
+[{
+  "_id": {
+    "$oid": "694526fd4c196339257b13de"
+  },
+  "language": "English",
+  "nodalOfficer": {
+    "title": "Nodal Officer (Website)",
+    "name": "Mr Nomaan Ashraf",
+    "contact": "0141 2740487",
+    "designation": "",
+    "mission": "",
+    "address": [
+      "Rajasthan State Tilhan Utpadak Sahakari Sangh Ltd. (Tilam Sangh) Second Floor, Nehru Sahakar Bhawan, Bhawani Singh Road, Jaipur",
+      "Rajasthan, India",
+      "",
+      ""
+    ]
+  },
+  "quickLinks": {
+    "title": "Quick Links",
+    "links": [
+      {
+        "label": "E GRASS",
+        "url": "https://egras.rajasthan.gov.in/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "EPFO",
+        "url": "https://unifiedportal-emp.epfindia.gov.in/epfo/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "IDBI",
+        "url": "https://www.idbi.bank.in/idbi-bank-internet-banking.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "SBI",
+        "url": "https://onlinesbi.sbi.bank.in/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "AXIS BANK",
+        "url": "https://www.axis.bank.in/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "PFMS",
+        "url": "https://pfms.nic.in/Home.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "E PROC",
+        "url": "https://eproc.rajasthan.gov.in/nicgep/app",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "SPPP",
+        "url": "https://sppp.rajasthan.gov.in/sppp/index.php",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "GST",
+        "url": "https://services.gst.gov.in/services/login",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "INCOME TAX",
+        "url": "https://eportal.incometax.gov.in/iec/foServices/#/login",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "NFSA",
+        "url": "https://nfsa.gov.in/default.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "MSP PROC",
+        "url": "https://mspproc.rajasthan.gov.in/login.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Home",
+        "url": "/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Profile",
+        "url": "assets/footer/profile.png",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Products",
+        "url": "assets/footer/PRODUCT.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Infrastructure",
+        "url": "assets/footer/INFRA.jpg",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Marketing",
+        "url": "assets/footer/marketing.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Quality",
+        "url": "assets/footer/quality.jpg",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Financial Result",
+        "url": "assets/footer/fin.pdf",
+        "status": true,
+        "deletedAt": null
+      }
+    ]
+  },
+  "importantLinks": {
+    "title": "Important Links",
+    "links": [
+      {
+        "label": "Prices",
+        "url": "assets/footer/rates.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Tenders",
+        "url": "tenders",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "RTI",
+        "url": "assets/footer/rti.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "RTI Online",
+        "url": "https://rtionline.gov.in",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "Contact",
+        "url": "assets/footer/contact.pdf",
+        "status": true,
+        "deletedAt": null
+      }
+    ],
+    "visitors": "Website Visitors"
+  },
+  "contact": {
+    "title": "Connect With Us",
+    "phone": "0141 2740487",
+    "email": "tilamsangh1@gmail.com"
+  },
+  "copyright": "Design & Develop by Metablock Technologies",
+  "oldCopyright": "© 2025 Tilam Sangh. All rights reserved.",
+  "status": true,
+  "deletedAt": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-19T10:20:45.323Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-19T10:20:45.323Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "694526fd4c196339257b13df"
+  },
+  "language": "Hindi",
+  "nodalOfficer": {
+    "title": "नोडल अधिकारी (वेबसाइट)",
+    "name": "श्री नोमान अशरफ",
+    "contact": "0141 2740487",
+    "designation": "",
+    "mission": "",
+    "address": [
+      "राजस्थान राज्य तिलहन उत्पादक सहकारी संघ लि. (तिलम् संघ) द्वितीय तल, नेहरु सहकार भवन, भवानी सिंह रोड, जयपुर",
+      "राजस्थान, भारत",
+      "",
+      ""
+    ]
+  },
+  "quickLinks": {
+    "title": "त्वरित लिंक",
+    "links": [
+      {
+        "label": "ई-ग्रास",
+        "url": "https://egras.rajasthan.gov.in/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "ईपीएफओ",
+        "url": "https://unifiedportal-emp.epfindia.gov.in/epfo/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "आईडीबीआई बैंक",
+        "url": "https://www.idbi.bank.in/idbi-bank-internet-banking.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "एसबीआई",
+        "url": "https://onlinesbi.sbi.bank.in/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "एक्सिस बैंक",
+        "url": "https://www.axis.bank.in/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "पीएफएमएस",
+        "url": "https://pfms.nic.in/Home.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "ई-प्रोक्योरमेंट",
+        "url": "https://eproc.rajasthan.gov.in/nicgep/app",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "एसपीपीपी",
+        "url": "https://sppp.rajasthan.gov.in/sppp/index.php",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "जीएसटी",
+        "url": "https://services.gst.gov.in/services/login",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "आयकर पोर्टल",
+        "url": "https://eportal.incometax.gov.in/iec/foServices/#/login",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "एनएफएसए (राशन)",
+        "url": "https://nfsa.gov.in/default.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "एमएसपी प्रोक्योरमेंट",
+        "url": "https://mspproc.rajasthan.gov.in/login.aspx",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "होम",
+        "url": "/",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "प्रोफ़ाइल",
+        "url": "assets/footer/profile.png",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "उत्पाद",
+        "url": "assets/footer/PRODUCT.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "इन्फ्रास्ट्रक्चर",
+        "url": "assets/footer/INFRA.jpg",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "मार्केटिंग",
+        "url": "assets/footer/marketing.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "गुणवत्ता",
+        "url": "assets/footer/quality.jpg",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "वित्तीय परिणाम",
+        "url": "assets/footer/fin.pdf",
+        "status": true,
+        "deletedAt": null
+      }
+    ]
+  },
+  "importantLinks": {
+    "title": "महत्वपूर्ण लिंक",
+    "links": [
+      {
+        "label": "मूल्य",
+        "url": "assets/footer/rates.pdf",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "निविदाएँ",
+        "url": "tenders",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "आरटीआई",
+        "url": "https://rtionline.gov.in",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "आरटीआई ऑनलाइन",
+        "url": "https://rtionline.gov.in",
+        "status": true,
+        "deletedAt": null
+      },
+      {
+        "label": "संपर्क",
+        "url": "assets/footer/contact.pdf",
+        "status": true,
+        "deletedAt": null
+      }
+    ],
+    "visitors": "वेबसाइट आगंतुक"
+  },
+  "contact": {
+    "title": "हमसे संपर्क करें",
+    "phone": "0141 2740487",
+    "email": "tilamsangh1@gmail.com"
+  },
+  "copyright": "मेटाब्लॉक टेक्नोलॉजीज द्वारा डिजाइन और विकसित",
+  "oldCopyright": "© 2025 तिलम संघ. सर्वाधिकार सुरक्षित.",
+  "status": true,
+  "deletedAt": null,
+  "__v": 0,
+  "createdAt": {
+    "$date": "2025-12-19T10:20:45.325Z"
+  },
+  "updatedAt": {
+    "$date": "2025-12-19T10:20:45.325Z"
+  }
+}]
