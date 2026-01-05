@@ -14,6 +14,7 @@ import NavbarList from './pages/Navbar/NavbarList';
 import PagesList from './pages/Pages/PagesList';
 import PageEditor from './pages/Pages/PageEditor';
 import MediaLibrary from './pages/Media/MediaLibrary';
+import SiteSettings from './pages/Settings/SiteSettings';
 
 const App = () => {
   const { isAuthenticated } = useSelector((state) => state.auth);
@@ -46,6 +47,7 @@ const App = () => {
         <Route path="pages/edit/:slug" element={<PageEditor />} />
         <Route path="pages/new" element={<PageEditor />} />
         <Route path="media" element={<MediaLibrary />} />
+        <Route path="settings" element={<SiteSettings />} />
       </Route>
 
       {/* 404 */}

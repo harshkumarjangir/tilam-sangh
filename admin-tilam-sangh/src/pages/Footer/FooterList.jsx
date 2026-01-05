@@ -1,13 +1,23 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { footerService } from '../../services/footerService';
-import { Save, Plus, Trash2, Edit2 } from 'lucide-react';
+import { uploadService } from '../../services/uploadService';
+import { Save, Plus, Trash2, Edit2, Upload, Loader, FolderOpen } from 'lucide-react';
 import { toast } from 'sonner';
+import Modal from '../../components/common/Modal';
+import MediaSelector from '../../components/common/MediaSelector';
 
 const FooterList = () => {
     const [footer, setFooter] = useState(null);
     const [loading, setLoading] = useState(true);
     const [editing, setEditing] = useState(false);
     const [language, setLanguage] = useState('English');
+    const [uploading, setUploading] = useState(false);
+
+    // Track which link is being uploaded to: { type: 'quickLinks' | 'importantLinks', index: number }
+    const [activeUpload, setActiveUpload] = useState(null);
+    const [isMediaModalOpen, setIsMediaModalOpen] = useState(false);
+    const fileInputRef = useRef(null);
+
     const [formData, setFormData] = useState({
         nodalOfficer: {
             title: '',
@@ -131,6 +141,60 @@ const FooterList = () => {
         });
     };
 
+    const triggerFileInput = (type, index) => {
+        setActiveUpload({ type, index });
+        fileInputRef.current?.click();
+    };
+
+    const openMediaLibrary = (type, index) => {
+        setActiveUpload({ type, index });
+        setIsMediaModalOpen(true);
+    };
+
+    const handleMediaSelect = (url) => {
+        if (activeUpload) {
+            updateLink(activeUpload.type, activeUpload.index, 'url', url);
+            setIsMediaModalOpen(false);
+            setActiveUpload(null);
+            toast.success('File selected from Media Library');
+        }
+    };
+
+    const handleFileUpload = async (e) => {
+        const file = e.target.files?.[0];
+        if (!file || !activeUpload) return;
+
+        try {
+            setUploading(true);
+            // Determine folder based on section but keep it simple 'footer'
+            const folder = 'media/footer';
+
+            // Upload file using generic uploadFile capability -> it auto detects pdf vs image in uploadService if we use specific methods, 
+            // but let's use uploadFile with type detection or fallback to specific ones.
+            // checking file type
+            const isPdf = file.type === 'application/pdf';
+            const uploadType = isPdf ? 'pdf' : 'image';
+
+            const response = await uploadService.uploadFile(file, uploadType, folder);
+
+            if (response.success) {
+                // Update the URL field of the active link
+                updateLink(activeUpload.type, activeUpload.index, 'url', response.url);
+                toast.success('File uploaded successfully');
+            } else {
+                toast.error('Upload failed');
+            }
+        } catch (error) {
+            console.error('File upload error:', error);
+            toast.error('Failed to upload file');
+        } finally {
+            setUploading(false);
+            setActiveUpload(null);
+            // Reset input
+            if (fileInputRef.current) fileInputRef.current.value = '';
+        }
+    };
+
     if (loading) {
         return (
             <div className="flex items-center justify-center h-64">
@@ -144,6 +208,15 @@ const FooterList = () => {
 
     return (
         <div>
+            {/* Hidden File Input */}
+            <input
+                type="file"
+                ref={fileInputRef}
+                className="hidden"
+                onChange={handleFileUpload}
+                accept="image/*,application/pdf"
+            />
+
             {/* Header */}
             <div className="mb-6 flex items-center justify-between">
                 <div>
@@ -308,7 +381,7 @@ const FooterList = () => {
                     </div>
                     <div className="space-y-3">
                         {formData.quickLinks.links?.map((link, index) => (
-                            <div key={index} className="flex gap-3">
+                            <div key={index} className="flex gap-3 items-center">
                                 <input
                                     type="text"
                                     placeholder="Label"
@@ -317,14 +390,39 @@ const FooterList = () => {
                                     disabled={!editing}
                                     className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                                 />
-                                <input
-                                    type="text"
-                                    placeholder="URL"
-                                    value={link.url}
-                                    onChange={(e) => updateLink('quickLinks', index, 'url', e.target.value)}
-                                    disabled={!editing}
-                                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
-                                />
+                                <div className="flex-1 flex gap-2">
+                                    <input
+                                        type="text"
+                                        placeholder="URL"
+                                        value={link.url}
+                                        onChange={(e) => updateLink('quickLinks', index, 'url', e.target.value)}
+                                        disabled={!editing}
+                                        className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
+                                    />
+                                    {editing && (
+                                        <div className="flex gap-1">
+                                            <button
+                                                onClick={() => triggerFileInput('quickLinks', index)}
+                                                className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
+                                                title="Upload New File"
+                                                disabled={uploading}
+                                            >
+                                                {uploading && activeUpload?.type === 'quickLinks' && activeUpload?.index === index ? (
+                                                    <Loader className="animate-spin" size={20} />
+                                                ) : (
+                                                    <Upload size={20} />
+                                                )}
+                                            </button>
+                                            <button
+                                                onClick={() => openMediaLibrary('quickLinks', index)}
+                                                className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
+                                                title="Select from Media Library"
+                                            >
+                                                <FolderOpen size={20} />
+                                            </button>
+                                        </div>
+                                    )}
+                                </div>
                                 {editing && (
                                     <button
                                         onClick={() => removeLink('quickLinks', index)}
@@ -384,7 +482,7 @@ const FooterList = () => {
                     </div>
                     <div className="space-y-3">
                         {formData.importantLinks.links?.map((link, index) => (
-                            <div key={index} className="flex gap-3">
+                            <div key={index} className="flex gap-3 items-center">
                                 <input
                                     type="text"
                                     placeholder="Label"
@@ -393,14 +491,39 @@ const FooterList = () => {
                                     disabled={!editing}
                                     className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                                 />
-                                <input
-                                    type="text"
-                                    placeholder="URL"
-                                    value={link.url}
-                                    onChange={(e) => updateLink('importantLinks', index, 'url', e.target.value)}
-                                    disabled={!editing}
-                                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
-                                />
+                                <div className="flex-1 flex gap-2">
+                                    <input
+                                        type="text"
+                                        placeholder="URL"
+                                        value={link.url}
+                                        onChange={(e) => updateLink('importantLinks', index, 'url', e.target.value)}
+                                        disabled={!editing}
+                                        className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
+                                    />
+                                    {editing && (
+                                        <div className="flex gap-1">
+                                            <button
+                                                onClick={() => triggerFileInput('importantLinks', index)}
+                                                className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
+                                                title="Upload New File"
+                                                disabled={uploading}
+                                            >
+                                                {uploading && activeUpload?.type === 'importantLinks' && activeUpload?.index === index ? (
+                                                    <Loader className="animate-spin" size={20} />
+                                                ) : (
+                                                    <Upload size={20} />
+                                                )}
+                                            </button>
+                                            <button
+                                                onClick={() => openMediaLibrary('importantLinks', index)}
+                                                className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
+                                                title="Select from Media Library"
+                                            >
+                                                <FolderOpen size={20} />
+                                            </button>
+                                        </div>
+                                    )}
+                                </div>
                                 {editing && (
                                     <button
                                         onClick={() => removeLink('importantLinks', index)}
@@ -476,6 +599,22 @@ const FooterList = () => {
                     />
                 </div>
             </div>
+
+            {/* Media Selector Modal */}
+            <Modal
+                isOpen={isMediaModalOpen}
+                onClose={() => setIsMediaModalOpen(false)}
+                title="Select File from Media Library"
+                size="lg"
+            >
+                <div className="h-[60vh]">
+                    <MediaSelector
+                        onSelect={handleMediaSelect}
+                        type="all"
+                        folder="media/footer"
+                    />
+                </div>
+            </Modal>
         </div>
     );
 };

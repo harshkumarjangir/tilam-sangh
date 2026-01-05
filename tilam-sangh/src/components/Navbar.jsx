@@ -115,11 +115,11 @@ const Navbar = () => {
                                 <Link to={toLink(item.link)} className="px-4 py-3 block hover:text-white hover:bg-[#eda004] border-r border-[#cfac42]">
                                     <div className="flex items-center text-nowrap gap-1">
                                         {item.title}
-                                        {item.submenu && <FiChevronDown />}
+                                        {item.submenu?.length > 0 && <FiChevronDown />}
                                     </div>
                                 </Link>
 
-                                {item.submenu && (
+                                {item.submenu?.length > 0 && (
                                     <div className="absolute left-0 top-full hidden group-hover:block z-50">
                                         <div className="bg-[#eda004] w-40 shadow-lg">
                                             {item.submenu.map((sub, sidx) => (
@@ -156,10 +156,10 @@ const Navbar = () => {
                                 <div key={i} className="mb-2">
                                     <div
                                         className="flex justify-between py-3"
-                                        onClick={() => (item.submenu ? toggleSubmenu(i) : setMobileOpen(false))}
+                                        onClick={() => (item.submenu?.length > 0 ? toggleSubmenu(i) : setMobileOpen(false))}
                                     >
                                         <Link to={toLink(item.link)}>{item.title}</Link>
-                                        {item.submenu && (expanded ? <FiChevronUp /> : <FiChevronDown />)}
+                                        {item.submenu?.length > 0 && (expanded ? <FiChevronUp /> : <FiChevronDown />)}
                                     </div>
 
                                     {expanded && (

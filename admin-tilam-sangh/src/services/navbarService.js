@@ -2,18 +2,20 @@ import api from "./api";
 
 export const navbarService = {
     getAll: async (params = {}) => {
-        const response = await api.get("/layout", { params });
-        // Extract navbar from layout response
-        if (response.data.success && response.data.data.navbar) {
+        // Map 'lang' to 'language' for the navbar controller
+        const queryParams = {
+            ...params,
+            language: params.language || params.lang
+        };
+        const response = await api.get("/navbar", { params: queryParams });
+
+        if (response.data.success && Array.isArray(response.data.data) && response.data.data.length > 0) {
             return {
                 success: true,
-                data: {
-                    items: response.data.data.navbar,
-                    language: response.data.language
-                }
+                data: response.data.data[0]
             };
         }
-        return response.data;
+        return { success: false, message: "No navbar found" };
     },
 
     getById: async (id) => {

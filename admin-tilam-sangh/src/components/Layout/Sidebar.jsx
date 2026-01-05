@@ -12,11 +12,15 @@ import {
     FootprintsIcon,
     LogOut,
     Video,
-    Folder
+    Folder,
+    Settings,
+    ChevronLeft,
+    ChevronRight,
+    X
 } from 'lucide-react';
 import { toast } from 'sonner';
 
-const Sidebar = () => {
+const Sidebar = ({ isOpen, onClose, isCollapsed, toggleCollapse }) => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const { user } = useSelector((state) => state.auth);
@@ -29,69 +33,110 @@ const Sidebar = () => {
 
     const navItems = [
         { name: 'Dashboard', path: '/', icon: LayoutDashboard },
-        { name: 'Tenders', path: '/tenders', icon: FileText },
-        // { name: 'Gallery', path: '/gallery', icon: Image },
-        // { name: 'Videos', path: '/videos', icon: Video },
-        { name: 'Footer', path: '/footer', icon: FootprintsIcon },
-        { name: 'Navbar', path: '/navbar', icon: Navigation },
-        { name: 'Pages', path: '/pages', icon: MenuIcon },
-        { name: 'Media', path: '/media', icon: Folder },
         { name: 'Users', path: '/users', icon: Users },
+        { name: 'Pages', path: '/pages', icon: MenuIcon },
+        { name: 'Navbar', path: '/navbar', icon: Navigation },
+        { name: 'Footer', path: '/footer', icon: FootprintsIcon },
+        { name: 'Media', path: '/media', icon: Folder },
+        { name: 'Settings', path: '/settings', icon: Settings },
     ];
 
     return (
-        <div className="w-64 bg-gray-900 text-white flex flex-col">
-            {/* Logo/Brand */}
-            <div className="p-6 border-b border-gray-800">
-                <h1 className="text-xl font-bold">Tilam Sangh</h1>
-                <p className="text-sm text-gray-400 mt-1">Admin Panel</p>
-            </div>
+        <>
+            {/* Mobile Overlay */}
+            {isOpen && (
+                <div
+                    className="fixed inset-0 z-20 bg-black/50 md:hidden"
+                    onClick={onClose}
+                />
+            )}
 
-            {/* Navigation */}
-            <nav className="flex-1 px-4 py-6 space-y-2 overflow-y-auto custom-scrollbar">
-                {navItems.map((item) => {
-                    const Icon = item.icon;
-                    return (
-                        <NavLink
-                            key={item.path}
-                            to={item.path}
-                            end={item.path === '/'}
-                            className={({ isActive }) =>
-                                `flex items-center gap-3 px-4 py-3 rounded-lg transition-colors ${isActive
-                                    ? 'bg-blue-600 text-white'
-                                    : 'text-gray-300 hover:bg-gray-800 hover:text-white'
-                                }`
-                            }
-                        >
-                            <Icon size={20} />
-                            <span className="font-medium">{item.name}</span>
-                        </NavLink>
-                    );
-                })}
-            </nav>
-
-            {/* User Info & Logout */}
-            <div className="p-4 border-t border-gray-800">
-                <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 rounded-full bg-blue-600 flex items-center justify-center">
-                        <span className="text-sm font-semibold">
-                            {user?.name?.charAt(0).toUpperCase() || 'A'}
-                        </span>
-                    </div>
-                    <div className="flex-1 min-w-0">
-                        <p className="text-sm font-medium truncate">{user?.name || 'Admin'}</p>
-                        <p className="text-xs text-gray-400 truncate">{user?.email || ''}</p>
-                    </div>
+            {/* Sidebar Container */}
+            <div
+                className={`
+                    fixed md:static inset-y-0 left-0 z-30
+                    bg-gray-900 text-white flex flex-col
+                    transition-all duration-300 ease-in-out
+                    ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
+                    ${isCollapsed ? 'w-20' : 'w-64'}
+                `}
+            >
+                {/* Logo/Brand */}
+                <div className="p-4 h-16 flex items-center justify-between border-b border-gray-800">
+                    {!isCollapsed && (
+                        <div className="flex-1 min-w-0">
+                            <h1 className="text-xl font-bold truncate">Tilam Sangh</h1>
+                        </div>
+                    )}
+                    {/* Mobile Close Button */}
+                    <button
+                        onClick={onClose}
+                        className="md:hidden text-gray-400 hover:text-white"
+                    >
+                        <X size={24} />
+                    </button>
+                    {/* Desktop Collapse Toggle */}
+                    <button
+                        onClick={toggleCollapse}
+                        className="hidden md:flex p-1.5 rounded-lg text-gray-400 hover:text-white hover:bg-gray-800"
+                    >
+                        {isCollapsed ? <ChevronRight size={20} /> : <ChevronLeft size={20} />}
+                    </button>
                 </div>
-                <button
-                    onClick={handleLogout}
-                    className="w-full flex items-center gap-2 px-4 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white rounded-lg transition-colors"
-                >
-                    <LogOut size={18} />
-                    <span>Logout</span>
-                </button>
+
+                {/* Navigation */}
+                <nav className="flex-1 px-3 py-4 space-y-2 overflow-y-auto custom-scrollbar">
+                    {navItems.map((item) => {
+                        const Icon = item.icon;
+                        return (
+                            <NavLink
+                                key={item.path}
+                                to={item.path}
+                                end={item.path === '/'}
+                                onClick={() => isOpen && onClose()} // Close on mobile when clicked
+                                className={({ isActive }) =>
+                                    `flex items-center gap-3 px-3 py-3 rounded-lg transition-colors whitespace-nowrap ${isActive
+                                        ? 'bg-blue-600 text-white'
+                                        : 'text-gray-300 hover:bg-gray-800 hover:text-white'
+                                    } ${isCollapsed ? 'justify-center' : ''}`
+                                }
+                                title={isCollapsed ? item.name : ''}
+                            >
+                                <Icon size={20} className="shrink-0" />
+                                {!isCollapsed && (
+                                    <span className="font-medium truncate">{item.name}</span>
+                                )}
+                            </NavLink>
+                        );
+                    })}
+                </nav>
+
+                {/* User Info & Logout */}
+                <div className="p-3 border-t border-gray-800">
+                    {!isCollapsed && (
+                        <div className="flex items-center gap-3 mb-3 px-1">
+                            <div className="w-8 h-8 rounded-full bg-blue-600 flex items-center justify-center shrink-0">
+                                <span className="text-sm font-semibold">
+                                    {user?.name?.charAt(0).toUpperCase() || 'A'}
+                                </span>
+                            </div>
+                            <div className="flex-1 min-w-0">
+                                <p className="text-sm font-medium truncate">{user?.name || 'Admin'}</p>
+                                <p className="text-xs text-gray-400 truncate">{user?.email || ''}</p>
+                            </div>
+                        </div>
+                    )}
+                    <button
+                        onClick={handleLogout}
+                        className={`w-full flex items-center gap-2 px-3 py-2 text-sm text-gray-300 hover:bg-gray-800 hover:text-white rounded-lg transition-colors ${isCollapsed ? 'justify-center' : ''}`}
+                        title={isCollapsed ? 'Logout' : ''}
+                    >
+                        <LogOut size={18} className="shrink-0" />
+                        {!isCollapsed && <span>Logout</span>}
+                    </button>
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 

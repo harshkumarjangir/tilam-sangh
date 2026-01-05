@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { navbarService } from '../../services/navbarService';
-import { Save, Plus, Trash2, Edit2, ChevronDown, ChevronRight } from 'lucide-react';
+import { Save, Plus, Trash2, Edit2, ChevronDown, ChevronRight, RefreshCw } from 'lucide-react';
 import { toast } from 'sonner';
 import Modal from '../../components/common/Modal';
 
@@ -19,12 +19,80 @@ const NavbarList = () => {
     const fetchNavbar = async () => {
         try {
             setLoading(true);
-            const response = await navbarService.getAll({ lang: language });
+            const response = await navbarService.getAll({ language });
             if (response.success && response.data) {
                 setNavbar(response.data);
+            } else {
+                setNavbar(null);
             }
         } catch (error) {
             toast.error('Failed to fetch navbar data');
+            console.error(error);
+        } finally {
+            setLoading(false);
+        }
+    };
+
+    // Translation Dictionary
+    const TRANSLATIONS = {
+        'Home': 'होम',
+        'Profile': 'प्रोफ़ाइल',
+        'Tenders': 'निविदाएँ',
+        'Infrastructure': 'इन्फ्रास्ट्रक्चर',
+        'Marketing': 'मार्केटिंग',
+        'Quality': 'गुणवत्ता',
+        'Products': 'उत्पाद',
+        'Financial Result': 'वित्तीय परिणाम',
+        'About Us': 'हमारे बारे में',
+        'Gallery': 'गैलरी',
+        'Photos Gallery': 'फोटो गैलरी',
+        'Videos Gallery': 'वीडियो गैलरी',
+        'Contact Us': 'संपर्क करें',
+        'Career': 'करियर',
+        'Services': 'सेवाएँ',
+        'Industries': 'उद्योग',
+        'Media': 'मीडिया',
+        'CSR': 'सीएसआर'
+    };
+
+    const handleSync = async () => {
+        const fromLang = language === 'English' ? 'Hindi' : 'English';
+        if (!confirm(`This will overwrite current ${language} items with ${fromLang} items. Continue?`)) return;
+
+        try {
+            setLoading(true);
+            const response = await navbarService.getAll({ language: fromLang });
+            if (response.success && response.data) {
+                const sourceItems = response.data.items || [];
+
+                // Translate items if syncing from English to Hindi
+                const translatedItems = (language === 'Hindi' && fromLang === 'English')
+                    ? sourceItems.map(item => ({
+                        ...item,
+                        title: TRANSLATIONS[item.title] || item.title,
+                        submenu: item.submenu?.map(sub => ({
+                            ...sub,
+                            title: TRANSLATIONS[sub.title] || sub.title
+                        })) || []
+                    }))
+                    : sourceItems; // Keep as is if syncing Hindi -> English or other combinations (assuming English is source of truth)
+
+                // Keep the current ID but replace items
+                setNavbar(prev => ({
+                    ...prev,
+                    items: translatedItems
+                }));
+
+                const msg = language === 'Hindi'
+                    ? `Imported from English with auto-translation.`
+                    : `Imported from ${fromLang}.`;
+
+                toast.success(`${msg} Please Review and Save.`);
+            } else {
+                toast.error(`No ${fromLang} navbar found to copy from.`);
+            }
+        } catch (error) {
+            toast.error('Failed to sync navbar');
             console.error(error);
         } finally {
             setLoading(false);
@@ -59,7 +127,10 @@ const NavbarList = () => {
 
     const handleEditItem = (item) => {
         setEditingItem(item);
-        setFormData(item);
+        setFormData({
+            ...item,
+            submenu: item.submenu || []
+        });
         setIsModalOpen(true);
     };
 
@@ -106,16 +177,7 @@ const NavbarList = () => {
         setFormData({ ...formData, submenu: updated });
     };
 
-    if (loading) {
-        return (
-            <div className="flex items-center justify-center h-64">
-                <div className="text-center">
-                    <div className="inline-block w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
-                    <div className="mt-3 text-gray-700">Loading navbar data...</div>
-                </div>
-            </div>
-        );
-    }
+    // ... existing loading check
 
     return (
         <div>
@@ -126,6 +188,15 @@ const NavbarList = () => {
                     <p className="text-gray-600 mt-1">Manage website navigation menu</p>
                 </div>
                 <div className="flex gap-3">
+                    {/* <button
+                        onClick={handleSync}
+                        className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg transition border border-gray-300"
+                        title={`Copy items from ${language === 'English' ? 'Hindi' : 'English'}`}
+                    >
+                        <RefreshCw size={18} />
+                        Copy from {language === 'English' ? 'Hindi' : 'English'}
+                    </button> */}
+
                     <select
                         value={language}
                         onChange={(e) => setLanguage(e.target.value)}

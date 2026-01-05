@@ -14,6 +14,7 @@ import galleryRoutes from "./routes/gallery.routes.js";
 import userRoutes from "./routes/user.routes.js";
 import videoRoutes from "./routes/video.routes.js";
 import mediaRoutes from "./routes/media.routes.js";
+import siteSettingsRoutes from "./routes/siteSettings.routes.js";
 
 
 
@@ -55,6 +56,7 @@ app.use("/api/gallery", galleryRoutes);
 app.use("/api/users", userRoutes);
 app.use("/api/videos", videoRoutes);
 app.use("/api/media", mediaRoutes);
+app.use("/api/settings", siteSettingsRoutes);
 
 
 // Catch-all route - redirects any unmatched routes to home
