@@ -27,7 +27,15 @@ app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
     credentials: true, // To send Cookies in Response fron Express App
-    origin: ['http://localhost:3000', 'http://192.168.1.18:3000', 'http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175', 'https://tilam-sangh.vercel.app', 'https://tilam-sangh.vercel.app/api', 'https://admin-tilam-sangh.vercel.app', 'https://admin-tilam-sangh.vercel.app/api'] // React App Domain
+    origin: [
+        'http://localhost:3000',
+        'http://192.168.1.18:3000',
+        'http://localhost:5173',
+        'http://localhost:5174', 'http://localhost:5175',
+        'https://tilam-sangh.vercel.app',
+        'https://tilam-sangh.vercel.app/api',
+        'https://admin-tilam-sangh.vercel.app',
+        'https://admin-tilam-sangh.vercel.app/api'] // React App Domain
 }))
 
 // API EndPoints
