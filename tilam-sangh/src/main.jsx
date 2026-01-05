@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { BrowserRouter } from 'react-router-dom'
 import { LanguageProvider, useLanguage } from './context/LanguageContext.jsx'
+import { SiteSettingsProvider } from './context/SiteSettingsContext.jsx'
 import { Provider, useDispatch } from 'react-redux';
 import store from './redux/store.js'
 import { fetchNavigationData } from './redux/slices/navigationSlice'
@@ -25,8 +26,10 @@ createRoot(document.getElementById('root')).render(
   <BrowserRouter>
     <Provider store={store}>
       <LanguageProvider>
-        <NavInitializer />
-        <App />
+        <SiteSettingsProvider>
+          <NavInitializer />
+          <App />
+        </SiteSettingsProvider>
       </LanguageProvider>
     </Provider>
   </BrowserRouter>

@@ -3,8 +3,8 @@ import api from "./api";
 export const uploadService = {
     uploadImage: async (file, folder = '') => {
         const formData = new FormData();
-        formData.append('file', file);
         if (folder) formData.append('folder', folder);
+        formData.append('file', file);
 
         const response = await api.post('/multer/upload-image', formData, {
             headers: {
@@ -16,8 +16,8 @@ export const uploadService = {
 
     uploadPDF: async (file, folder = '') => {
         const formData = new FormData();
-        formData.append('file', file);
         if (folder) formData.append('folder', folder);
+        formData.append('file', file);
 
         const response = await api.post('/multer/upload-pdf', formData, {
             headers: {
@@ -29,8 +29,8 @@ export const uploadService = {
 
     uploadFile: async (file, type = 'image', folder = '') => {
         const formData = new FormData();
-        formData.append('file', file);
         if (folder) formData.append('folder', folder);
+        formData.append('file', file);
 
         const endpoint = type === 'pdf' ? '/multer/upload-pdf' : '/multer/upload-image';
         const response = await api.post(endpoint, formData, {

@@ -3,12 +3,11 @@ import SiteSettings from "../models/siteSettings.model.js";
 // Get Settings (Public/Private)
 export const getSettings = async (req, res) => {
     try {
-        const { lang = 'English' } = req.query;
-        let settings = await SiteSettings.findOne({ language: lang });
+        let settings = await SiteSettings.findOne({ language: 'default' });
 
         if (!settings) {
             // Create default if not exists
-            settings = await SiteSettings.create({ language: lang });
+            settings = await SiteSettings.create({ language: 'default' });
         }
 
         res.status(200).json({
@@ -24,13 +23,15 @@ export const getSettings = async (req, res) => {
 // Update Settings (Admin only)
 export const updateSettings = async (req, res) => {
     try {
-        const { lang = 'English' } = req.query;
         const updates = req.body;
+
+        // Remove language from updates if present to enforce singleton
+        delete updates.language;
 
         // Ensure we don't accidentally create duplicate documents for the same language
         let settings = await SiteSettings.findOneAndUpdate(
-            { language: lang },
-            { $set: updates },
+            { language: 'default' },
+            { $set: { ...updates, language: 'default' } },
             { new: true, upsert: true, setDefaultsOnInsert: true }
         );
 

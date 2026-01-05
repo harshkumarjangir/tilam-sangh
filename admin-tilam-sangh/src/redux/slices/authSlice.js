@@ -14,7 +14,8 @@ export const login = createAsyncThunk(
                     _id: data._id,
                     name: data.name,
                     email: data.email,
-                    role: data.role
+                    role: data.role,
+                    permissions: data.permissions
                 }));
                 return data;
             }
@@ -61,7 +62,8 @@ const authSlice = createSlice({
                     _id: action.payload._id,
                     name: action.payload.name,
                     email: action.payload.email,
-                    role: action.payload.role
+                    role: action.payload.role,
+                    permissions: action.payload.permissions
                 };
                 state.token = action.payload.token;
                 state.error = null;

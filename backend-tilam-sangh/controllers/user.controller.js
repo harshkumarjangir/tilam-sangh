@@ -35,7 +35,7 @@ export const getUserById = async (req, res) => {
 // Create new user
 export const createUser = async (req, res) => {
     try {
-        const { name, email, password, role } = req.body;
+        const { name, email, password, role, permissions } = req.body;
 
         if (!name || !email || !password) {
             return res.status(400).json({
@@ -61,7 +61,8 @@ export const createUser = async (req, res) => {
             name,
             email,
             password: hashedPassword,
-            role: role || "admin"
+            role: role || "admin",
+            permissions: permissions || []
         });
 
         // Remove password from response
@@ -78,12 +79,13 @@ export const createUser = async (req, res) => {
 // Update user
 export const updateUser = async (req, res) => {
     try {
-        const { name, email, role } = req.body;
+        const { name, email, role, permissions } = req.body;
 
         const updateData = {};
         if (name !== undefined) updateData.name = name;
         if (email !== undefined) updateData.email = email;
         if (role !== undefined) updateData.role = role;
+        if (permissions !== undefined) updateData.permissions = permissions;
 
         const user = await User.findByIdAndUpdate(
             req.params.id,

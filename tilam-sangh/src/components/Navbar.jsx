@@ -17,8 +17,11 @@ const FONT_CLASSES = {
     large: "text-lg"
 };
 
+import { useSiteSettings } from "../context/SiteSettingsContext";
+
 const Navbar = () => {
     const { language, setLanguage } = useLanguage();
+    const { settings } = useSiteSettings();
 
     // const [language, setLanguage] = useState("English");
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -50,7 +53,11 @@ const Navbar = () => {
                     <div className="flex items-center gap-3">
                         {/* <img src="/assets/navbar/ashoka.png" alt="crest" className="h-12" /> */}
                         <Link to="/">
-                            <img src="/assets/navbar/tilam-sangh-logo.png" alt="tilam-sangh" className="h-12" />
+                            <img
+                                src={settings?.logo ? `${import.meta.env.VITE_API_URL}${settings.logo}` : "/assets/navbar/tilam-sangh-logo.png"}
+                                alt="tilam-sangh"
+                                className="h-12"
+                            />
                         </Link>
                     </div>
 

@@ -12,11 +12,23 @@ const UserList = () => {
     const [isPasswordModalOpen, setIsPasswordModalOpen] = useState(false);
     const [editingUser, setEditingUser] = useState(null);
     const [selectedUser, setSelectedUser] = useState(null);
+    const AVAILABLE_PERMISSIONS = [
+        { id: 'tenders', label: 'Manage Tenders' },
+        { id: 'gallery', label: 'Manage Gallery' },
+        { id: 'navbar', label: 'Manage Navbar' },
+        { id: 'footer', label: 'Manage Footer' },
+        { id: 'pages', label: 'Manage Pages' },
+        { id: 'settings', label: 'Site Settings' },
+        { id: 'media', label: 'Media Library' },
+        { id: 'users', label: 'Manage Users' },
+    ];
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
         password: '',
-        role: 'admin'
+        role: 'admin',
+        permissions: []
     });
     const [newPassword, setNewPassword] = useState('');
 
@@ -86,7 +98,8 @@ const UserList = () => {
             name: user.name,
             email: user.email,
             password: '',
-            role: user.role
+            role: user.role,
+            permissions: user.permissions || []
         });
         setIsModalOpen(true);
     };
@@ -103,7 +116,19 @@ const UserList = () => {
             name: '',
             email: '',
             password: '',
-            role: 'admin'
+            role: 'admin',
+            permissions: []
+        });
+    };
+
+    const handlePermissionChange = (permissionId) => {
+        setFormData(prev => {
+            const currentPermissions = prev.permissions || [];
+            if (currentPermissions.includes(permissionId)) {
+                return { ...prev, permissions: currentPermissions.filter(p => p !== permissionId) };
+            } else {
+                return { ...prev, permissions: [...currentPermissions, permissionId] };
+            }
         });
     };
 
@@ -169,7 +194,8 @@ const UserList = () => {
                                     <td className="px-6 py-4 text-sm font-medium text-gray-900">{user.name}</td>
                                     <td className="px-6 py-4 text-sm text-gray-500">{user.email}</td>
                                     <td className="px-6 py-4 text-sm text-gray-500">
-                                        <span className="px-2 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-800">
+                                        <span className={`px-2 py-1 text-xs font-semibold rounded-full ${user.role === 'admin' ? 'bg-purple-100 text-purple-800' : 'bg-blue-100 text-blue-800'
+                                            }`}>
                                             {user.role}
                                         </span>
                                     </td>
@@ -258,9 +284,28 @@ const UserList = () => {
                             className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
                         >
                             <option value="admin">Admin</option>
-                            <option value="editor">Editor</option>
+                            <option value="subadmin">Subadmin</option>
                         </select>
                     </div>
+
+                    {formData.role === 'subadmin' && (
+                        <div className="bg-gray-50 p-4 rounded-lg border border-gray-200">
+                            <label className="block text-sm font-medium text-gray-700 mb-2">Permissions</label>
+                            <div className="grid grid-cols-2 gap-2">
+                                {AVAILABLE_PERMISSIONS.map(perm => (
+                                    <label key={perm.id} className="flex items-center space-x-2 text-sm text-gray-600 cursor-pointer hover:text-gray-900">
+                                        <input
+                                            type="checkbox"
+                                            checked={formData.permissions?.includes(perm.id)}
+                                            onChange={() => handlePermissionChange(perm.id)}
+                                            className="rounded text-blue-600 focus:ring-blue-500"
+                                        />
+                                        <span>{perm.label}</span>
+                                    </label>
+                                ))}
+                            </div>
+                        </div>
+                    )}
 
                     <div className="flex gap-3 pt-4">
                         <button

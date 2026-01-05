@@ -35,9 +35,21 @@ export const protect = async (req, res, next) => {
 };
 
 export const admin = (req, res, next) => {
-    if (req.user && req.user.role === "admin") {
+    if (req.user && (req.user.role === "admin" || req.user.role === "subadmin")) {
         next();
     } else {
         res.status(401).json({ message: "Not authorized as an admin" });
     }
+};
+
+export const checkPermission = (requiredPermission) => {
+    return (req, res, next) => {
+        if (req.user && req.user.role === 'admin') {
+            next(); // Admin has all permissions
+        } else if (req.user && req.user.role === 'subadmin' && req.user.permissions.includes(requiredPermission)) {
+            next();
+        } else {
+            res.status(403).json({ message: "Not authorized to access this resource" });
+        }
+    };
 };

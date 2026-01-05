@@ -23,7 +23,6 @@ const SiteSettings = () => {
     });
     const [loading, setLoading] = useState(true);
     const [saving, setSaving] = useState(false);
-    const [language, setLanguage] = useState('English');
 
     // Media Selection State
     const [isMediaModalOpen, setIsMediaModalOpen] = useState(false);
@@ -34,7 +33,7 @@ const SiteSettings = () => {
         if (!file) return;
         try {
             setUploading(true);
-            const response = await uploadService.uploadFile(file, 'media/site-settings');
+            const response = await uploadService.uploadFile(file, 'image', 'media/site-settings');
             if (response.success) {
                 handleChange(field, response.url);
                 toast.success('File uploaded successfully');
@@ -49,12 +48,12 @@ const SiteSettings = () => {
 
     useEffect(() => {
         fetchSettings();
-    }, [language]);
+    }, []);
 
     const fetchSettings = async () => {
         try {
             setLoading(true);
-            const response = await siteSettingsService.getSettings(language);
+            const response = await siteSettingsService.getSettings();
             if (response.success && response.data) {
                 // Merge with default structure to avoid undefined errors
                 setSettings({
@@ -75,7 +74,7 @@ const SiteSettings = () => {
         e.preventDefault();
         try {
             setSaving(true);
-            await siteSettingsService.updateSettings({ ...settings, language });
+            await siteSettingsService.updateSettings(settings);
             toast.success('Settings saved successfully');
         } catch (error) {
             toast.error('Failed to save settings');
@@ -125,14 +124,7 @@ const SiteSettings = () => {
                     <p className="text-sm text-gray-500">Manage global website configuration</p>
                 </div>
                 <div className="flex items-center gap-4">
-                    <select
-                        value={language}
-                        onChange={(e) => setLanguage(e.target.value)}
-                        className="px-3 py-2 border border-gray-300 rounded-lg text-sm"
-                    >
-                        <option value="English">English</option>
-                        <option value="Hindi">Hindi</option>
-                    </select>
+
                     <button
                         onClick={handleSave}
                         disabled={saving}
@@ -279,7 +271,7 @@ const SiteSettings = () => {
                 </div>
 
                 {/* Contact Info */}
-                <div className="bg-white rounded-lg shadow p-6">
+                {/* <div className="bg-white rounded-lg shadow p-6">
                     <h2 className="text-lg font-semibold mb-4">Contact Information</h2>
                     <div className="grid md:grid-cols-2 gap-4">
                         <div>
@@ -310,7 +302,7 @@ const SiteSettings = () => {
                             />
                         </div>
                     </div>
-                </div>
+                </div> */}
             </form>
 
             <Modal
@@ -323,7 +315,7 @@ const SiteSettings = () => {
                     <MediaSelector
                         onSelect={handleMediaSelect}
                         type="image"
-                        folder="media/site-settings"
+                        folder="site-settings"
                     />
                 </div>
             </Modal>
