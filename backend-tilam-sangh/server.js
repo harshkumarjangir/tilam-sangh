@@ -32,7 +32,7 @@ app.use(cors({
         'https://tilam-sangh.vercel.app',
         'https://tilam-sangh.vercel.app/api',
         'https://admin-tilam-sangh.vercel.app',
-        'https://admin-tilam-sangh.vercel.app/api'] // React App Domain
+        'https://admin-tilam-sangh.vercel.app/api']
 }))
 
 // API EndPoints
