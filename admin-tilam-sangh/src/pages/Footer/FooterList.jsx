@@ -218,12 +218,12 @@ const FooterList = () => {
             />
 
             {/* Header */}
-            <div className="mb-6 flex items-center justify-between">
+            <div className="mb-6 flex max-sm:flex-col max-sm:items-start items-center justify-between">
                 <div>
                     <h1 className="text-3xl font-bold text-gray-900">Footer Management</h1>
                     <p className="text-gray-600 mt-1">Manage website footer content</p>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 max-sm:mt-4">
                     <select
                         value={language}
                         onChange={(e) => setLanguage(e.target.value)}

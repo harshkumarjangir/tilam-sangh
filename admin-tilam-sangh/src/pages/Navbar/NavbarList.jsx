@@ -178,16 +178,26 @@ const NavbarList = () => {
     };
 
     // ... existing loading check
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-64">
+                <div className="text-center">
+                    <div className="inline-block w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+                    <div className="mt-3 text-gray-700">Loading navbar data...</div>
+                </div>
+            </div>
+        );
+    }
 
     return (
         <div>
             {/* Header */}
-            <div className="mb-6 flex items-center justify-between">
+            <div className="mb-6 flex max-sm:flex-col max-sm:items-start items-center justify-between">
                 <div>
                     <h1 className="text-3xl font-bold text-gray-900">Navbar Management</h1>
                     <p className="text-gray-600 mt-1">Manage website navigation menu</p>
                 </div>
-                <div className="flex gap-3">
+                <div className="flex gap-3 max-sm:mt-4">
                     {/* <button
                         onClick={handleSync}
                         className="flex items-center gap-2 bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded-lg transition border border-gray-300"

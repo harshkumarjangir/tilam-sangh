@@ -137,6 +137,17 @@ const UserList = () => {
         user.email.toLowerCase().includes(searchTerm.toLowerCase())
     );
 
+    if (loading) {
+        return (
+            <div className="flex items-center justify-center h-64">
+                <div className="text-center">
+                    <div className="inline-block w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin" />
+                    <div className="mt-3 text-gray-700">Loading users data...</div>
+                </div>
+            </div>
+        );
+    }
+
     return (
         <div>
             <div className="mb-6 flex items-center justify-between">

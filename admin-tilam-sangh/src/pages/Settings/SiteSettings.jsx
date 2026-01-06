@@ -118,17 +118,17 @@ const SiteSettings = () => {
 
     return (
         <div className="max-w-4xl mx-auto">
-            <div className="flex items-center justify-between mb-6">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-6">
                 <div>
                     <h1 className="text-2xl font-bold text-gray-900">Site Settings</h1>
                     <p className="text-sm text-gray-500">Manage global website configuration</p>
                 </div>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-4 self-start sm:self-auto">
 
                     <button
                         onClick={handleSave}
                         disabled={saving}
-                        className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition disabled:opacity-50"
+                        className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition disabled:opacity-50 w-full sm:w-auto justify-center"
                     >
                         {saving ? <Loader className="animate-spin" size={18} /> : <Save size={18} />}
                         Save Changes
@@ -177,7 +177,7 @@ const SiteSettings = () => {
                 {/* Branding */}
                 <div className="bg-white rounded-lg shadow p-6">
                     <h2 className="text-lg font-semibold mb-4">Branding</h2>
-                    <div className="grid md:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {/* Logo */}
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-2">Website Logo</label>
@@ -193,32 +193,34 @@ const SiteSettings = () => {
                                         <span className="text-gray-400 text-sm">No Logo</span>
                                     )}
                                 </div>
-                                <div className="flex gap-2 w-full">
+                                <div className="flex flex-col sm:flex-row gap-2 w-full">
                                     <input
                                         type="text"
                                         value={settings.logo}
                                         onChange={(e) => handleChange('logo', e.target.value)}
                                         placeholder="Logo URL"
-                                        className="flex-1 px-3 py-2 border border-gray-300 rounded-lg text-sm"
+                                        className="w-full sm:flex-1 px-3 py-2 border border-gray-300 rounded-lg text-sm"
                                     />
-                                    <label className="p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50 cursor-pointer" title="Upload New">
-                                        {uploading ? <Loader size={20} className="animate-spin" /> : <Upload size={20} />}
-                                        <input
-                                            type="file"
-                                            className="hidden"
-                                            accept="image/*"
-                                            disabled={uploading}
-                                            onChange={(e) => handleFileUpload('logo', e.target.files[0])}
-                                        />
-                                    </label>
-                                    <button
-                                        type="button"
-                                        onClick={() => openMediaSelector('logo')}
-                                        className="p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50"
-                                        title="Select from Media"
-                                    >
-                                        <Grid size={20} />
-                                    </button>
+                                    <div className="flex gap-2 sm:shrink-0">
+                                        <label className="flex-1 sm:flex-none justify-center p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50 cursor-pointer flex items-center" title="Upload New">
+                                            {uploading ? <Loader size={20} className="animate-spin" /> : <Upload size={20} />}
+                                            <input
+                                                type="file"
+                                                className="hidden"
+                                                accept="image/*"
+                                                disabled={uploading}
+                                                onChange={(e) => handleFileUpload('logo', e.target.files[0])}
+                                            />
+                                        </label>
+                                        <button
+                                            type="button"
+                                            onClick={() => openMediaSelector('logo')}
+                                            className="flex-1 sm:flex-none justify-center p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50 flex items-center"
+                                            title="Select from Media"
+                                        >
+                                            <Grid size={20} />
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -238,32 +240,34 @@ const SiteSettings = () => {
                                         <span className="text-gray-400 text-xs">No Icon</span>
                                     )}
                                 </div>
-                                <div className="flex gap-2 w-full">
+                                <div className="flex flex-col sm:flex-row gap-2 w-full">
                                     <input
                                         type="text"
                                         value={settings.favicon}
                                         onChange={(e) => handleChange('favicon', e.target.value)}
                                         placeholder="Favicon URL"
-                                        className="flex-1 px-3 py-2 border border-gray-300 rounded-lg text-sm"
+                                        className="w-full sm:flex-1 px-3 py-2 border border-gray-300 rounded-lg text-sm"
                                     />
-                                    <label className="p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50 cursor-pointer" title="Upload New">
-                                        {uploading ? <Loader size={20} className="animate-spin" /> : <Upload size={20} />}
-                                        <input
-                                            type="file"
-                                            className="hidden"
-                                            accept="image/*"
-                                            disabled={uploading}
-                                            onChange={(e) => handleFileUpload('favicon', e.target.files[0])}
-                                        />
-                                    </label>
-                                    <button
-                                        type="button"
-                                        onClick={() => openMediaSelector('favicon')}
-                                        className="p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50"
-                                        title="Select from Media"
-                                    >
-                                        <Grid size={20} />
-                                    </button>
+                                    <div className="flex gap-2 sm:shrink-0">
+                                        <label className="flex-1 sm:flex-none justify-center p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50 cursor-pointer flex items-center" title="Upload New">
+                                            {uploading ? <Loader size={20} className="animate-spin" /> : <Upload size={20} />}
+                                            <input
+                                                type="file"
+                                                className="hidden"
+                                                accept="image/*"
+                                                disabled={uploading}
+                                                onChange={(e) => handleFileUpload('favicon', e.target.files[0])}
+                                            />
+                                        </label>
+                                        <button
+                                            type="button"
+                                            onClick={() => openMediaSelector('favicon')}
+                                            className="flex-1 sm:flex-none justify-center p-2 border border-gray-300 bg-white rounded-lg hover:bg-gray-50 flex items-center"
+                                            title="Select from Media"
+                                        >
+                                            <Grid size={20} />
+                                        </button>
+                                    </div>
                                 </div>
                             </div>
                         </div>

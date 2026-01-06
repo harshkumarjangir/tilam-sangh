@@ -111,7 +111,7 @@ const PageEditor = () => {
         <div className="max-w-6xl">
             {/* Header */}
             <div className="flex items-center justify-between mb-6">
-                <div className="flex items-center gap-4">
+                <div className="flex max-sm:flex-col max-sm:items-start items-center gap-4">
                     <button
                         onClick={() => navigate('/pages')}
                         className="flex items-center gap-2 text-gray-600 hover:text-gray-900"
@@ -119,7 +119,7 @@ const PageEditor = () => {
                         <ArrowLeft size={20} />
                         Back to Pages
                     </button>
-                    <h1 className="text-3xl font-bold text-gray-900">
+                    <h1 className="text-2xl font-bold text-gray-900 max-sm:text-xl">
                         {slug && slug !== 'new' ? `Edit Page: ${slug || 'Home'}` : 'Create New Page'}
                     </h1>
                 </div>

@@ -64,7 +64,7 @@ const Sidebar = ({ isOpen, onClose, isCollapsed, toggleCollapse, logo, title }) 
                     bg-gray-900 text-white flex flex-col
                     transition-all duration-300 ease-in-out
                     ${isOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}
-                    ${isCollapsed ? 'w-20' : 'w-64'}
+                    ${isCollapsed ? 'w-20' : 'w-60'}
                 `}
             >
                 {/* Logo/Brand */}
