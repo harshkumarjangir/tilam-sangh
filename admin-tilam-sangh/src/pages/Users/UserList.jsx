@@ -13,8 +13,6 @@ const UserList = () => {
     const [editingUser, setEditingUser] = useState(null);
     const [selectedUser, setSelectedUser] = useState(null);
     const AVAILABLE_PERMISSIONS = [
-        { id: 'tenders', label: 'Manage Tenders' },
-        { id: 'gallery', label: 'Manage Gallery' },
         { id: 'navbar', label: 'Manage Navbar' },
         { id: 'footer', label: 'Manage Footer' },
         { id: 'pages', label: 'Manage Pages' },

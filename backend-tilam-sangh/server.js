@@ -9,14 +9,10 @@ import multerRoutes from "./routes/multer.routes.js";
 import authRoutes from "./routes/auth.routes.js";
 import footerRoutes from "./routes/footer.routes.js";
 import navbarRoutes from "./routes/navbar.routes.js";
-import tenderRoutes from "./routes/tender.routes.js";
-import galleryRoutes from "./routes/gallery.routes.js";
 import userRoutes from "./routes/user.routes.js";
-import videoRoutes from "./routes/video.routes.js";
 import mediaRoutes from "./routes/media.routes.js";
 import siteSettingsRoutes from "./routes/siteSettings.routes.js";
-
-
+import adminRoutes from "./routes/admin.routes.js";
 
 
 const app = express()
@@ -51,12 +47,10 @@ app.use("/api/pages", pageRoutes);
 app.use("/api/multer", multerRoutes);
 app.use("/api/footer", footerRoutes);
 app.use("/api/navbar", navbarRoutes);
-app.use("/api/tenders", tenderRoutes);
-app.use("/api/gallery", galleryRoutes);
 app.use("/api/users", userRoutes);
-app.use("/api/videos", videoRoutes);
 app.use("/api/media", mediaRoutes);
 app.use("/api/settings", siteSettingsRoutes);
+app.use("/api/admin", adminRoutes);
 
 
 // Catch-all route - redirects any unmatched routes to home

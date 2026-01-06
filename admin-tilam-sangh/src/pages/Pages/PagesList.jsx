@@ -47,13 +47,13 @@ const PagesList = () => {
                     <h1 className="text-3xl font-bold text-gray-900">Pages Management</h1>
                     <p className="text-gray-600 mt-1">Manage your website pages</p>
                 </div>
-                <button
+                {/* <button
                     onClick={() => navigate('/pages/new')}
                     className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
                 >
                     <Plus size={18} />
                     Add New Page
-                </button>
+                </button> */}
             </div>
 
             {/* Pages Table */}

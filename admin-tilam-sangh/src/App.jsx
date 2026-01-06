@@ -5,9 +5,6 @@ import ProtectedRoute from './components/ProtectedRoute';
 import AdminLayout from './components/Layout/AdminLayout';
 import Login from './pages/Login';
 import Dashboard from './pages/Dashboard';
-import TenderList from './pages/Tenders/TenderList';
-import GalleryList from './pages/Gallery/GalleryList';
-import VideoList from './pages/Videos/VideoList';
 import UserList from './pages/Users/UserList';
 import FooterList from './pages/Footer/FooterList';
 import NavbarList from './pages/Navbar/NavbarList';
@@ -37,17 +34,46 @@ const App = () => {
         }
       >
         <Route index element={<Dashboard />} />
-        <Route path="tenders" element={<TenderList />} />
-        <Route path="gallery" element={<GalleryList />} />
-        <Route path="videos" element={<VideoList />} />
-        <Route path="users" element={<UserList />} />
-        <Route path="footer" element={<FooterList />} />
-        <Route path="navbar" element={<NavbarList />} />
-        <Route path="pages" element={<PagesList />} />
-        <Route path="pages/edit/:slug" element={<PageEditor />} />
-        <Route path="pages/new" element={<PageEditor />} />
-        <Route path="media" element={<MediaLibrary />} />
-        <Route path="settings" element={<SiteSettings />} />
+        <Route path="users" element={
+          <ProtectedRoute permission="users">
+            <UserList />
+          </ProtectedRoute>
+        } />
+        <Route path="footer" element={
+          <ProtectedRoute permission="footer">
+            <FooterList />
+          </ProtectedRoute>
+        } />
+        <Route path="navbar" element={
+          <ProtectedRoute permission="navbar">
+            <NavbarList />
+          </ProtectedRoute>
+        } />
+        <Route path="pages" element={
+          <ProtectedRoute permission="pages">
+            <PagesList />
+          </ProtectedRoute>
+        } />
+        <Route path="pages/edit/:slug" element={
+          <ProtectedRoute permission="pages">
+            <PageEditor />
+          </ProtectedRoute>
+        } />
+        <Route path="pages/new" element={
+          <ProtectedRoute permission="pages">
+            <PageEditor />
+          </ProtectedRoute>
+        } />
+        <Route path="media" element={
+          <ProtectedRoute permission="media">
+            <MediaLibrary />
+          </ProtectedRoute>
+        } />
+        <Route path="settings" element={
+          <ProtectedRoute permission="settings">
+            <SiteSettings />
+          </ProtectedRoute>
+        } />
       </Route>
 
       {/* 404 */}

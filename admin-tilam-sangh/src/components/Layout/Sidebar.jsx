@@ -33,10 +33,6 @@ const Sidebar = ({ isOpen, onClose, isCollapsed, toggleCollapse }) => {
 
     const allNavItems = [
         { name: 'Dashboard', path: '/', icon: LayoutDashboard, permission: null }, // Always visible
-        { name: 'Tenders', path: '/tenders', icon: FileText, permission: 'tenders' },
-        { name: 'Gallery', path: '/gallery', icon: Image, permission: 'gallery' },
-        { name: 'Videos', path: '/videos', icon: Video, permission: 'gallery' }, // Assuming videos part of gallery permission or separate? Let's use 'gallery' for now as per plan or separate? Plan said "Manage Gallery". I'll use 'gallery' for both or add 'videos' permission?
-        // Plan said: "Manage Gallery". I'll assume it covers images and videos.
         { name: 'Users', path: '/users', icon: Users, permission: 'users' },
         { name: 'Pages', path: '/pages', icon: MenuIcon, permission: 'pages' },
         { name: 'Navbar', path: '/navbar', icon: Navigation, permission: 'navbar' },
