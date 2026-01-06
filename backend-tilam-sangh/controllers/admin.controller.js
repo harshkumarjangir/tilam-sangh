@@ -36,13 +36,7 @@ export const getDashboardStats = async (req, res) => {
             return count;
         };
 
-        if (fs.existsSync(mediaDir)) {
-            try {
-                totalMedia = countFiles(mediaDir);
-            } catch (err) {
-                console.error("Error counting media files:", err);
-            }
-        }
+        totalMedia = countFiles(mediaDir);
 
         res.status(200).json({
             success: true,

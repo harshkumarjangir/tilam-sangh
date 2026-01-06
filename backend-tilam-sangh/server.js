@@ -15,22 +15,13 @@ import siteSettingsRoutes from "./routes/siteSettings.routes.js";
 import adminRoutes from "./routes/admin.routes.js";
 
 
-import helmet from 'helmet';
-import rateLimit from 'express-rate-limit';
-import mongoSanitize from 'express-mongo-sanitize';
-import xss from 'xss-clean';
-import hpp from 'hpp';
-
-// ... other imports
-
 const app = express()
 const port = process.env.PORT || 5000
 await connectDB()
 
-// Trust Proxy for Vercel/Heroku (Required for Secure Coookies)
-app.set('trust proxy', 1);
-
-// CORS - Must be first
+// Middlewares
+app.use(express.json())
+app.use(cookieParser())
 app.use(cors({
     credentials: true, // To send Cookies in Response fron Express App
     origin: [
@@ -43,32 +34,6 @@ app.use(cors({
         'https://admin-tilam-sangh.vercel.app',
         'https://admin-tilam-sangh.vercel.app/api']
 }))
-
-// Security Middlewares
-app.use(helmet({
-    crossOriginResourcePolicy: false, // Allow loading images from different origins/same origin effectively
-}));
-
-// Rate Limit
-const limiter = rateLimit({
-    windowMs: 10 * 60 * 1000, // 10 minutes
-    max: 100, // Limit each IP to 100 requests per windowMs
-    standardHeaders: true,
-    legacyHeaders: false,
-});
-app.use(limiter);
-
-// Body Parsers & Cookie Parser
-app.use(express.json());
-app.use(cookieParser());
-
-// Data Sanitization
-// app.use(mongoSanitize()); // Prevent NoSQL injection
-// app.use(xss()); // Prevent XSS
-
-// Prevent Parameter Pollution
-// app.use(hpp());
-
 
 // API EndPoints
 app.get('/', (req, res) => res.send("API Working"))

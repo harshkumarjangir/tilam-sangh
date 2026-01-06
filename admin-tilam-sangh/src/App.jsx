@@ -1,7 +1,6 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import { useSelector, useDispatch } from 'react-redux';
-import { checkAuth } from './redux/slices/authSlice';
+import { useSelector } from 'react-redux';
 import ProtectedRoute from './components/ProtectedRoute';
 import AdminLayout from './components/Layout/AdminLayout';
 import Login from './pages/Login';
@@ -15,20 +14,7 @@ import MediaLibrary from './pages/Media/MediaLibrary';
 import SiteSettings from './pages/Settings/SiteSettings';
 
 const App = () => {
-  const { isAuthenticated, loading } = useSelector((state) => state.auth);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    dispatch(checkAuth());
-  }, [dispatch]);
-
-  if (loading) {
-    return (
-      <div className="flex items-center justify-center min-h-screen">
-        <div className="w-12 h-12 border-4 border-blue-600 border-t-transparent rounded-full animate-spin"></div>
-      </div>
-    );
-  }
+  const { isAuthenticated } = useSelector((state) => state.auth);
 
   return (
     <Routes>

@@ -26,20 +26,11 @@ export const logout = createAsyncThunk("auth/logout", async () => {
     authService.logout();
 });
 
-export const checkAuth = createAsyncThunk("auth/checkAuth", async (_, { rejectWithValue }) => {
-    try {
-        const user = await authService.getCurrentUser(); // Updated to fetch from API
-        return user;
-    } catch (error) {
-        return rejectWithValue("Not authenticated");
-    }
-});
-
 // Initial state
 const initialState = {
-    user: null,
-    isAuthenticated: false,
-    loading: true, // Start loading to check auth
+    user: authService.getCurrentUser(),
+    isAuthenticated: !!authService.getCurrentUser(),
+    loading: false,
     error: null,
 };
 
@@ -82,20 +73,6 @@ const authSlice = createSlice({
                 state.isAuthenticated = false;
                 state.user = null;
                 state.error = null;
-            })
-            // Check Auth
-            .addCase(checkAuth.pending, (state) => {
-                state.loading = true;
-            })
-            .addCase(checkAuth.fulfilled, (state, action) => {
-                state.loading = false;
-                state.isAuthenticated = true;
-                state.user = action.payload; // Payload is user object from /me
-            })
-            .addCase(checkAuth.rejected, (state) => {
-                state.loading = false;
-                state.isAuthenticated = false;
-                state.user = null;
             });
     },
 });

@@ -38,32 +38,6 @@ const createAdminUser = async () => {
         console.log("Password: admin123");
         console.log("\n⚠️  IMPORTANT: Change this password after first login!");
 
-
-        console.log("------------------------");
-
-        // Check if subadmin already exists
-        const existingSubadmin = await User.findOne({ email: "subadmin@tilamsangh.com" });
-
-        if (existingSubadmin) {
-            console.log("⚠️  Subadmin user already exists!");
-        } else {
-            // Create subadmin user
-            const subadminPassword = await bcrypt.hash("subadmin123", salt);
-            const subadmin = await User.create({
-                name: "Sub Admin",
-                email: "subadmin@tilamsangh.com",
-                password: subadminPassword,
-                role: "subadmin",
-                permissions: ["pages", "media"] // Default permissions
-            });
-            console.log("✅ Subadmin user created successfully!");
-            console.log("\n📧 Login Credentials:");
-            console.log("Email: subadmin@tilamsangh.com");
-            console.log("Password: subadmin123");
-        }
-
-        console.log("------------------------");
-
         process.exit(0);
     } catch (error) {
         console.error("❌ Error:", error.message);
