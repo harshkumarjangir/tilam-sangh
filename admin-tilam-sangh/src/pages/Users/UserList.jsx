@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from 'react';
+import { useSelector } from 'react-redux';
 import { userService } from '../../services/userService';
 import { Plus, Edit, Trash2, Search, Key } from 'lucide-react';
 import { toast } from 'sonner';
 import Modal from '../../components/common/Modal';
 
 const UserList = () => {
+    const { user: currentUser } = useSelector(state => state.auth);
     const [users, setUsers] = useState([]);
     const [loading, setLoading] = useState(true);
     const [searchTerm, setSearchTerm] = useState('');
@@ -142,16 +144,19 @@ const UserList = () => {
                     <h1 className="text-3xl font-bold text-gray-900">Users</h1>
                     <p className="text-gray-600 mt-1">Manage admin users</p>
                 </div>
-                <button
-                    onClick={() => {
-                        resetForm();
-                        setIsModalOpen(true);
-                    }}
-                    className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
-                >
-                    <Plus size={20} />
-                    Add User
-                </button>
+
+                {currentUser?.role === 'admin' && (
+                    <button
+                        onClick={() => {
+                            resetForm();
+                            setIsModalOpen(true);
+                        }}
+                        className="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg transition"
+                    >
+                        <Plus size={20} />
+                        Add User
+                    </button>
+                )}
             </div>
 
             <div className="mb-6 bg-white rounded-lg shadow p-4">
@@ -201,22 +206,48 @@ const UserList = () => {
                                         <div className="flex items-center gap-2">
                                             <button
                                                 onClick={() => openPasswordModal(user)}
-                                                className="text-green-600 hover:text-green-900"
-                                                title="Change Password"
+                                                className={`text-green-600 hover:text-green-900 ${(currentUser?.role !== 'admin' && user.role === 'admin' && user._id !== currentUser?._id)
+                                                    ? 'opacity-50 cursor-not-allowed'
+                                                    : ''
+                                                    }`}
+                                                title={
+                                                    (currentUser?.role !== 'admin' && user.role === 'admin' && user._id !== currentUser?._id)
+                                                        ? "Cannot change admin password"
+                                                        : "Change Password"
+                                                }
+                                                disabled={currentUser?.role !== 'admin' && user.role === 'admin' && user._id !== currentUser?._id}
                                             >
                                                 <Key size={18} />
                                             </button>
                                             <button
                                                 onClick={() => handleEdit(user)}
-                                                className="text-blue-600 hover:text-blue-900"
-                                                title="Edit"
+                                                className={`text-blue-600 hover:text-blue-900 ${(currentUser?.role !== 'admin' && user.role === 'admin' && user._id !== currentUser?._id)
+                                                    ? 'opacity-50 cursor-not-allowed'
+                                                    : ''
+                                                    }`}
+                                                title={
+                                                    (currentUser?.role !== 'admin' && user.role === 'admin' && user._id !== currentUser?._id)
+                                                        ? "Cannot edit admin"
+                                                        : "Edit"
+                                                }
+                                                disabled={currentUser?.role !== 'admin' && user.role === 'admin' && user._id !== currentUser?._id}
                                             >
                                                 <Edit size={18} />
                                             </button>
                                             <button
                                                 onClick={() => handleDelete(user._id)}
-                                                className="text-red-600 hover:text-red-900"
-                                                title="Delete"
+                                                className={`text-red-600 hover:text-red-900 ${(user._id === currentUser?._id || (currentUser?.role !== 'admin' && user.role === 'admin'))
+                                                    ? 'opacity-50 cursor-not-allowed'
+                                                    : ''
+                                                    }`}
+                                                title={
+                                                    user._id === currentUser?._id
+                                                        ? "Cannot delete yourself"
+                                                        : (currentUser?.role !== 'admin' && user.role === 'admin')
+                                                            ? "Cannot delete admin"
+                                                            : "Delete"
+                                                }
+                                                disabled={user._id === currentUser?._id || (currentUser?.role !== 'admin' && user.role === 'admin')}
                                             >
                                                 <Trash2 size={18} />
                                             </button>
@@ -279,7 +310,9 @@ const UserList = () => {
                         <select
                             value={formData.role}
                             onChange={(e) => setFormData({ ...formData, role: e.target.value })}
-                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500"
+                            className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 disabled:bg-gray-100 disabled:cursor-not-allowed"
+                            disabled={currentUser?.role !== 'admin'}
+                            title={currentUser?.role !== 'admin' ? "Only Admin can change roles" : ""}
                         >
                             <option value="admin">Admin</option>
                             <option value="subadmin">Subadmin</option>
@@ -291,12 +324,13 @@ const UserList = () => {
                             <label className="block text-sm font-medium text-gray-700 mb-2">Permissions</label>
                             <div className="grid grid-cols-2 gap-2">
                                 {AVAILABLE_PERMISSIONS.map(perm => (
-                                    <label key={perm.id} className="flex items-center space-x-2 text-sm text-gray-600 cursor-pointer hover:text-gray-900">
+                                    <label key={perm.id} className={`flex items-center space-x-2 text-sm text-gray-600 ${currentUser?.role !== 'admin' ? 'cursor-not-allowed opacity-70' : 'cursor-pointer hover:text-gray-900'}`}>
                                         <input
                                             type="checkbox"
                                             checked={formData.permissions?.includes(perm.id)}
-                                            onChange={() => handlePermissionChange(perm.id)}
-                                            className="rounded text-blue-600 focus:ring-blue-500"
+                                            onChange={() => currentUser?.role === 'admin' && handlePermissionChange(perm.id)}
+                                            className="rounded text-blue-600 focus:ring-blue-500 disabled:cursor-not-allowed"
+                                            disabled={currentUser?.role !== 'admin'}
                                         />
                                         <span>{perm.label}</span>
                                     </label>
@@ -374,7 +408,7 @@ const UserList = () => {
                     </div>
                 </form>
             </Modal>
-        </div>
+        </div >
     );
 };
 

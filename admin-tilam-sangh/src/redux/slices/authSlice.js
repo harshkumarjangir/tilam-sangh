@@ -8,18 +8,14 @@ export const login = createAsyncThunk(
         try {
             const data = await authService.login(email, password);
             // Backend returns: { _id, name, email, role, token }
-            if (data.token) {
-                localStorage.setItem("token", data.token);
-                localStorage.setItem("user", JSON.stringify({
-                    _id: data._id,
-                    name: data.name,
-                    email: data.email,
-                    role: data.role,
-                    permissions: data.permissions
-                }));
+            if (data) {
+                // User data is already saved to localStorage in authService.login if needed,
+                // or we can remove that redundancy. authService.login returned data.
+                // Actually authService.login line 4-6 in previous step added localStorage.setItem("user"...).
+                // But let's keep consistency.
                 return data;
             }
-            return rejectWithValue("Login failed - no token received");
+            return rejectWithValue("Login failed");
         } catch (error) {
             return rejectWithValue(error.response?.data?.message || error.message);
         }
@@ -33,8 +29,7 @@ export const logout = createAsyncThunk("auth/logout", async () => {
 // Initial state
 const initialState = {
     user: authService.getCurrentUser(),
-    token: authService.getToken(),
-    isAuthenticated: !!authService.getToken(),
+    isAuthenticated: !!authService.getCurrentUser(),
     loading: false,
     error: null,
 };
@@ -65,21 +60,18 @@ const authSlice = createSlice({
                     role: action.payload.role,
                     permissions: action.payload.permissions
                 };
-                state.token = action.payload.token;
                 state.error = null;
             })
             .addCase(login.rejected, (state, action) => {
                 state.loading = false;
                 state.isAuthenticated = false;
                 state.user = null;
-                state.token = null;
                 state.error = action.payload;
             })
             // Logout
             .addCase(logout.fulfilled, (state) => {
                 state.isAuthenticated = false;
                 state.user = null;
-                state.token = null;
                 state.error = null;
             });
     },

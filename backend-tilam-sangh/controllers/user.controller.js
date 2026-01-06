@@ -44,6 +44,11 @@ export const createUser = async (req, res) => {
             });
         }
 
+        // Only admin can create users
+        if (req.user.role !== 'admin') {
+            return res.status(403).json({ success: false, message: "Not authorized to create new users" });
+        }
+
         // Check if user already exists
         const existingUser = await User.findOne({ email });
         if (existingUser) {
@@ -81,11 +86,27 @@ export const updateUser = async (req, res) => {
     try {
         const { name, email, role, permissions } = req.body;
 
+        const userToUpdate = await User.findById(req.params.id);
+        if (!userToUpdate) {
+            return res.status(404).json({ success: false, message: "User not found" });
+        }
+
+        // Prevent subadmin from updating admin
+        if (req.user.role !== 'admin' && userToUpdate.role === 'admin' && req.user._id.toString() !== req.params.id) {
+            return res.status(403).json({ success: false, message: "Not authorized to update an admin" });
+        }
+
         const updateData = {};
         if (name !== undefined) updateData.name = name;
         if (email !== undefined) updateData.email = email;
-        if (role !== undefined) updateData.role = role;
-        if (permissions !== undefined) updateData.permissions = permissions;
+
+        // Only admin can update role and permissions
+        if (req.user.role === 'admin') {
+            if (role !== undefined) updateData.role = role;
+            if (permissions !== undefined) updateData.permissions = permissions;
+        } else if (role !== undefined || permissions !== undefined) {
+            return res.status(403).json({ success: false, message: "Not authorized to update role or permissions" });
+        }
 
         const user = await User.findByIdAndUpdate(
             req.params.id,
@@ -116,6 +137,16 @@ export const changePassword = async (req, res) => {
             });
         }
 
+        const userToUpdate = await User.findById(req.params.id);
+        if (!userToUpdate) {
+            return res.status(404).json({ success: false, message: "User not found" });
+        }
+
+        // Prevent subadmin from changing admin password
+        if (req.user.role !== 'admin' && userToUpdate.role === 'admin' && req.user._id.toString() !== req.params.id) {
+            return res.status(403).json({ success: false, message: "Not authorized to change admin password" });
+        }
+
         // Hash new password
         const salt = await bcrypt.genSalt(10);
         const hashedPassword = await bcrypt.hash(newPassword, salt);
@@ -140,11 +171,25 @@ export const changePassword = async (req, res) => {
 // Delete user
 export const deleteUser = async (req, res) => {
     try {
-        const user = await User.findByIdAndDelete(req.params.id);
+        // Prevent self-deletion
+        if (req.user._id.toString() === req.params.id) {
+            return res.status(400).json({ success: false, message: "You cannot delete your own account" });
+        }
 
-        if (!user) {
+        const userToDelete = await User.findById(req.params.id);
+
+        if (!userToDelete) {
             return res.status(404).json({ success: false, message: "User not found" });
         }
+
+        // Prevent subadmin from deleting admin
+        // Assuming 'admin' is the highest role. If req.user is an admin, they can delete anyone (except themselves).
+        // If req.user is NOT an admin (e.g. subadmin), they cannot delete an admin.
+        if (req.user.role !== 'admin' && userToDelete.role === 'admin') {
+            return res.status(403).json({ success: false, message: "Not authorized to delete an admin" });
+        }
+
+        await User.findByIdAndDelete(req.params.id);
 
         res.json({ success: true, message: "User deleted successfully" });
     } catch (error) {

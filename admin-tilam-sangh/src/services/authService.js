@@ -3,6 +3,9 @@ import api from "./api";
 export const authService = {
     login: async (email, password) => {
         const response = await api.post("/auth/login", { email, password });
+        if (response.data) {
+            localStorage.setItem("user", JSON.stringify(response.data));
+        }
         return response.data;
     },
 
@@ -11,8 +14,8 @@ export const authService = {
         return response.data;
     },
 
-    logout: () => {
-        localStorage.removeItem("token");
+    logout: async () => {
+        await api.post("/auth/logout");
         localStorage.removeItem("user");
     },
 
@@ -21,7 +24,5 @@ export const authService = {
         return user ? JSON.parse(user) : null;
     },
 
-    getToken: () => {
-        return localStorage.getItem("token");
-    },
+
 };

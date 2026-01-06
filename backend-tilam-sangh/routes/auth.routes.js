@@ -43,12 +43,20 @@ router.post("/register", async (req, res) => {
         });
 
         if (user) {
+            const token = generateToken(user._id);
+
+            res.cookie("token", token, {
+                httpOnly: true,
+                secure: process.env.NODE_ENV === "production",
+                sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+                maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
+            });
+
             res.status(201).json({
                 _id: user.id,
                 name: user.name,
                 email: user.email,
                 role: user.role,
-                token: generateToken(user._id),
             });
         } else {
             res.status(400).json({ message: "Invalid user data" });
@@ -69,13 +77,21 @@ router.post("/login", async (req, res) => {
         const user = await User.findOne({ email });
 
         if (user && (await bcrypt.compare(password, user.password))) {
+            const token = generateToken(user._id);
+
+            res.cookie("token", token, {
+                httpOnly: true,
+                secure: process.env.NODE_ENV === "production",
+                sameSite: process.env.NODE_ENV === "production" ? "none" : "lax",
+                maxAge: 30 * 24 * 60 * 60 * 1000, // 30 days
+            });
+
             res.json({
                 _id: user.id,
                 name: user.name,
                 email: user.email,
                 role: user.role,
                 permissions: user.permissions,
-                token: generateToken(user._id),
             });
         } else {
             res.status(400).json({ message: "Invalid credentials" });
@@ -83,6 +99,17 @@ router.post("/login", async (req, res) => {
     } catch (error) {
         res.status(500).json({ message: error.message });
     }
+});
+
+// @desc    Logout user
+// @route   POST /api/auth/logout
+// @access  Public
+router.post("/logout", (req, res) => {
+    res.cookie("token", "", {
+        httpOnly: true,
+        expires: new Date(0),
+    });
+    res.status(200).json({ message: "Logged out successfully" });
 });
 
 // @desc    Get user data
