@@ -20,7 +20,7 @@ import {
 } from 'lucide-react';
 import { toast } from 'sonner';
 
-const Sidebar = ({ isOpen, onClose, isCollapsed, toggleCollapse }) => {
+const Sidebar = ({ isOpen, onClose, isCollapsed, toggleCollapse, logo, title }) => {
     const dispatch = useDispatch();
     const navigate = useNavigate();
     const { user } = useSelector((state) => state.auth);
@@ -70,8 +70,14 @@ const Sidebar = ({ isOpen, onClose, isCollapsed, toggleCollapse }) => {
                 {/* Logo/Brand */}
                 <div className="p-4 h-16 flex items-center justify-between border-b border-gray-800">
                     {!isCollapsed && (
-                        <div className="flex-1 min-w-0">
-                            <h1 className="text-xl font-bold truncate">Tilam Sangh</h1>
+                        <div className="flex-1 min-w-0 flex items-center gap-2">
+                            {
+                                logo ? (
+                                    <img src={`${import.meta.env.VITE_API_URL}${logo}`} alt={title || "Tilam Sangh"} className="h-8 w-auto object-contain" />
+                                ) :
+                                    // null
+                                    <h1 className="text-xl font-bold truncate">{title || "Tilam Sangh"}</h1>
+                            }
                         </div>
                     )}
                     {/* Mobile Close Button */}

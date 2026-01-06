@@ -1,11 +1,44 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
 import { Menu } from 'lucide-react';
 import Sidebar from './Sidebar';
+import { siteSettingsService } from '../../services/siteSettingsService';
 
 const AdminLayout = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [isCollapsed, setIsCollapsed] = useState(false);
+    const [siteSettings, setSiteSettings] = useState(null);
+
+    useEffect(() => {
+        const fetchSettings = async () => {
+            try {
+                const response = await siteSettingsService.getSettings();
+                if (response.success && response.data) {
+                    setSiteSettings(response.data);
+
+                    // Update document title
+                    if (response.data.title) {
+                        document.title = `${response.data.title} - Admin Panel`;
+                    }
+
+                    // Update favicon
+                    if (response.data.favicon) {
+                        let link = document.querySelector("link[rel~='icon']");
+                        if (!link) {
+                            link = document.createElement('link');
+                            link.rel = 'icon';
+                            document.getElementsByTagName('head')[0].appendChild(link);
+                        }
+                        link.href = `${import.meta.env.VITE_API_URL}${response.data.favicon}`;
+                    }
+                }
+            } catch (error) {
+                console.error("Failed to fetch site settings:", error);
+            }
+        };
+
+        fetchSettings();
+    }, []);
 
     return (
         <div className="flex h-screen bg-gray-100">
@@ -15,6 +48,8 @@ const AdminLayout = () => {
                 onClose={() => setSidebarOpen(false)}
                 isCollapsed={isCollapsed}
                 toggleCollapse={() => setIsCollapsed(!isCollapsed)}
+                logo={siteSettings?.logo}
+                title={siteSettings?.title}
             />
 
             {/* Main Content */}
@@ -29,7 +64,7 @@ const AdminLayout = () => {
                             <Menu size={24} />
                         </button>
                         <h2 className="text-2xl font-semibold text-gray-800">
-                            Tilam Sangh Admin Panel
+                            {siteSettings?.title ? `${siteSettings.title} Admin` : 'Tilam Sangh Admin Panel'}
                         </h2>
                     </div>
                 </header>

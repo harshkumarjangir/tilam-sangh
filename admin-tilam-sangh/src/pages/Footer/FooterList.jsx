@@ -268,7 +268,7 @@ const FooterList = () => {
                 {/* Nodal Officer */}
                 <div>
                     <h2 className="text-xl font-semibold mb-4">Nodal Officer</h2>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-1">Title</label>
                             <input
@@ -381,14 +381,14 @@ const FooterList = () => {
                     </div>
                     <div className="space-y-3">
                         {formData.quickLinks.links?.map((link, index) => (
-                            <div key={index} className="flex gap-3 items-center">
+                            <div key={index} className="flex flex-col md:flex-row gap-3 items-stretch md:items-center p-3 bg-gray-50 rounded-lg md:bg-transparent md:p-0 border md:border-0 border-gray-100">
                                 <input
                                     type="text"
                                     placeholder="Label"
                                     value={link.label}
                                     onChange={(e) => updateLink('quickLinks', index, 'label', e.target.value)}
                                     disabled={!editing}
-                                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
+                                    className="w-full md:w-auto flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                                 />
                                 <div className="flex-1 flex gap-2">
                                     <input
@@ -400,7 +400,7 @@ const FooterList = () => {
                                         className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                                     />
                                     {editing && (
-                                        <div className="flex gap-1">
+                                        <div className="flex gap-1 shrink-0">
                                             <button
                                                 onClick={() => triggerFileInput('quickLinks', index)}
                                                 className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
@@ -420,13 +420,21 @@ const FooterList = () => {
                                             >
                                                 <FolderOpen size={20} />
                                             </button>
+                                            <button
+                                                onClick={() => removeLink('quickLinks', index)}
+                                                className="p-2 text-red-600 hover:text-red-700 md:hidden border border-gray-300 rounded-lg hover:bg-red-50"
+                                                title="Delete"
+                                            >
+                                                <Trash2 size={20} />
+                                            </button>
                                         </div>
                                     )}
                                 </div>
                                 {editing && (
                                     <button
                                         onClick={() => removeLink('quickLinks', index)}
-                                        className="text-red-600 hover:text-red-700"
+                                        className="hidden md:block text-red-600 hover:text-red-700"
+                                        title="Delete"
                                     >
                                         <Trash2 size={20} />
                                     </button>
@@ -450,7 +458,7 @@ const FooterList = () => {
                             </button>
                         )}
                     </div>
-                    <div className="grid grid-cols-2 gap-4 mb-4">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                         <div>
                             <label className="block text-sm font-medium text-gray-700 mb-1">Section Title</label>
                             <input
@@ -482,14 +490,14 @@ const FooterList = () => {
                     </div>
                     <div className="space-y-3">
                         {formData.importantLinks.links?.map((link, index) => (
-                            <div key={index} className="flex gap-3 items-center">
+                            <div key={index} className="flex flex-col md:flex-row gap-3 items-stretch md:items-center p-3 bg-gray-50 rounded-lg md:bg-transparent md:p-0 border md:border-0 border-gray-100">
                                 <input
                                     type="text"
                                     placeholder="Label"
                                     value={link.label}
                                     onChange={(e) => updateLink('importantLinks', index, 'label', e.target.value)}
                                     disabled={!editing}
-                                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
+                                    className="w-full md:w-auto flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                                 />
                                 <div className="flex-1 flex gap-2">
                                     <input
@@ -501,7 +509,7 @@ const FooterList = () => {
                                         className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                                     />
                                     {editing && (
-                                        <div className="flex gap-1">
+                                        <div className="flex gap-1 shrink-0">
                                             <button
                                                 onClick={() => triggerFileInput('importantLinks', index)}
                                                 className="p-2 border border-gray-300 rounded-lg hover:bg-gray-50 text-gray-600"
@@ -521,13 +529,21 @@ const FooterList = () => {
                                             >
                                                 <FolderOpen size={20} />
                                             </button>
+                                            <button
+                                                onClick={() => removeLink('importantLinks', index)}
+                                                className="p-2 text-red-600 hover:text-red-700 md:hidden border border-gray-300 rounded-lg hover:bg-red-50"
+                                                title="Delete"
+                                            >
+                                                <Trash2 size={20} />
+                                            </button>
                                         </div>
                                     )}
                                 </div>
                                 {editing && (
                                     <button
                                         onClick={() => removeLink('importantLinks', index)}
-                                        className="text-red-600 hover:text-red-700"
+                                        className="hidden md:block text-red-600 hover:text-red-700"
+                                        title="Delete"
                                     >
                                         <Trash2 size={20} />
                                     </button>
@@ -555,7 +571,7 @@ const FooterList = () => {
                                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent disabled:bg-gray-100"
                             />
                         </div>
-                        <div className="grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div>
                                 <label className="block text-sm font-medium text-gray-700 mb-1">Phone</label>
                                 <input
