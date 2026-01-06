@@ -13,6 +13,7 @@ const generateToken = (id) => {
     });
 };
 
+/*
 // @desc    Register new user
 // @route   POST /api/auth/register
 // @access  Public (Should be restricted in production)
@@ -65,6 +66,7 @@ router.post("/register", async (req, res) => {
         res.status(500).json({ message: error.message });
     }
 });
+*/
 
 // @desc    Authenticate a user
 // @route   POST /api/auth/login

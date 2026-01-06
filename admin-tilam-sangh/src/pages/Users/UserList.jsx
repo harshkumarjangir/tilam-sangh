@@ -42,7 +42,9 @@ const UserList = () => {
             const response = await userService.getAll();
             setUsers(response.data);
         } catch (error) {
-            toast.error('Failed to fetch users');
+            console.error('Fetch error:', error);
+            const msg = error.response?.data?.message || error.message || 'Failed to fetch users';
+            toast.error(`Error: ${msg}`);
         } finally {
             setLoading(false);
         }

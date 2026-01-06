@@ -31,6 +31,7 @@ const Footer = () => {
                         <div className="h-[1px] bg-white my-3"></div>
                         <p className="leading-6">
                             {data.NodalOfficer.name}<br />
+                            {data.NodalOfficer.designation}<br />
                             {data.NodalOfficer.contact}<br />
 
                         </p>

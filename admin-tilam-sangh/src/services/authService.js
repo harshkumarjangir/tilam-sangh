@@ -19,9 +19,13 @@ export const authService = {
         localStorage.removeItem("user");
     },
 
-    getCurrentUser: () => {
-        const user = localStorage.getItem("user");
-        return user ? JSON.parse(user) : null;
+    getCurrentUser: async () => {
+        try {
+            const response = await api.get("/auth/me");
+            return response.data;
+        } catch (error) {
+            return null;
+        }
     },
 
 
