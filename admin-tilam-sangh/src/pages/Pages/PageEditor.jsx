@@ -147,13 +147,13 @@ const PageEditor = () => {
                             >
                                 Form
                             </button>
-                            <button
+                            {/* <button
                                 type="button"
                                 onClick={() => setEditMode('json')}
                                 className={`text-xs px-3 py-1 rounded transition ${editMode === 'json' ? 'bg-blue-600 text-white' : 'bg-gray-200 text-gray-700 hover:bg-gray-300'}`}
                             >
                                 JSON
-                            </button>
+                            </button> */}
                         </div>
                     </div>
 

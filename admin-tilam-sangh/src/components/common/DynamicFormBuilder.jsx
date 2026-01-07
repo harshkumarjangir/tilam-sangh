@@ -307,21 +307,40 @@ const DynamicFormBuilder = ({ data, onChange, path = '', uploadFolder = '' }) =>
         }
 
         // Media Field Detection
-        const isImageField = key.toLowerCase().includes('image') ||
-            key.toLowerCase().includes('logo') ||
-            key.toLowerCase().includes('icon') ||
-            key.toLowerCase().includes('banner') ||
-            key.toLowerCase().includes('thumbnail') ||
-            key.toLowerCase().includes('photo') ||
-            key.toLowerCase().includes('gallery') ||
-            key.toLowerCase().includes('pic');
+        const lowerKey = key.toLowerCase();
+        const isMetadata = lowerKey.endsWith('_alt') ||
+            lowerKey.endsWith('_width') ||
+            lowerKey.endsWith('_height') ||
+            lowerKey.endsWith('_type') ||
+            lowerKey.endsWith('_size') ||
+            lowerKey.endsWith('_mime') ||
+            lowerKey.endsWith('_name') ||
+            lowerKey.endsWith('_id');
 
-        const isPdfField = key.toLowerCase().includes('pdf') ||
-            key.toLowerCase().includes('file') ||
-            key.toLowerCase().includes('document') ||
-            key.toLowerCase().includes('attachment') ||
-            key.toLowerCase().includes('download') ||
-            (typeof value === 'string' && value.endsWith('.pdf'));
+        const isImageField = !isMetadata && (
+            lowerKey.includes('image') ||
+            lowerKey.includes('logo') ||
+            lowerKey.includes('icon') ||
+            lowerKey.includes('banner') ||
+            lowerKey.includes('thumbnail') ||
+            lowerKey.includes('photo') ||
+            lowerKey.includes('gallery') ||
+            lowerKey.includes('pic')
+        );
+
+        const isPdfField = !isMetadata && (
+            lowerKey.includes('pdf') ||
+            lowerKey.includes('document') ||
+            lowerKey.includes('attachment') ||
+            lowerKey.includes('download') ||
+            (typeof value === 'string' && value.endsWith('.pdf'))
+        );
+        // Exclude specific generic terms if valid text
+        if (lowerKey === 'file' && typeof value === 'string' && !value.includes('/') && !value.includes('.')) {
+            // It's likely just a text field named "file" (unlikely but possible)
+            // But usually "file" means upload. Let's keep "file" detection but strictly check metadata.
+        }
+
         const isMedia = isImageField || isPdfField || (typeof value === 'string' && value.match(/\.(jpg|jpeg|png|webp)$/i));
 
         if (isMedia) {

@@ -23,7 +23,7 @@ import PricesPage from "./pages/PricesPage";
 import ScrollToTop from "./components/ScrollToTop";
 import { useLanguage } from "./context/LanguageContext";
 import { fetchPageBySlug } from "./redux/slices/pagesSlice";
-import DebugOverlay from "./components/Dev/DebugOverlay";
+// import DebugOverlay from "./components/Dev/DebugOverlay";
 
 
 const RouteListener = () => {
@@ -68,7 +68,7 @@ const App = () => {
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
       <Footer />
-      {import.meta.env.VITE_NODE_ENV === "development" && <DebugOverlay />}
+      {/* {import.meta.env.VITE_NODE_ENV === "development" && <DebugOverlay />} */}
     </div>
   )
 }
